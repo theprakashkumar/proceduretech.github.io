@@ -7,15 +7,155 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  text-align: start;
+}
+
+@layer base {
+  h1 {
+    font-size: 5.625rem;
+    letter-spacing: -0.01875rem;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+    line-height: 1.2;
+  }
+
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 4.375rem;
+      line-height: 5rem;
+    }
+  }
+
+  h2 {
+    font-size: 3.75rem;
+    line-height: 4.375rem;
+    letter-spacing: -0.0125rem;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+  }
+
+  @media (max-width: 991px) {
+    h2 {
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+    }
+  }
+
+  h3 {
+    font-size: 3.4375rem;
+    line-height: 4.0625rem;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+  }
+
+  @media (max-width: 991px) {
+    h3 {
+      font-size: 2.375rem;
+      line-height: 3rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    h3 {
+      font-size: 2.375rem;
+      line-height: 2.8125rem;
+    }
+  }
+
+  h4 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+  }
+
+  h6 {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+}
+
+.pro-container {
+  position: relative;
+  padding: 0 7vw;
+}
+
+.custom-animation {
+  @apply transition-all ease-in duration-300;
+}
+
+.shift-to-right {
+  @apply relative left-0 hover:left-1.5;
+}
+
+.team-home {
+  background-image: url(https://procedure.tech/wp-content/themes/proceduretech/img/home/home-football-black.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hr--block {
+  width: 25%;
+}
+
+.dot::after {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.3rem;
+  position: relative;
+  bottom: -.12rem;
+}
+
+.dot-green::after {
+  background-color: #1DA069;
+}
+
+.dot-iceblue::after {
+  background-color: #7EB9E6;
+}
+
+.dot-ochre::after {
+  background-color: #E8AD4F;
+}
+
+.dot-wine::after {
+  background-color: #A5469A;
+}
+
+.dot-blue::after {
+  background-color: #4A65D6;
+}
+
+.dot-brown::after {
+  background-color: #B93939;
+}
+
+.dot-red::after {
+  background-color: #C3201F;
+}
+
+@media (max-width: 991px) {
+  .hr--block {
+    width: 50%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

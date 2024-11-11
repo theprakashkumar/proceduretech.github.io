@@ -1,101 +1,175 @@
+import BlogSection from "@/components/BlogSection";
+import HomepageTabs from "./components/HomepageTabs";
+import TeamSection from "@/app/components/TeamSection";
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      {/* hero section */}
+      <div className="relative overflow-hidden bg-[#f0eff2]">
+        <div className="visible animate-[fadeIn] text-center lg:text-start">
+          <video
+            src="https://videos.files.wordpress.com/SLOAqkn3/red-ball-swirl-v3.mp4"
+            className="w-[228%] max-w-none relative right-[113%] lg:max-w-full lg:right-0"
+            autoPlay
+            loop
+            muted
+            playsInline
+          ></video>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+        <div className="visible animate-[fadeIn] [animation-delay:1s] relative w-full pb-14 lg:absolute top-[50%] lg:w-[50%] z-10 lg:-translate-y-[50%]">
+          <div className="pro-container tracking-[-0.3px] text-[#212529] text-center lg:text-left">
+            <h1 className="mb-5">
+              Your Goal is Our Aim
+            </h1>
+            <p className="text-xl mb-9">
+              Maximize the value of your business with our precise, insightful
+              and agile digital engineering solutions
+            </p>
+            <Link
+              className="text-sm bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+              href="/contact/#consult"
+            >
+              Get a Free Consultation
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <HomepageTabs />
+      {/* video section */}
+      <div className="relative overflow-hidden bg-white flex flex-col-reverse flex-wrap lg:block">
+        <div className="visible animate-[fadeIn] text-center lg:text-right -mb-2.5">
+          <video
+            src="https://videos.files.wordpress.com/8qNSFTGt/home-spiral-balls-v2.mp4"
+            className="hidden lg:inline max-w-full max-h-[51.875rem] relative -right-[15%] xl:right-auto"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+          <video
+            src="https://videos.files.wordpress.com/yMCrh7At/mobile-home-spiral-balls-v3.mp4"
+            className="inline lg:hidden max-w-full max-h-[37.5rem] lg:max-h-[51.875rem] relative right-0 lg:right-[-15%] xl:right-auto"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        </div>
+        <div className="visible animate-[fadeIn] [animation-delay:1s] relative w-full pb-14 lg:absolute top-[50%] lg:w-[50%] z-10 lg:-translate-y-[50%]">
+          <div className="pro-container">
+            <div className="-mb-24 lg:mb-0 py-0 lg:py-20 relative z-10">
+              <h2 className="-mr-[7vw] pt-10 lg:pt-0 mb-7 text-[#212549]">
+                Continuous Excellence, Agile Delivery
+              </h2>
+              <div className="">
+                <Link
+                  className="border-t border-t-black/10 flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
+                  href="/capabilities/#think"
+                >
+                  <div>
+                    <h4 className="font-bold mb-1">Think</h4>
+                    <h6 className="font-medium mb-1">
+                      Services to help you make the right decisions to achieve
+                      business goals
+                    </h6>
+                  </div>
+                  <div className="ml-10 mb-5 mr-5 relative left-0">
+                    <div className="p-2 rounded-full shadow-md">
+                      <ArrowRightIcon className="w-5 h-5 text-red-500" />
+                    </div>
+                  </div>
+                </Link>
+                <Link
+                  className="flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
+                  href="/capabilities/#think"
+                >
+                  <div>
+                    <h4 className="font-bold mb-1">Build</h4>
+                    <h6 className="text-base font-medium mb-1">
+                      We build products faster and better to deliver right to
+                      your customers
+                    </h6>
+                  </div>
+                  <div className="ml-10 mb-5 mr-5 relative left-0">
+                    <div className="p-2 rounded-full shadow-md">
+                      <ArrowRightIcon className="w-5 h-5 text-red-500" />
+                    </div>
+                  </div>
+                </Link>
+                <Link
+                  className="flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
+                  href="/capabilities/#think"
+                >
+                  <div>
+                    <h4 className="font-bold mb-1">Measure</h4>
+                    <h6 className="text-base font-medium mb-1">
+                      We continually track how well our strategies and products
+                      are work
+                    </h6>
+                  </div>
+                  <div className="ml-10 mb-5 mr-5 relative left-0">
+                    <div className="p-2 rounded-full shadow-md">
+                      <ArrowRightIcon className="w-5 h-5 text-red-500" />
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* blog section */}
+      <BlogSection />
+      {/* team */}
+      <TeamSection />
+      {/* contact us  */}
+      <div className="visible animate-[fadeIn] py-16 lg:pt-0 lg:pb-28 team-home">
+        <div className="pro-container">
+          <div className="mr-0 ml-auto max-w-[43.75rem]">
+            <h2 className="max-w-none pb-10 lg:pt-28 lg:pb-7 lg:max-w-[46.876rem] text-left tracking-tight">
+              Become part of a prolific and promising team
+            </h2>
+            <p className="max-w-[56.25rem] mb-7 font-light opacity-80 tracking-tight">
+              From brainstorm sessions to happy hours, there’s never a dull
+              moment in the exciting and flexible work environment we’ve
+              created. Send us your resume to know opportunities for going Pro
+              and stay in touch, you never know when we might need your
+              Pro-power.
+            </p>
+            <div>
+              <form className="max-w-[46.25rem]">
+                <div className="mb-7">
+                  <div className="max-w-[31.25rem] relative">
+                    <span className="relative">
+                      <input
+                        size={40}
+                        className="cursor-pointer bg-black text-white/50 border border-white/30 py-2 px-5 rounded-full w-full"
+                        type="file"
+                        name="file"
+                      />
+                    </span>
+                    <Image
+                      className="absolute right-5 top-3 pointer-events-none z-[2]"
+                      width={16}
+                      height={16}
+                      src="https://procedure.tech/wp-content/uploads/2023/09/upload-icon-1.svg"
+                      alt="join-row-icon"
+                    />
+                  </div>
+                </div>
+                <button className="text-sm mb-7 bg-white text-black rounded-full shadow-md px-6 py-2.5 border-none custom-animation shift-to-right">
+                  Go
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

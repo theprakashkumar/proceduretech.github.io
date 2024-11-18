@@ -10,7 +10,7 @@ const BlogSection = () => {
           Connecting Django to RDS via pg bouncer using IAM auth​{" "}
         </h5>
         <Link
-          className="text-sm bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+          className="primary-button bg-white"
           href="/connecting-django-to-rds-via-pgbouncer-using-iam-auth/"
         >
           Read
@@ -22,7 +22,7 @@ const BlogSection = () => {
           Frontend Performance Testing: Best Practices​
         </h5>
         <Link
-          className="text-sm bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+          className="primary-button bg-white"
           href="/frontend-performance-testing-best-practices/"
         >
           Read

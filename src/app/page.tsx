@@ -21,14 +21,14 @@ export default function Home() {
           ></video>
         </div>
         <div className="visible animate-[fadeIn] [animation-delay:1s] relative w-full pb-14 lg:absolute top-[50%] lg:w-[50%] z-10 lg:-translate-y-[50%]">
-          <div className="pro-container tracking-[-0.3px] text-[#212529] text-center lg:text-left">
+          <div className="container-padding tracking-[-0.3px] text-[#212529] text-center lg:text-left">
             <h1 className="mb-5">Your Goal is Our Aim</h1>
             <p className="text-xl mb-9">
               Maximize the value of your business with our precise, insightful
               and agile digital engineering solutions
             </p>
             <Link
-              className="text-sm bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+              className="primary-button bg-white"
               href="/contact/#consult"
             >
               Get a Free Consultation
@@ -36,7 +36,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <HomepageTabs />
       {/* video section */}
       <div className="relative overflow-hidden bg-white flex flex-col-reverse flex-wrap lg:block">
@@ -59,14 +58,14 @@ export default function Home() {
           />
         </div>
         <div className="visible animate-[fadeIn] [animation-delay:1s] relative w-full pb-14 lg:absolute top-[50%] lg:w-[50%] z-10 lg:-translate-y-[50%]">
-          <div className="pro-container">
+          <div className="container-padding">
             <div className="-mb-24 lg:mb-0 py-0 lg:py-20 relative z-10">
               <h2 className="-mr-[7vw] pt-10 lg:pt-0 mb-7 text-[#212549]">
                 Continuous Excellence, Agile Delivery
               </h2>
               <div>
                 <Link
-                  className="border-t border-t-black/10 flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
+                  className="border-t border-t-black/10 flex items-end py-5 justify-between text-black border-b border-b-black/10 animation-easein-slow shift-to-right"
                   href="/capabilities/#think"
                 >
                   <div>
@@ -83,7 +82,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <Link
-                  className="flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
+                  className="flex items-end py-5 justify-between text-black border-b border-b-black/10 animation-easein-slow shift-to-right"
                   href="/capabilities/#think"
                 >
                   <div>
@@ -100,7 +99,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <Link
-                  className="flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
+                  className="flex items-end py-5 justify-between text-black border-b border-b-black/10 animation-easein-slow shift-to-right"
                   href="/capabilities/#think"
                 >
                   <div>
@@ -127,7 +126,7 @@ export default function Home() {
       <TeamSection />
       {/* contact us  */}
       <div className="visible animate-[fadeIn] py-16 lg:pt-0 lg:pb-28 team-home">
-        <div className="pro-container">
+        <div className="container-padding">
           <div className="mr-0 ml-auto max-w-[43.75rem]">
             <h2 className="max-w-none pb-10 lg:pt-28 lg:pb-7 lg:max-w-[46.876rem] text-left tracking-tight">
               Become part of a prolific and promising team
@@ -186,7 +185,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <button className="text-sm mb-7 bg-white text-black rounded-full shadow-md px-6 py-2.5 border-none custom-animation shift-to-right">
+                <button className="text-sm mb-7 bg-white text-black rounded-full shadow-md px-6 py-2.5 border-none animation-easein-slow shift-to-right">
                   Go
                 </button>
               </form>

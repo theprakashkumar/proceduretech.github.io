@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <section className="relative">
-        <div className="pro-container">
+        <div className="container-padding">
           <div className="relative">
             <PageNavbar>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl pt-4 dot dot-green mb-1.5 tracking-tighter">
@@ -46,7 +46,7 @@ const Contact = () => {
       <section>
         <div className="mb-28 pr-[7vw] lg:pr-[calc(7vw*_3)]">
           <div className="rounded-r-full -mb-5 pt-[7vw] text-[#212529]">
-            <div className="pro-container">
+            <div className="container-padding">
               <h3 className="mt-5">Get a Free Consultation</h3>
               <div>
                 <form className="max-w-xl pt-7 lg:pt-12">
@@ -109,7 +109,7 @@ const Contact = () => {
                     </div>
                     <br />
                     <div className="w-6/12 mb-5 pr-5">
-                      <button className="text-sm bg-green-600/50 text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right mt-5">
+                      <button className="text-sm bg-green-600/50 text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right mt-5">
                         Go
                       </button>
                     </div>
@@ -145,13 +145,13 @@ const Contact = () => {
               </h4>
               <div className="flex flex-col sm:flex-row">
                 <Link
-                  className="text-sm font-semibold ml-5 sm:mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+                  className="text-sm font-semibold ml-5 sm:mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right"
                   href="/contact/#consult"
                 >
                   Culture@Procedure
                 </Link>
                 <Link
-                  className="text-sm font-semibold ml-5 sm:mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+                  className="text-sm font-semibold ml-5 sm:mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right"
                   href="/contact/#consult"
                 >
                   Team@Procedure

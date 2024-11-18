@@ -82,12 +82,12 @@ body {
   }
 }
 
-.pro-container {
+.container-padding {
   position: relative;
   padding: 0 7vw;
 }
 
-.custom-animation {
+.animation-easein-slow {
   @apply transition-all ease-in duration-300;
 }
 
@@ -199,6 +199,10 @@ body {
 .input-white::file-selector-button {
   background-color: white;
   color: black;
+}
+
+.primary-button {
+  @apply text-sm text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right
 }
 
 @media (max-width: 991px) {

@@ -4,6 +4,7 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 import HoverImage from "../components/HoverImage";
 import PhotoSlider from "./components/PhotoSlider";
+import Pointers from "@/components/Pointers";
 
 const cardData = [
   {
@@ -90,7 +91,7 @@ const LifeProcedure = () => {
   return (
     <>
       <section className="relative pb-12 lg:pb-0 mb-28">
-        <div className="pro-container">
+        <div className="container-padding">
           <div className="relative">
             <PageNavbar className="static mt-14 lg:w-full">
               <h1
@@ -134,7 +135,7 @@ const LifeProcedure = () => {
               </p>
               {data.href && data.buttonName && (
                 <Link
-                  className="text-sm w-48 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+                  className="text-sm w-48 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right"
                   href={data.href}
                 >
                   {data.buttonName}
@@ -149,8 +150,13 @@ const LifeProcedure = () => {
           </div>
         ))}
       </section>
+      <Pointers 
+        title="The Pro State of Mind"
+        pointers={pointerData}
+        eachElementClassName="text-[0.625rem] w-full md:w-[28%] lg:w-[28%] mr-0 md:mr-[5.3%] mb-12 md:mb-[5%]"
+      />
       <section className="mb-28">
-        <div className="pro-container">
+        <div className="container-padding">
           <h2 className="mb-12">The Pro State of Mind</h2>
           <div className="flex flex-wrap -mb-[5%]">
             {pointerData.map((data, index) => (

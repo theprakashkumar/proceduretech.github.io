@@ -4,7 +4,7 @@ import React from "react";
 const JoinProcedure = () => {
   return (
     <section className="mb-28">
-      <div className="pro-container">
+      <div className="container-padding">
         <h3>Join the Pros</h3>
         <p className="max-w-[56.25rem] mb-7 font-light opacity-80 tracking-tight">
           From brainstorm sessions to happy hours, there’s never a dull moment
@@ -75,7 +75,7 @@ const JoinProcedure = () => {
                 />
               </div>
             </div>
-            <button className="text-sm bg-green-600/50 text-black rounded-full shadow-md px-6 py-2.5 border-none custom-animation shift-to-right">
+            <button className="text-sm bg-green-600/50 text-black rounded-full shadow-md px-6 py-2.5 border-none animation-easein-slow shift-to-right">
               Go
             </button>
           </form>

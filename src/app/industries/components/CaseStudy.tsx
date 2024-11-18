@@ -30,7 +30,7 @@ const CaseStudy = ({ date, imgSrc, title, sector, services, link, className }: C
       <strong>Services:</strong> {services}
     </p>
     <Link
-      className="text-sm bg-white text-black rounded-full shadow-md px-6 py-2.5 custom-animation shift-to-right"
+      className="text-sm bg-white text-black rounded-full shadow-md px-6 py-2.5 animation-easein-slow shift-to-right"
       href={link}
       target="_blank"
     >

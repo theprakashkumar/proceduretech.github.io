@@ -13,7 +13,7 @@ const HomepageTabs = () => {
         backgroundImage: `url('${tabs[selectedIndex].bgImage})`,
       }}
     >
-      <div className="pro-container">
+      <div className="container-padding">
         <TabsSection
           selectedIndex={selectedIndex}
           setSelectedIndex={setSelectedIndex}

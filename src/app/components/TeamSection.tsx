@@ -6,13 +6,13 @@ import HoverImage from "./HoverImage";
 const TeamSection = () => {
   return (
     <div className="visible animate-[fadeIn] pb-32 bg-white text-[#212529]">
-      <div className="pro-container">
+      <div className="container-padding">
         <h2 className="m-auto pt-28 pb-20 lg:max-w-3xl  text-center">
           We are passionate about producing cutting-edge work
         </h2>
         <div className="flex justify-between mb-5">
           <Link
-            className="text-[1.375rem] tracking-[-0.9px] font-semibold custom-animation shift-to-right flex flex-col md:flex-row items-center"
+            className="text-[1.375rem] tracking-[-0.9px] font-semibold animation-easein-slow shift-to-right flex flex-col md:flex-row items-center"
             href="/about/#ourstory"
           >
             Our Story
@@ -21,7 +21,7 @@ const TeamSection = () => {
             </div>
           </Link>
           <Link
-            className="text-[1.375rem] tracking-[-0.9px] font-semibold custom-animation shift-to-right flex flex-col md:flex-row items-center"
+            className="text-[1.375rem] tracking-[-0.9px] font-semibold animation-easein-slow shift-to-right flex flex-col md:flex-row items-center"
             href="/lifeprocedure/cultureprocedure/"
           >
             Culture
@@ -30,7 +30,7 @@ const TeamSection = () => {
             </div>
           </Link>
           <Link
-            className="text-[1.375rem] tracking-[-0.9px] font-semibold custom-animation shift-to-right flex flex-col md:flex-row items-center"
+            className="text-[1.375rem] tracking-[-0.9px] font-semibold animation-easein-slow shift-to-right flex flex-col md:flex-row items-center"
             href="/about/#leadership"
           >
             Leadership

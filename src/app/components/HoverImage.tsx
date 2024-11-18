@@ -25,7 +25,7 @@ const HoverImage = ({ img1, img2, alt = "team", className, width = 400, height =
       width={width}
       height={height}
       alt={alt}
-      className={twMerge("custom-animation",className)}
+      className={twMerge("animation-easein-slow",className)}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     />

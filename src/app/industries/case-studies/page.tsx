@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
       <section className="relative pb-12 lg:pb-0 mb-28">
-        <div className="pro-container">
+        <div className="container-padding">
           <PageNavbar className="static mt-14 lg:w-full">
             <h1
               className={twMerge(
@@ -27,7 +27,7 @@ const Page = () => {
         </div>
       </section>
       <section className="mb-28">
-        <div className="pro-container">
+        <div className="container-padding">
           <div className="flex flex-wrap -mb-12">
             <CaseStudy
               date="August 24, 2023"

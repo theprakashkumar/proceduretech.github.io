@@ -11,7 +11,7 @@ const Layout = ({
     <>
       {children}
       <section className="mb-28">
-        <div className="pro-container">
+        <div className="container-padding">
           <h3 className="dot dot-blue mb-1.5">Be Part of Promising</h3>
           <p className="max-w-4xl text-2xl mt-7 font-light">
             From brainstorm sessions to happy hours, there’s never a dull moment
@@ -35,13 +35,13 @@ const Layout = ({
           />
           <div className="absolute top-0 left-0 pt-16 max-w-16 z-5 pl-[7vw] flex flex-col sm:flex-row">
             <Link
-              className="text-sm font-semibold mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+              className="text-sm font-semibold mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right"
               href="/contact/#consult"
             >
               Culture@Procedure
             </Link>
             <Link
-              className="text-sm font-semibold mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+              className="text-sm font-semibold mr-10 mb-5 sm:mb-10 w-44 bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right"
               href="/contact/#consult"
             >
               Team@Procedure

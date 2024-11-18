@@ -124,7 +124,7 @@ const Header = () => {
                 alt={"Procedure Logo"}
               />
             </Link>
-            <a className="group lg:hidden custom-animation absolute right-12 -top-1.5 py-4 px-5 z-20 cursor-pointer">
+            <a className="group lg:hidden animation-easein-slow absolute right-12 -top-1.5 py-4 px-5 z-20 cursor-pointer">
               <MagnifyingGlassIcon className="text-black/90 w-7 h-7 group-hover:text-black/65" />
             </a>
             <button
@@ -197,7 +197,7 @@ const Header = () => {
                           {data.items.map((item) => (
                             <li key={item.title}>
                               <Link
-                                className="block text-white bg-none text-sm font-light py-1.5 px-5 custom-animation shift-to-right whitespace-nowrap"
+                                className="block text-white bg-none text-sm font-light py-1.5 px-5 animation-easein-slow shift-to-right whitespace-nowrap"
                                 href={item.href}
                               >
                                 {item.title}
@@ -211,7 +211,7 @@ const Header = () => {
                 </li>
               ))}
               <li className="ml-2 flex cursor-pointer group justify-center items-center">
-                <a className="no-underline custom-animation">
+                <a className="no-underline animation-easein-slow">
                   <MagnifyingGlassIcon className="text-black/90 w-5 h-5 group-hover:text-black/65" />
                 </a>
               </li>
@@ -232,7 +232,7 @@ const Header = () => {
                       href={navLink.href ?? "/"}
                     >
                       <span
-                        className={`inline-block custom-animation m-0 leading-7`}
+                        className={`inline-block animation-easein-slow m-0 leading-7`}
                       >
                         {navLink.title}
                       </span>
@@ -243,7 +243,7 @@ const Header = () => {
                           <ul key={`items-${index}`} className="block">
                             <li className="w-full">
                               <Link
-                                className="text-white bg-none text-sm font-light py-1.5 custom-animation shift-to-right capitalize"
+                                className="text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right capitalize"
                                 href={`/${navLink.id}`}
                               >
                                 {index === 0 ? "Overview" : ""}
@@ -270,7 +270,7 @@ const Header = () => {
                             {data.items.map((item) => (
                               <li key={item.title}>
                                 <Link
-                                  className="block text-white bg-none text-sm font-light py-1.5 custom-animation shift-to-right whitespace-nowrap"
+                                  className="block text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right whitespace-nowrap"
                                   href={item.href}
                                 >
                                   {item.title}

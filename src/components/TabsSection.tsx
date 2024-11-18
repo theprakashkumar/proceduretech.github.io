@@ -34,7 +34,7 @@ const TabsSection = ({selectedIndex, setSelectedIndex}: TabsSectionsProps) => {
               {tab.description}
             </h3>
             <Link
-              className="text-sm bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+              className="primary-button bg-white"
               href={tab.href}
             >
               Read

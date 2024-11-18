@@ -5,7 +5,7 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 export const dynamicParams = false;
-type pagesDataType = {
+type PagesDataType = {
   heroSection: {
     heading: string;
     description: string;
@@ -37,7 +37,7 @@ type pagesDataType = {
   };
 };
 
-const pagesData: { [key: string]: pagesDataType } = {
+const pagesData: { [key: string]: PagesDataType } = {
   "frontend-performance-testing-best-practices": {
     heroSection: {
       heading: "Frontend Performance Testing: Best Practices",
@@ -138,7 +138,7 @@ export default async function Page({
   return (
     <>
       <section className="relative pb-12 lg:pb-0">
-        <div className="pro-container">
+        <div className="container-padding">
           <div className="relative">
             <PageNavbar
               textColorType="white"
@@ -173,13 +173,13 @@ export default async function Page({
           />
         </div>
         <div className="absolute opacity-70 bottom-24 lg:bottom-[4vw] z-[3] text-lg text-white">
-          <div className="pro-container">
+          <div className="container-padding">
             {`${pageData.heroSection.date} | ${pageData.heroSection.name}`}
           </div>
         </div>
       </section>
       <section className="">
-        <div className="pro-container">
+        <div className="container-padding">
           <div className="mt-[7vw] flex flex-wrap pb-7 lg:border-b lg:border-b-black/20">
             <div className="w-full mr-0 mb-12 lg:mb-0 lg:w-[65%] lg:mr-[5%]">
               {pageData.subHeadings.map((data, index) => (
@@ -201,7 +201,7 @@ export default async function Page({
                       {post.description}
                     </p>
                     <Link
-                      className="text-sm bg-white text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none custom-animation shift-to-right"
+                      className="primary-button bg-white"
                       href={post.link}
                       target="_blank"
                     >
@@ -217,7 +217,7 @@ export default async function Page({
                 {pageData.tags.map((tag) => (
                   <Link
                     key={tag.link}
-                    className="py-1.5 px-5 bg-[#D0D0D0] mr-2.5 mb-2.5 rounded-full border-none text-sm relative custom-animation left-0 hover:bg-[rgba(208,208,208,0.3)]"
+                    className="py-1.5 px-5 bg-[#D0D0D0] mr-2.5 mb-2.5 rounded-full border-none text-sm relative animation-easein-slow left-0 hover:bg-[rgba(208,208,208,0.3)]"
                     href={tag.link}
                   >
                     {tag.name}
@@ -229,7 +229,7 @@ export default async function Page({
         </div>
       </section>
       <div className="hidden my-0 mx-auto py-16 px-0 cursor-default pointer-events-none lg:block">
-        <div className="pro-container">
+        <div className="container-padding">
           <Link className="relative left-0 flex items-center" href="#">
             <Image
               width={500}

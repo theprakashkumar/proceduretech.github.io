@@ -145,6 +145,62 @@ body {
   background-color: #C3201F;
 }
 
+.bg-blue {
+  background-color: #4A65D6;
+  color: #fff;
+}
+
+.bg-brickred {
+  background-color: #B93939;
+  color: #fff;
+}
+
+.bg-green {
+  background-color: #1DA069;
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: #5A5A5A;
+  color: #fff;
+}
+
+.bg-blue {
+  background-color: #4A65D6;
+  color: #fff;
+}
+
+.radio-input[type='radio']:checked {
+  opacity: 1;
+}
+
+.radio-input[type='radio'] {
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+  accent-color: #4A65D6;
+  opacity: .7;
+}
+
+.file-upload-input::file-selector-button {
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 .75rem;
+  margin: -.375rem -.75rem;
+  margin-inline-end: .75rem;
+  border-width: 0;
+  border-radius: 0;
+  border-style: solid;
+  border-color: inherit;
+  pointer-events: none;
+  border-inline-end: 1px;
+  border-right-style: solid;
+}
+
+.input-white::file-selector-button {
+  background-color: white;
+  color: black;
+}
+
 @media (max-width: 991px) {
   .hr--block {
     width: 50%;

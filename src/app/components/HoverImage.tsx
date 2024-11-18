@@ -2,14 +2,18 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import { twMerge } from "tailwind-merge";
 
 type HoverImageProps = {
   img1: string;
   img2: string;
   alt?: string;
+  className?: string;
+  width?: number,
+  height?: number
 };
 
-const HoverImage = ({ img1, img2, alt = "team" }: HoverImageProps) => {
+const HoverImage = ({ img1, img2, alt = "team", className, width = 400, height = 400 }: HoverImageProps) => {
   const [src, setSrc] = useState(img1);
 
   const handleMouseEnter = () => setSrc(img2);
@@ -18,10 +22,10 @@ const HoverImage = ({ img1, img2, alt = "team" }: HoverImageProps) => {
   return (
     <Image
       src={src}
-      width={400}
-      height={400}
+      width={width}
+      height={height}
       alt={alt}
-      className="custom-animation"
+      className={twMerge("custom-animation",className)}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     />

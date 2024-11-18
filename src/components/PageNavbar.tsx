@@ -5,32 +5,51 @@ import { usePathname } from "next/navigation";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 
-type PageNavbarProps = { children: React.ReactNode; className?: string };
+const textStyles = {
+  gray: {
+    nav: 'text-[rgba(134,134,134,0.8)]',
+    link: 'text-[rgba(134,134,134,0.8)] before:text-[rgba(134,134,134,0.8)]',
+    highlighted: 'text-[#868686] before:text-[#868686]'
+  },
+  white: {
+    nav: 'text-[rgba(203,203,203,0.8)]',
+    link: 'text-[rgba(203,203,203,0.8)] before:text-[rgba(203,203,203,0.8)]',
+    highlighted: 'text-[#cbcbcb] before:text-[#cbcbcb]'
+  }
+};
 
-const PageNavbar = ({ children, className }: PageNavbarProps) => {
+type PageNavbarProps = { 
+  children: React.ReactNode; 
+  className?: string; 
+  textColorType?: keyof typeof textStyles;
+};
+
+const PageNavbar = ({ children, className, textColorType = 'gray' }: PageNavbarProps) => {
   const pathname = usePathname();
   const routeArray = pathname.split("/").slice(1);
 
   return (
-    <div
-      className={twMerge("absolute top-14 left-0 w-full lg:w-3/5", className)}
-    >
-      <nav className="text-sm text-gray-500/80" aria-label="breadcrumb">
+    <div className={twMerge("absolute top-14 left-0 w-full lg:w-3/5", className)}>
+      <nav className={twMerge("text-sm", textStyles[textColorType].nav)} aria-label="breadcrumb">
         <ol className="flex flex-wrap items-center mb-2.5">
-          <li className="">
-            <Link href="/" className="">
-              Home
-            </Link>
+          <li>
+            <Link href="/">Home</Link>
           </li>
-          {routeArray.map((route, index) => (
-            <Link
-              href={`/${routeArray.slice(0, index + 1).join("/")}`}
-              key={route}
-              className='pl-1.5 text-gray-500 capitalize font-semibold before:content-["/"] before:text-gray-500/80 before:float-left before:pr-1.5'
-            >
-              {route.split("-").join(" ")}
-            </Link>
-          ))}
+          {routeArray.map((route, index) => {
+            const fullPath = `/${routeArray.slice(0, index + 1).join("/")}`;
+            const isCurrentRoute = pathname === fullPath;
+            const linkClass = twMerge(
+              `pl-1.5 capitalize before:content-["/"] before:float-left before:pr-1.5`,
+              textStyles[textColorType].link,
+              isCurrentRoute && `${textStyles[textColorType].highlighted} font-semibold`
+            );
+
+            return (
+              <Link href={fullPath} key={route} className={linkClass}>
+                {route.replace(/-/g, " ")}
+              </Link>
+            );
+          })}
         </ol>
       </nav>
       {children}

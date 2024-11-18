@@ -46,7 +46,7 @@ const Capabilities = () => {
           />
         </div>
       </section>
-      <section className="">
+      <section>
         <div className="pro-container">
           <h3 className="text-3xl text-gray-500 font-light mb-12">
             Our Capabilities

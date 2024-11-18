@@ -53,3 +53,18 @@ export const tabs = [
       "https://procedure.tech/wp-content/uploads/2023/10/home-case-study-espn.webp",
   },
 ];
+
+export const clientsData = [
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/treebo-1.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/counton.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/bitespeed.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/aster.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/timely.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/setu.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/plum.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/orderlab.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/optimind.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/monaire.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/kred.png?fit=480%2C216&ssl=1",
+  "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/espn.png?fit=480%2C216&ssl=1",
+];

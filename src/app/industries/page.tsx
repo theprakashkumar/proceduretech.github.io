@@ -3,6 +3,7 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import PageNavbar from "@/components/PageNavbar";
 import IndustriesTabs from "./components/IndustriesTabs";
+import { clientsData } from "@/constants/constant";
 
 const industriesData = [
   {
@@ -42,21 +43,6 @@ const industriesData = [
   },
 ];
 
-const clientData = [
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/treebo-1.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/counton.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/bitespeed.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/aster.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/timely.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/setu.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/plum.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/orderlab.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/optimind.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/monaire.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/kred.png?fit=480%2C216&ssl=1',
-  'https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/espn.png?fit=480%2C216&ssl=1'
-]
-
 const Industries = () => {
   return (
     <>
@@ -86,7 +72,7 @@ const Industries = () => {
             height={1476}
             className="max-w-full overflow-clip"
             src="https://procedure.tech/wp-content/uploads/2023/08/industries-banner.jpg"
-            alt="Capabilities Banner"
+            alt="Industries Banner"
           />
         </div>
         <div className="block lg:hidden">
@@ -95,7 +81,7 @@ const Industries = () => {
             height={1476}
             className="max-w-full align-middle overflow-clip"
             src="https://procedure.tech/wp-content/uploads/2023/08/mob-industries-banner.jpg"
-            alt="Capabilities Banner"
+            alt="Industries Banner"
           />
         </div>
       </section>
@@ -120,11 +106,11 @@ const Industries = () => {
           </div>
         </div>
       </section>
-      <section className="">
+      <section>
         <div className="pro-container">
           <h3>Our Clients</h3>
           <div className="mt-12 flex flex-wrap">
-            {clientData.map((url, index) => (
+            {clientsData.map((url, index) => (
               <Image className="w-1/3 sm:w-[10%] lg:w-[14.2%] max-w-full" width={480} height={216} src={url} key={index} alt="Treebo" />
             ))}
           </div>

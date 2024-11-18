@@ -22,9 +22,7 @@ export default function Home() {
         </div>
         <div className="visible animate-[fadeIn] [animation-delay:1s] relative w-full pb-14 lg:absolute top-[50%] lg:w-[50%] z-10 lg:-translate-y-[50%]">
           <div className="pro-container tracking-[-0.3px] text-[#212529] text-center lg:text-left">
-            <h1 className="mb-5">
-              Your Goal is Our Aim
-            </h1>
+            <h1 className="mb-5">Your Goal is Our Aim</h1>
             <p className="text-xl mb-9">
               Maximize the value of your business with our precise, insightful
               and agile digital engineering solutions
@@ -66,7 +64,7 @@ export default function Home() {
               <h2 className="-mr-[7vw] pt-10 lg:pt-0 mb-7 text-[#212549]">
                 Continuous Excellence, Agile Delivery
               </h2>
-              <div className="">
+              <div>
                 <Link
                   className="border-t border-t-black/10 flex items-end py-5 justify-between text-black border-b border-b-black/10 custom-animation shift-to-right"
                   href="/capabilities/#think"
@@ -144,11 +142,37 @@ export default function Home() {
             <div>
               <form className="max-w-[46.25rem]">
                 <div className="mb-7">
+                  <div className="flex flex-wrap sm:flex-nowrap ml-1.5 -mb-5 sm:ml-0 sm:mb-0 justify-between">
+                    <span className="relative">
+                      <span className="flex flex-col sm:block">
+                        <span className="inline-block ml-2.5">
+                          <label className="mb-5 sm:mb-0 block w-full mr-8 sm:inline-block">
+                            <input checked type="radio" name='options' value='Design Team' className="radio-input mr-2.5" />
+                            <span className="opacity-80 ml-2">Design Team</span>
+                          </label>
+                        </span>
+                        <span className="inline-block ml-2.5">
+                          <label className="mb-5 sm:mb-0 block w-full mr-8 sm:inline-block">
+                            <input type="radio" name='options' value='Tech Team' className="radio-input mr-2.5" />
+                            <span className="opacity-80 ml-2">Tech Team</span>
+                          </label>
+                        </span>
+                        <span className="inline-block ml-2.5">
+                          <label className="mb-5 sm:mb-0 block w-full mr-8 sm:inline-block">
+                            <input type="radio" name='options' value='Other' className="radio-input mr-2.5" />
+                            <span className="opacity-80 ml-2">Other</span>
+                          </label>
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div className="mb-7">
                   <div className="max-w-[31.25rem] relative">
                     <span className="relative">
                       <input
                         size={40}
-                        className="cursor-pointer bg-black text-white/50 border border-white/30 py-2 px-5 rounded-full w-full"
+                        className="file-upload-input cursor-pointer bg-black text-white/50 border border-white/30 py-2 px-5 rounded-full w-full"
                         type="file"
                         name="file"
                       />

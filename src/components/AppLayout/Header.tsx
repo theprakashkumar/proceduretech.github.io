@@ -10,9 +10,9 @@ import { twMerge } from "tailwind-merge";
 import { capabilitiesData } from "@/constants/constant";
 
 type itemsType = {
-  title: string,
-  href: string
-}
+  title: string;
+  href: string;
+};
 
 type DropdownItem = {
   title?: string;
@@ -28,7 +28,7 @@ const navLinks = [
   {
     id: "capabilities",
     title: "Capabilities",
-    dropdown: capabilitiesData
+    dropdown: capabilitiesData,
   },
   {
     id: "industries",
@@ -47,12 +47,15 @@ const navLinks = [
     ],
   },
   {
-    id: "liftprocedure",
+    id: "lifeprocedure",
     title: "Life@Procedure",
     dropdown: [
       {
         items: [
-          { title: "Culture@Procedure", href: "/lifeprocedure/cultureprocedure" },
+          {
+            title: "Culture@Procedure",
+            href: "/lifeprocedure/cultureprocedure",
+          },
           { title: "Team@Procedure", href: "/lifeprocedure/teamprocedure" },
         ],
       },
@@ -64,9 +67,9 @@ const navLinks = [
     dropdown: [
       {
         items: [
-          { title: "Ulhas Mandrawadkar", href: "/team_members/ulhas-mandrawadkar/" },
-          { title: "Braj Baheti", href: "/team_members/braj-baheti/" },
-          { title: "Renuka Rode", href: "/team_members/renuka-rode/" },
+          { title: "Ulhas Mandrawadkar", href: "/about/ulhas-mandrawadkar/" },
+          { title: "Braj Baheti", href: "/about/braj-baheti/" },
+          { title: "Renuka Rode", href: "/about/renuka-rode/" },
         ],
       },
     ],
@@ -110,7 +113,7 @@ const Header = () => {
                 "h-12 lg:h-auto bg-[#f0eff2] px-[7vw] lg:px-0 items-center lg:items-center"
             )}
           >
-            <a className="mr-4 flex items-center no-underline whitespace-nowrap  cursor-pointer">
+            <Link href='/' className="mr-4 flex items-center no-underline whitespace-nowrap  cursor-pointer">
               <Image
                 width={100}
                 height={100}
@@ -120,7 +123,7 @@ const Header = () => {
                 }
                 alt={"Procedure Logo"}
               />
-            </a>
+            </Link>
             <a className="group lg:hidden custom-animation absolute right-12 -top-1.5 py-4 px-5 z-20 cursor-pointer">
               <MagnifyingGlassIcon className="text-black/90 w-7 h-7 group-hover:text-black/65" />
             </a>
@@ -139,21 +142,28 @@ const Header = () => {
                   className="relative group list-item list-none text-left"
                 >
                   <Link
-                    className={`py-[0.9375rem] hover:text-white hover:bg-[rgba(46,46,46,0.6)]  ${
-                      pathname === navLink.href ? "text-black" : "text-black/65"
-                    }`}
-                    href={navLink.href ?? "/"}
+                    className={twMerge(
+                      "py-[0.9375rem] hover:text-white hover:bg-[rgba(46,46,46,0.6)] group-hover:bg-[rgba(46,46,46,0.6)] group-hover:text-white",
+                      pathname.split("/").includes(navLink.id) ||
+                        (pathname === "/" && navLink.id === "home")
+                        ? "text-black"
+                        : "text-black/65"
+                    )}
+                    href={navLink.href || ""}
                   >
                     <span
-                      className={`relative font-semibold text-[13px] leading-5 mx-5 ${
-                        pathname === navLink.href
+                      className={twMerge(
+                        "relative font-semibold text-[13px] leading-5 mx-5",
+                        pathname.split("/").includes(navLink.id) ||
+                          (pathname === "/" && navLink.id === "home")
                           ? 'after:content-[""] after:absolute after:-bottom-[3px] after:left-0 after:h-[0.1875rem] after:w-full after:bg-[#4A65D6]'
                           : ""
-                      }`}
+                      )}
                     >
                       {navLink.title}
                     </span>
                   </Link>
+
                   {navLink.dropdown && (
                     <div className="hidden group-hover:flex absolute left-2/4 -translate-x-2/4 min-h-full bg-[rgba(46,46,46,0.6)] backdrop-blur-xl rounded-b-[3.125rem] py-10 px-12 mt-3">
                       {navLink.dropdown.map((data: DropdownItem, index) => (
@@ -216,7 +226,9 @@ const Header = () => {
                     className="group list-item list-none text-left"
                   >
                     <Link
-                      className={'border-y border-y-white/20 mx-[7vw] py-4 text-lg text-white font-semibold block'}
+                      className={
+                        "border-y border-y-white/20 mx-[7vw] py-4 text-lg text-white font-semibold block"
+                      }
                       href={navLink.href ?? "/"}
                     >
                       <span

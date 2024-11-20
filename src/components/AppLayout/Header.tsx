@@ -89,6 +89,15 @@ const navLinks = [
 const Header = () => {
   const pathname = usePathname();
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
+  const handleMouseEnter = (id: string) => {
+    setActiveDropdown(id);
+  };
+
+  const handleMouseLeave = () => {
+    setActiveDropdown(null);
+  };
 
   return (
     <header className="w-full fixed left-0 top-0 z-40">
@@ -140,6 +149,8 @@ const Header = () => {
                 <li
                   key={navLink.id}
                   className="relative group list-item list-none text-left"
+                  onMouseEnter={() => handleMouseEnter(navLink.id)}
+                  onMouseLeave={handleMouseLeave}
                 >
                   <Link
                     className={twMerge(
@@ -164,7 +175,7 @@ const Header = () => {
                     </span>
                   </Link>
 
-                  {navLink.dropdown && (
+                  {navLink.dropdown && activeDropdown === navLink.id && (
                     <div className="hidden group-hover:flex absolute left-2/4 -translate-x-2/4 min-h-full bg-[rgba(46,46,46,0.6)] backdrop-blur-xl rounded-b-[3.125rem] py-10 px-12 mt-3">
                       {navLink.dropdown.map((data: DropdownItem, index) => (
                         <ul key={`items-${index}`} className="block">
@@ -172,6 +183,7 @@ const Header = () => {
                             <Link
                               className="text-white bg-none text-sm font-light py-1.5 px-5 shift-to-right capitalize"
                               href={`/${navLink.id}`}
+                              onClick={handleMouseLeave}
                             >
                               {index === 0 ? "Overview" : ""}
                             </Link>
@@ -184,7 +196,7 @@ const Header = () => {
                               <li>
                                 <Link
                                   className="text-gray-200/80 mb-1.5 bg-none text-xs font-light py-1.5 px-5 uppercase w-full"
-                                  href="/capabilities/"
+                                  href="#"
                                 >
                                   {data.title}
                                 </Link>
@@ -199,6 +211,7 @@ const Header = () => {
                               <Link
                                 className="block text-white bg-none text-sm font-light py-1.5 px-5 animation-easein-slow shift-to-right whitespace-nowrap"
                                 href={item.href}
+                                onClick={handleMouseLeave}
                               >
                                 {item.title}
                               </Link>
@@ -224,6 +237,8 @@ const Header = () => {
                   <li
                     key={navLink.id}
                     className="group list-item list-none text-left"
+                    onMouseEnter={() => handleMouseEnter(navLink.id)}
+                    onMouseLeave={handleMouseLeave}
                   >
                     <Link
                       className={
@@ -245,6 +260,10 @@ const Header = () => {
                               <Link
                                 className="text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right capitalize"
                                 href={`/${navLink.id}`}
+                                onClick={() => {
+                                  handleMouseLeave()
+                                  setIsNavbarOpen(false)
+                                }}
                               >
                                 {index === 0 ? "Overview" : ""}
                               </Link>
@@ -257,7 +276,7 @@ const Header = () => {
                                 <li>
                                   <Link
                                     className="text-gray-200/80 mb-1.5 bg-none text-xs font-light py-1.5 uppercase w-full"
-                                    href="/capabilities/"
+                                    href="#"
                                   >
                                     {data.title}
                                   </Link>
@@ -272,6 +291,10 @@ const Header = () => {
                                 <Link
                                   className="block text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right whitespace-nowrap"
                                   href={item.href}
+                                  onClick={() => {
+                                    handleMouseLeave()
+                                    setIsNavbarOpen(false)
+                                  }}
                                 >
                                   {item.title}
                                 </Link>

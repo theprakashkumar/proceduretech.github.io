@@ -10,7 +10,13 @@ const Layout = ({
   return (
     <>
       {children}
-      <JoinProcedure />
+      {/* join procedure section */}
+      <section className="mb-28">
+        <div className="container-padding">
+          <h3>Join the Pros</h3>
+          <JoinProcedure />
+        </div>
+      </section>
       <BlogSection />
     </>
   );

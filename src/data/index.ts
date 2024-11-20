@@ -1449,7 +1449,7 @@ export const blogsData = [
     title: "Frontend Performance Testing: Best Practices",
     description:
       "You have been working hard to deliver all the features on the project, and suddenly…",
-    link: "https://procedure.tech/frontend-performance-testing-best-practices/",
+    link: "/frontend-performance-testing-best-practices/",
   },
   {
     date: "May 26, 2022",
@@ -1459,7 +1459,7 @@ export const blogsData = [
     title: "Why Robot Framework",
     description:
       "If you are trying to identify what are the best automation frameworks out there, we…",
-    link: "https://procedure.tech/why-robot-framework/",
+    link: "/why-robot-framework/",
     imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
   },
   {
@@ -1470,7 +1470,7 @@ export const blogsData = [
     title: "Reducing our Deployment times by 87%",
     description:
       "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
-    link: "https://procedure.tech/reducing-our-deployment-times-by-87/",
+    link: "/reducing-our-deployment-times-by-87/",
     imgClassName: "rounded-r-none rounded-tr-full rounded-tl-full",
   },
   {
@@ -1481,7 +1481,7 @@ export const blogsData = [
     title: "Connecting Django to RDS via pgbouncer using IAM auth",
     description:
       "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
-    link: "https://procedure.tech/connecting-django-to-rds-via-pgbouncer-using-iam-auth/",
+    link: "/connecting-django-to-rds-via-pgbouncer-using-iam-auth/",
     imgClassName: "rounded-r-none rounded-bl-full rounded-tl-full",
   },
 ];

@@ -2,6 +2,7 @@ import PageNavbar from "@/components/PageNavbar";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 import CaseStudy from "../components/CaseStudy";
+import { tabs } from "@/constants/constant";
 
 const Page = () => {
   return (
@@ -29,23 +30,18 @@ const Page = () => {
       <section className="mb-28">
         <div className="container-padding">
           <div className="flex flex-wrap -mb-12">
-            <CaseStudy
-              date="August 24, 2023"
-              imgSrc="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/plum-case-study.webp?fit=700%2C700&ssl=1"
-              title="Streamlining Crisis Communication for Enhanced Coordination & Effective Response"
-              sector="Crisis Communication"
-              services="UI & UX, Process Consulting, Innovation"
-              link="https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/"
-            />
-            <CaseStudy
-              date="August 24, 2023"
-              imgSrc="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/espn-case-study.webp?fit=700%2C700&ssl=1"
-              title="A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses"
-              sector="FinTech"
-              services="UX & UI, Product Engineering, Process Consulting"
-              link="https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/"
-              className="rounded-r-none rounded-bl-full rounded-br-full"
-            />
+            {tabs.map((data) => (
+              <CaseStudy
+                key={data.id}
+                date={data.date}
+                imgSrc={data.imgSrc}
+                title={data.description}
+                sector={data.name}
+                services={data.services}
+                link={data.href}
+                className={data.className}
+              />
+            ))}
           </div>
         </div>
       </section>

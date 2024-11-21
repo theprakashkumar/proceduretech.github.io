@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
+import InputField from "./InputField";
 
 const cardStyles = {
   colored: {
@@ -19,46 +20,6 @@ const cardStyles = {
 type ConsultationType = {
   backgroundColor?: string;
   type?: keyof typeof cardStyles;
-};
-
-type InputFieldProps = {
-  name: string;
-  type: string;
-  placeholder: string;
-  value: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  className?: string;
-};
-
-const InputField = ({
-  name,
-  type,
-  placeholder,
-  value,
-  onChange,
-  className,
-}: InputFieldProps) => {
-  return (
-    <div className="w-full lg:w-6/12 mb-5 pr-5">
-      <span data-name={name} className="relative block">
-        <input
-          name={name}
-          type={type}
-          placeholder={placeholder}
-          value={value}
-          onChange={onChange}
-          className={twMerge(
-            "bg-white/80 w-full focus-visible:ring-0 focus:outline-0 focus:bg-white focus:border-[#86b7fe] focus:shadow text-black rounded-3xl text-sm h-auto py-2 px-5 bg-clip-padding border border-[#dee2e6] placeholder:text-gray-800/75",
-            className
-          )}
-          size={40}
-          maxLength={400}
-          aria-required="true"
-          aria-invalid="false"
-        />
-      </span>
-    </div>
-  );
 };
 
 const Consultation = ({
@@ -79,7 +40,6 @@ const Consultation = ({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form Submitted", formData);
   };
 
   return (
@@ -114,7 +74,7 @@ const Consultation = ({
                 placeholder={field.placeholder}
                 value={formData[field.name as keyof typeof formData]}
                 onChange={handleChange}
-                className={cardStyles[type].input}
+                inputClassName={cardStyles[type].input}
               />
             ))}
             <br />

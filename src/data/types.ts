@@ -119,3 +119,81 @@ export type AboutPagesDataType = {
   };
   teamMembersData: TeamMemberDataType[];
 };
+
+export type AuthorDataType =  {
+  imgSrc: string;
+  name: string;
+  teamName: string;
+};
+
+export type PostType =  {
+  date: string;
+  name: string;
+  imgSrc: string;
+  title: string;
+  description: string;
+  link: string;
+  imgClassName: string;
+}
+
+export type TagsType = {
+  name: string;
+  link: string;
+  id: string;
+}
+
+export type BlogPageDataType = {
+  heroSection: {
+    heading: string;
+    images: {
+      desktop: string;
+      mobile: string;
+    };
+    date: string;
+    name: string;
+  };
+  subHeadings: string[];
+  latestPosts: PostType[];
+  tags: TagsType[];
+  author: AuthorDataType;
+  content: string;
+};
+
+export type CaseStudyService = {
+  id: string;
+  name: string;
+  link: string;
+};
+
+export type CaseStudyHeroSection = {
+  desktop: string;
+  mobile: string;
+};
+
+export type CaseStudyContent = {
+  overview: string[];
+  challenge: string[];
+  approach: string[];
+  solution: PointersType[];
+  impactAndResult: string[];
+};
+
+export type SocialLinksType = {
+  href: string,
+  src: string;
+  alt: string
+}
+
+export type CaseStudiesDataType = {
+  id: string;
+  date: string;
+  name: string;
+  description: string;
+  href: string;
+  bgImage: string;
+  imgSrc: string;
+  services: CaseStudyService[];
+  heroSection: CaseStudyHeroSection;
+  content: CaseStudyContent;
+  socialLinks: SocialLinksType[]
+};

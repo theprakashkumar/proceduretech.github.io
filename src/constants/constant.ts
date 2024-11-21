@@ -37,20 +37,29 @@ export const capabilitiesData = [
 
 export const tabs = [
   {
+    id: 'streamlining-crisis-communication-for-enhanced-coordination-effective-response',
+    date: "August 24, 2023",
     name: "Critical Communication",
     description:
       "Streamlining Crisis Communication for Enhanced Coordination & Effective Response",
-    href: "https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
+    href: "/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
     bgImage:
       "https://procedure.tech/wp-content/uploads/2023/10/home-snooker-plum.webp",
+    imgSrc:"https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/plum-case-study.webp?fit=700%2C700&ssl=1",
+    services:"UI & UX, Process Consulting, Innovation",
   },
   {
+    id: 'a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses',
+    date:"August 24, 2023",
     name: "FinTech",
     description:
       "A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses",
-    href: "https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
+    href: "/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
     bgImage:
       "https://procedure.tech/wp-content/uploads/2023/10/home-case-study-espn.webp",
+    imgSrc: "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/espn-case-study.webp?fit=700%2C700&ssl=1",
+    services: "UX & UI, Product Engineering, Process Consulting",
+    className:"rounded-r-none rounded-bl-full rounded-br-full",
   },
 ];
 

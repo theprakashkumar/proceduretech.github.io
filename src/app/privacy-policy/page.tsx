@@ -1,5 +1,11 @@
 import PageNavbar from "@/components/PageNavbar";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Procedure",
+  description: "",
+};
 
 const policyItems = [
   {

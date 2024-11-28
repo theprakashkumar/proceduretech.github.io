@@ -4,6 +4,12 @@ import TeamSection from "@/app/components/TeamSection";
 import Link from "next/link";
 import JoinProcedure from "@/components/JoinProcedure";
 import AgileDeliverySection from "./components/AgileDeliverySection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home | Procedure",
+  description: "",
+};
 
 export default function Home() {
   return (
@@ -27,10 +33,7 @@ export default function Home() {
               Maximize the value of your business with our precise, insightful
               and agile digital engineering solutions
             </p>
-            <Link
-              className="primary-button bg-white"
-              href="/contact/#consult"
-            >
+            <Link className="primary-button bg-white" href="/contact/#consult">
               Get a Free Consultation
             </Link>
           </div>

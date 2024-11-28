@@ -6,6 +6,13 @@ import Pointers from "@/components/Pointers";
 import Consultation from "@/components/Consultation";
 import TeamsData from "./components/TeamsData";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About | Procedure",
+  description: "",
+};
+
 const About = () => {
   return (
     <>
@@ -36,16 +43,14 @@ const About = () => {
         />
       </section>
       <ClientsSection className="mb-28" />
-      <Pointers 
+      <Pointers
         pointers={aboutPagePointerData}
         eachElementClassName="w-full md:w-[28%] lg:w-[28%] mr-0 md:mr-[5.3%] mb-12 md:mb-[5%]"
         title="Our Story"
       />
       <TeamsData />
       <section>
-        <Consultation 
-          type="transparent"
-        />
+        <Consultation type="transparent" />
       </section>
     </>
   );

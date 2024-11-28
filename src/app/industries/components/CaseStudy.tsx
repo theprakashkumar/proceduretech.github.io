@@ -3,16 +3,24 @@ import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
 type CaseStudyProps = {
-  date: string,
-  imgSrc: string,
-  title: string,
-  sector: string,
-  services: string,
-  link: string,
-  className?: string
-}
+  date: string;
+  imgSrc: string;
+  title: string;
+  sector: string;
+  services: string;
+  link: string;
+  className?: string;
+};
 
-const CaseStudy = ({ date, imgSrc, title, sector, services, link, className }: CaseStudyProps) => (
+const CaseStudy = ({
+  date,
+  imgSrc,
+  title,
+  sector,
+  services,
+  link,
+  className,
+}: CaseStudyProps) => (
   <div className="w-full mb-24 sm:w-2/5 sm:mr-[10%] sm:mb-[10%]">
     <h6 className="mb-5">{date}</h6>
     <Image
@@ -39,4 +47,4 @@ const CaseStudy = ({ date, imgSrc, title, sector, services, link, className }: C
   </div>
 );
 
-export default CaseStudy
+export default CaseStudy;

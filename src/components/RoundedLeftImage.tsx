@@ -4,7 +4,7 @@ import React from "react";
 type RoundedLeftImageProps = {
   desktop: string;
   mobile: string;
-  alt?: string
+  alt?: string;
 };
 
 const RoundedLeftImage = ({ desktop, mobile }: RoundedLeftImageProps) => {

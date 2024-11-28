@@ -34,7 +34,7 @@ export default async function Page({
             >
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl pt-4 dot mb-1.5 tracking-tighter"
+                  "text-5xl lg:text-6xl xl:text-7xl pt-4 dot mb-1.5 tracking-tighter",
                 )}
               >
                 {pageData.heroSection.heading}
@@ -69,14 +69,12 @@ export default async function Page({
       <section className="">
         <div className="container-padding">
           <div className="mt-[7vw] flex flex-wrap pb-7 lg:border-b lg:border-b-black/20">
-            <LeftSection 
+            <LeftSection
               subHeadings={pageData.subHeadings}
               content={pageData.content}
             />
             <div className="block lg:hidden ml-[calc(-7vw)] pt-5 pb-16 -mt-10 mx-auto cursor-default pointer-events-none">
-              <Author 
-                authorData={pageData.author}
-              />
+              <Author authorData={pageData.author} />
             </div>
             <RightSection
               latestPosts={pageData.latestPosts}
@@ -87,9 +85,7 @@ export default async function Page({
       </section>
       <div className="hidden my-0 mx-auto py-16 px-0 cursor-default pointer-events-none lg:block">
         <div className="container-padding">
-          <Author 
-            authorData={pageData.author}
-          />
+          <Author authorData={pageData.author} />
         </div>
       </div>
     </>

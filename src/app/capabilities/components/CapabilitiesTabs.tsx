@@ -8,12 +8,12 @@ const CapabilitiesTabs = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   return (
     <div className="lg:pl-[7vw]">
-      <div 
+      <div
         className="bg-cover bg-center p-16 lg:pl-0 lg:py-28 lg:pr-[7vw] lg:rounded-l-full"
         style={{
           backgroundImage: `url(${tabs[selectedIndex].bgImage})`,
         }}
-    >
+      >
         <TabsSection
           selectedIndex={selectedIndex}
           setSelectedIndex={setSelectedIndex}

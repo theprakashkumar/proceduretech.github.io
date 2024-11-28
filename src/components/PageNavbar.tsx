@@ -54,7 +54,7 @@ const PageNavbar = ({
                 `pl-1.5 capitalize before:content-["/"] before:float-left before:pr-1.5`,
                 textStyles[textColorType].link,
                 isCurrentRoute &&
-                  `${textStyles[textColorType].highlighted} font-semibold`
+                  `${textStyles[textColorType].highlighted} font-semibold`,
               );
 
               return (

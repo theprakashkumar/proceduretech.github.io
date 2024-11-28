@@ -6,11 +6,18 @@ import { tabs } from "@/constants/constant";
 type TabsSectionsProps = {
   selectedIndex: number;
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
-}
+};
 
-const TabsSection = ({selectedIndex, setSelectedIndex}: TabsSectionsProps) => {
+const TabsSection = ({
+  selectedIndex,
+  setSelectedIndex,
+}: TabsSectionsProps) => {
   return (
-    <TabGroup selectedIndex={selectedIndex} onChange={setSelectedIndex} className="flex flex-col-reverse lg:flex-col visible animate-[fadeIn] w-full lg:w-[60%] mr-0 ml-auto">
+    <TabGroup
+      selectedIndex={selectedIndex}
+      onChange={setSelectedIndex}
+      className="flex flex-col-reverse lg:flex-col visible animate-[fadeIn] w-full lg:w-[60%] mr-0 ml-auto"
+    >
       <TabList className="flex flex-wrap justify-center lg:justify-start mt-10 -mb-10 lg:mt-0 lg:mb-0 lg:border-b lg:border-b-white/20">
         {tabs.map(({ name }) => (
           <Tab
@@ -33,10 +40,7 @@ const TabsSection = ({selectedIndex, setSelectedIndex}: TabsSectionsProps) => {
             <h3 className="text-4xl/10 tracking-[-0.01875rem] leading-[3.4375rem] mb-7 p-0 max-w-[37.5rem]">
               {tab.description}
             </h3>
-            <Link
-              className="primary-button bg-white"
-              href={tab.href}
-            >
+            <Link className="primary-button bg-white" href={tab.href}>
               Read
             </Link>
           </TabPanel>

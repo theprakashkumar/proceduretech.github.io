@@ -5,6 +5,12 @@ import { twMerge } from "tailwind-merge";
 import HoverImage from "../components/HoverImage";
 import PhotoSlider from "./components/PhotoSlider";
 import Pointers from "@/components/Pointers";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Life at Procedure",
+  description: "",
+};
 
 const cardData = [
   {
@@ -96,21 +102,21 @@ const LifeProcedure = () => {
             <PageNavbar className="static mt-14 lg:w-full">
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot dot-red"
+                  "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot dot-red",
                 )}
               >
                 Proactive
               </h1>
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot dot-blue"
+                  "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot dot-blue",
                 )}
               >
                 Progressive
               </h1>
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot dot-green"
+                  "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot dot-green",
                 )}
               >
                 Pro-fun
@@ -125,7 +131,7 @@ const LifeProcedure = () => {
             key={data.title}
             className={twMerge(
               "flex items-center even:last:flex-row justify-between overflow-hidden h-auto pt-12 lg:pt-0 rounded-none m-0 lg:h-96 px-[7vw] lg:even:ml-[calc(7vw*_3)] lg:even:mr-0 lg:even:rounded-l-full even:flex-row-reverse lg:odd:rounded-r-full lg:odd:ml-0 lg:odd:mr-[calc(7vw*_3)]",
-              data.color
+              data.color,
             )}
           >
             <div className="mx-auto p-0 lg:m-0">
@@ -150,7 +156,7 @@ const LifeProcedure = () => {
           </div>
         ))}
       </section>
-      <Pointers 
+      <Pointers
         title="The Pro State of Mind"
         pointers={pointerData}
         eachElementClassName="text-[0.625rem] w-full md:w-[28%] lg:w-[28%] mr-0 md:mr-[5.3%] mb-12 md:mb-[5%]"
@@ -167,7 +173,7 @@ const LifeProcedure = () => {
                 <h3
                   className={twMerge(
                     "text-gray-400 dot text-7xl font-bold mb-2.5",
-                    data.color
+                    data.color,
                   )}
                 >
                   {index + 1}

@@ -3,10 +3,10 @@ import Image from "next/image";
 import { clientsData } from "@/constants/constant";
 
 type ClientsSection = {
-  className?: string
-}
+  className?: string;
+};
 
-const ClientsSection = ({className}: ClientsSection) => {
+const ClientsSection = ({ className }: ClientsSection) => {
   return (
     <section className={className}>
       <div className="container-padding">

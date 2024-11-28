@@ -66,7 +66,7 @@ const AgileDeliverySection = () => {
                   key={index}
                   className={twMerge(
                     "border-t flex items-end py-5 justify-between text-black border-b border-b-black/10 animation-easein-slow shift-to-right",
-                    index === 0 ? "border-t-black/10" : ""
+                    index === 0 ? "border-t-black/10" : "",
                   )}
                   href={link.href}
                 >

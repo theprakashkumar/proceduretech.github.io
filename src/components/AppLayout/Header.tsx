@@ -104,7 +104,7 @@ const Header = () => {
       <nav
         className={twMerge(
           "lg:bg-[#f0eff2]",
-          isNavbarOpen ? "bg-transparent" : "bg-[#f0eff2]"
+          isNavbarOpen ? "bg-transparent" : "bg-[#f0eff2]",
         )}
       >
         <div
@@ -112,24 +112,25 @@ const Header = () => {
             "flex lg:items-center lg:justify-between relative lg:px-[7vw] lg:h-12",
             isNavbarOpen
               ? "h-auto p-0 flex-col lg:flex-row"
-              : "h-12 px-[7vw] items-center"
+              : "h-12 px-[7vw] items-center",
           )}
         >
           <div
             className={twMerge(
               "flex justify-between w-full lg:w-auto",
               isNavbarOpen &&
-                "h-12 lg:h-auto bg-[#f0eff2] px-[7vw] lg:px-0 items-center lg:items-center"
+                "h-12 lg:h-auto bg-[#f0eff2] px-[7vw] lg:px-0 items-center lg:items-center",
             )}
           >
-            <Link href='/' className="mr-4 flex items-center no-underline whitespace-nowrap  cursor-pointer">
+            <Link
+              href="/"
+              className="mr-4 flex items-center no-underline whitespace-nowrap  cursor-pointer"
+            >
               <Image
                 width={100}
                 height={100}
                 className="align-middle w-full"
-                src={
-                  "/assets/logo.svg"
-                }
+                src={"/assets/logo.svg"}
                 alt={"Procedure Logo"}
               />
             </Link>
@@ -158,7 +159,7 @@ const Header = () => {
                       pathname.split("/").includes(navLink.id) ||
                         (pathname === "/" && navLink.id === "home")
                         ? "text-black"
-                        : "text-black/65"
+                        : "text-black/65",
                     )}
                     href={navLink.href || ""}
                   >
@@ -168,7 +169,7 @@ const Header = () => {
                         pathname.split("/").includes(navLink.id) ||
                           (pathname === "/" && navLink.id === "home")
                           ? 'after:content-[""] after:absolute after:-bottom-[3px] after:left-0 after:h-[0.1875rem] after:w-full after:bg-[#4A65D6]'
-                          : ""
+                          : "",
                       )}
                     >
                       {navLink.title}
@@ -261,8 +262,8 @@ const Header = () => {
                                 className="text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right capitalize"
                                 href={`/${navLink.id}`}
                                 onClick={() => {
-                                  handleMouseLeave()
-                                  setIsNavbarOpen(false)
+                                  handleMouseLeave();
+                                  setIsNavbarOpen(false);
                                 }}
                               >
                                 {index === 0 ? "Overview" : ""}
@@ -292,8 +293,8 @@ const Header = () => {
                                   className="block text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right whitespace-nowrap"
                                   href={item.href}
                                   onClick={() => {
-                                    handleMouseLeave()
-                                    setIsNavbarOpen(false)
+                                    handleMouseLeave();
+                                    setIsNavbarOpen(false);
                                   }}
                                 >
                                   {item.title}

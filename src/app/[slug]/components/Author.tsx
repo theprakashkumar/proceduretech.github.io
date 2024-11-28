@@ -1,13 +1,13 @@
-import { AuthorDataType } from '@/data/types'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import { AuthorDataType } from "@/data/types";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 type AuthorProps = {
-  authorData: AuthorDataType
-}
+  authorData: AuthorDataType;
+};
 
-const Author = ({authorData}: AuthorProps) => {
+const Author = ({ authorData }: AuthorProps) => {
   return (
     <div className="container-padding">
       <Link className="relative left-0 flex items-center" href="#">
@@ -24,7 +24,7 @@ const Author = ({authorData}: AuthorProps) => {
         </div>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Author
+export default Author;

@@ -68,7 +68,7 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
                   size={40}
                   className={twMerge(
                     "file-upload-input cursor-pointer border py-2 px-5 rounded-full w-full",
-                    style[type].input
+                    style[type].input,
                   )}
                   type="file"
                   name="file"
@@ -86,7 +86,7 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
           <button
             className={twMerge(
               "text-sm text-black rounded-full shadow-md px-6 py-2.5 border-none animation-easein-slow shift-to-right",
-              style[type].button
+              style[type].button,
             )}
           >
             Go

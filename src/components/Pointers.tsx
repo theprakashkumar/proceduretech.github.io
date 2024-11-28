@@ -15,7 +15,7 @@ const Pointers = ({ title, pointers, eachElementClassName }: PointersProps) => {
         {title && <h2 className="mb-12">{title}</h2>}
         <div className="flex flex-wrap -mb-[5%]">
           {pointers.map((data, index) => (
-            <PointerCard 
+            <PointerCard
               key={data.heading}
               data={data}
               index={index}

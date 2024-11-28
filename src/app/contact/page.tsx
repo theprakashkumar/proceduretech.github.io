@@ -2,6 +2,12 @@ import Image from "next/image";
 import PageNavbar from "@/components/PageNavbar";
 import Link from "next/link";
 import PageBackgroundImage from "@/components/PageBackgroundImage";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | Procedure",
+  description: "",
+};
 
 const Contact = () => {
   return (
@@ -25,7 +31,7 @@ const Contact = () => {
             </PageNavbar>
           </div>
         </div>
-        <PageBackgroundImage 
+        <PageBackgroundImage
           desktopImage="/assets/contact-banner.jpg"
           mobileImage="/assets/mob-contact-banner-v2.jpg"
           alt="Contact Banner"

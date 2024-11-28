@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
@@ -21,7 +21,11 @@ const PhotoSlider = ({ photoData }: PhotoSliderProps) => {
 
   return (
     <div className="relative mt-[7vw] pr-[7vw]">
-      <TabGroup onChange={setSelectedIndex} selectedIndex={selectedIndex} className="-mt-16 lg:mt-0 mb-28 relative block">
+      <TabGroup
+        onChange={setSelectedIndex}
+        selectedIndex={selectedIndex}
+        className="-mt-16 lg:mt-0 mb-28 relative block"
+      >
         <TabPanels>
           {photoData.map((data, index) => (
             <TabPanel key={data}>

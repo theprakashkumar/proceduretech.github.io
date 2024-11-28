@@ -16,10 +16,8 @@ export const capabilitiesPagesData: {
       description:
         "Our complete suite of technology services to deliver better products, create stronger brands, new markets, and greater profitability through digital capabilities.",
       images: {
-        desktop:
-          "/assets/digital-ventures.jpg",
-        mobile:
-          "/assets/mob-digital-venture.jpg",
+        desktop: "/assets/digital-ventures.jpg",
+        mobile: "/assets/mob-digital-venture.jpg",
       },
       color: "dot-brown",
     },
@@ -65,10 +63,8 @@ export const capabilitiesPagesData: {
       description:
         "Procedure is your trusted ally on the path to groundbreaking solutions. Let’s defy the status quo together and create a future that’s nothing short of extraordinary.",
       images: {
-        desktop:
-          "/assets/innovation.jpg",
-        mobile:
-          "/assets/mob-innovation.jpg",
+        desktop: "/assets/innovation.jpg",
+        mobile: "/assets/mob-innovation.jpg",
       },
       color: "dot-blue",
     },
@@ -114,10 +110,8 @@ export const capabilitiesPagesData: {
       description:
         "Our UX experts are passionate about transforming products into meaningful experiences, simplifying complex systems and building digital services with seamless experiences.",
       images: {
-        desktop:
-          "/assets/ui-and-ux.jpg",
-        mobile:
-          "/assets/mob-ui-ux.jpg",
+        desktop: "/assets/ui-and-ux.jpg",
+        mobile: "/assets/mob-ui-ux.jpg",
       },
       color: "dot-green",
     },
@@ -163,10 +157,8 @@ export const capabilitiesPagesData: {
       description:
         "We help clients implement their DX strategy by connecting the dots between technology and business goals, identifying relevant solutions and partners.",
       images: {
-        desktop:
-          "/assets/dx-and-modernization.jpg",
-        mobile:
-          "/assets/mob-dx-modernization.jpg",
+        desktop: "/assets/dx-and-modernization.jpg",
+        mobile: "/assets/mob-dx-modernization.jpg",
       },
       color: "dot-brown",
     },
@@ -212,10 +204,8 @@ export const capabilitiesPagesData: {
       description:
         "At Procedure, we’re not just consultants, we’re partners in your success. Trust us to optimize your business processes, design innovative solutions, and establish a culture of continuous improvement.",
       images: {
-        desktop:
-          "/assets/process-consulting.jpg",
-        mobile:
-          "/assets/mob-process-consulting.jpg",
+        desktop: "/assets/process-consulting.jpg",
+        mobile: "/assets/mob-process-consulting.jpg",
       },
       color: "dot-blue",
     },
@@ -262,8 +252,7 @@ export const capabilitiesPagesData: {
         "Procedure puts Agile tools to work in order to drive collaboration, prioritize user experience and optimize results through iterative development.",
       images: {
         desktop: "/assets/agile.jpg",
-        mobile:
-          "/assets/mob-agile.jpg",
+        mobile: "/assets/mob-agile.jpg",
       },
       color: "dot-green",
     },
@@ -309,10 +298,8 @@ export const capabilitiesPagesData: {
       description:
         "Procedure is driven by a passion for innovation and a focus on our clients’ success. We help companies translate their vision into reality by creating applications that transcend boundaries.",
       images: {
-        desktop:
-          "/assets/app-development.jpg",
-        mobile:
-          "/assets/mob-app-development.jpg",
+        desktop: "/assets/app-development.jpg",
+        mobile: "/assets/mob-app-development.jpg",
       },
       color: "dot-brown",
     },
@@ -365,8 +352,7 @@ export const capabilitiesPagesData: {
         "Our cloud services propel our clients to new heights and revolutionizes their products and offerings. Procedure will take your business to cloud nine, leaving your competition trailing behind.",
       images: {
         desktop: "/assets/cloud.jpg",
-        mobile:
-          "/assets/mob-cloud.jpg",
+        mobile: "/assets/mob-cloud.jpg",
       },
       color: "dot-brown",
     },
@@ -413,8 +399,7 @@ export const capabilitiesPagesData: {
         "Transcend the limits of traditional software development and embrace a future where agility, scalability, and automation reign supreme. Prepare to boldly go where no business has gone before.",
       images: {
         desktop: "/assets/devops.jpg",
-        mobile:
-          "/assets/mob-devops.jpg",
+        mobile: "/assets/mob-devops.jpg",
       },
       color: "dot-blue",
     },
@@ -466,10 +451,8 @@ export const capabilitiesPagesData: {
       description:
         "At Procedure, we live and breathe innovation. We are the partner you need to create products that are pushing boundaries. Let’s build something great together!",
       images: {
-        desktop:
-          "/assets/product-engineering.jpg",
-        mobile:
-          "/assets/mob-product-engineering.jpg",
+        desktop: "/assets/product-engineering.jpg",
+        mobile: "/assets/mob-product-engineering.jpg",
       },
       color: "dot-blue",
     },
@@ -521,10 +504,8 @@ export const capabilitiesPagesData: {
       description:
         "We are the maestros conducting the symphony of your technology ecosystem. We bring intelligence, proactive support and future-proof expertise to help you thrive in an ever changing world.",
       images: {
-        desktop:
-          "/assets/managed-services.jpg",
-        mobile:
-          "/assets/mob-managed-services.jpg",
+        desktop: "/assets/managed-services.jpg",
+        mobile: "/assets/mob-managed-services.jpg",
       },
       color: "dot-green",
     },
@@ -576,10 +557,8 @@ export const capabilitiesPagesData: {
       description:
         "Experience the future of mobile technology with us, where cutting-edge design collides with seamless functionality. Let us embark on a journey of innovation to take your brand to new heights.",
       images: {
-        desktop:
-          "/assets/mobile-solutions.jpg",
-        mobile:
-          "/assets/mob-mobile-solutions.jpg",
+        desktop: "/assets/mobile-solutions.jpg",
+        mobile: "/assets/mob-mobile-solutions.jpg",
       },
       color: "dot-green",
     },
@@ -625,10 +604,8 @@ export const capabilitiesPagesData: {
       description:
         "With our SWAT interventions, challenges are met head-on and swiftly conquered. Our forward-thinking approach powers rapid resolution, enhanced efficiency and future-proof preparedness.",
       images: {
-        desktop:
-          "/assets/swat-interventions.jpg",
-        mobile:
-          "/assets/mob-swat-interventions.jpg",
+        desktop: "/assets/swat-interventions.jpg",
+        mobile: "/assets/mob-swat-interventions.jpg",
       },
       color: "dot-brown",
     },
@@ -674,10 +651,8 @@ export const capabilitiesPagesData: {
       description:
         "At Procedure, we’re not just offering security services - we’re unlocking a secure future for your business. Let’s create a future where security is not a concern but an asset.",
       images: {
-        desktop:
-          "/assets/security.jpg",
-        mobile:
-          "/assets/mob-security.jpg",
+        desktop: "/assets/security.jpg",
+        mobile: "/assets/mob-security.jpg",
       },
       color: "dot-blue",
     },
@@ -717,10 +692,8 @@ export const capabilitiesPagesData: {
       description:
         "Procedure’s performance governance services empower you to achieve peak performance, future-proof your systems, and make data-driven optimizations to unlock new possibilities.",
       images: {
-        desktop:
-          "/assets/performance-governance.jpg",
-        mobile:
-          "/assets/mob-performance-governance.jpg",
+        desktop: "/assets/performance-governance.jpg",
+        mobile: "/assets/mob-performance-governance.jpg",
       },
       color: "dot-brown",
     },
@@ -766,10 +739,8 @@ export const capabilitiesPagesData: {
       description:
         "At Procedure, quality control is not an afterthought - it’s an active pursuit. Liberate your business from the confines of mediocre software to create a future of excellence and customer satisfaction.",
       images: {
-        desktop:
-          "/assets/quality-and-testing.jpg",
-        mobile:
-          "/assets/mob-quality-testing.jpg",
+        desktop: "/assets/quality-and-testing.jpg",
+        mobile: "/assets/mob-quality-testing.jpg",
       },
       color: "dot-brown",
     },
@@ -856,10 +827,8 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
       description:
         "We can help your bank take its services—and brand experience—to the next level. We deliver products that address cybersecurity concerns and increase efficiency.",
       images: {
-        desktop:
-          "/assets/banking.jpg",
-        mobile:
-          "/assets/mob-banking.jpg",
+        desktop: "/assets/banking.jpg",
+        mobile: "/assets/mob-banking.jpg",
       },
       color: "dot-green",
     },
@@ -906,8 +875,7 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
         "With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them.",
       images: {
         desktop: "/assets/edtech.jpg",
-        mobile:
-          "/assets/mob-edtech.jpg",
+        mobile: "/assets/mob-edtech.jpg",
       },
       color: "dot-red",
     },
@@ -953,10 +921,8 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
       description:
         "With our expertise and forward-thinking approach, your business can leverage technology and embrace innovation to reshape the future of finance.",
       images: {
-        desktop:
-          "/assets/fintech.jpg",
-        mobile:
-          "/assets/mob-fintech.jpg",
+        desktop: "/assets/fintech.jpg",
+        mobile: "/assets/mob-fintech.jpg",
       },
       color: "dot-red",
     },
@@ -1008,10 +974,8 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
       description:
         "With our forward-thinking approach, you can savor the benefits of improved processes, enhanced customization and seamless customer experiences and leave your competitors hungry for more.",
       images: {
-        desktop:
-          "/assets/foodtech.jpg",
-        mobile:
-          "/assets/mob-foodtech.jpg",
+        desktop: "/assets/foodtech.jpg",
+        mobile: "/assets/mob-foodtech.jpg",
       },
       color: "dot-green",
     },
@@ -1057,10 +1021,8 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
       description:
         "By automating processes, utilizing advanced analytics and AI tools, we enhance customer experience and security. Let’s create and innovate for insurance, from sunsets to moonshots!",
       images: {
-        desktop:
-          "/assets/foodtech.jpg",
-        mobile:
-          "/assets/mob-foodtech.jpg",
+        desktop: "/assets/foodtech.jpg",
+        mobile: "/assets/mob-foodtech.jpg",
       },
       color: "dot-green",
     },
@@ -1116,29 +1078,23 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       name: "Pooja Dabade",
       description:
         "Procedure’s culture encourages everyone to contribute their unique insights and ideas. This leads us to learn from each other and continually improve—creating a dynamic workplace.",
-      imageUrl:
-        "/assets/culture1-bw.jpg",
+      imageUrl: "/assets/culture1-bw.jpg",
       color: "bg-green",
     },
     profileTwo: {
       name: "Mohit Kumar",
       description:
         "At Procedure, teamwork leads to trust. The challenge of work is part of every job—but the diverse team I worked with here made me think outside my box and find lifelong friends.",
-      imageUrl:
-        "/assets/culture2-bw.jpg",
+      imageUrl: "/assets/culture2-bw.jpg",
       color: "bg-brickred",
     },
     sectionImageOne: {
-      desktop:
-        "/assets/culture-capsule2.jpg",
-      mobile:
-        "/assets/mob-culture-capsule2.jpg",
+      desktop: "/assets/culture-capsule2.jpg",
+      mobile: "/assets/mob-culture-capsule2.jpg",
     },
     sectionImageTwo: {
-      desktop:
-        "/assets/culture-capsule3.jpg",
-      mobile:
-        "/assets/mob-culture-capsule3.jpg",
+      desktop: "/assets/culture-capsule3.jpg",
+      mobile: "/assets/mob-culture-capsule3.jpg",
     },
     pointersTitle: "Be a Part of Promising",
     pointers: [
@@ -1192,8 +1148,7 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       name: "Adarsh Udayan",
       description:
         "I enjoy working at Procedure because the team spirit and can-do energy are so infectious. Every project teaches me something new, and it’s amazing how much you can achieve when you’re all working together!",
-      imageUrl:
-        "/assets/team-capsule1.jpg",
+      imageUrl: "/assets/team-capsule1.jpg",
       color: "bg-brickred",
     },
     profileTwo: {
@@ -1204,16 +1159,12 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       color: "bg-blue",
     },
     sectionImageOne: {
-      desktop:
-        "/assets/team-capsule2.jpg",
-      mobile:
-        "/assets/mob-team-capsule2.jpg",
+      desktop: "/assets/team-capsule2.jpg",
+      mobile: "/assets/mob-team-capsule2.jpg",
     },
     sectionImageTwo: {
-      desktop:
-        "/assets/team-capsule3.jpg",
-      mobile:
-        "/assets/mob-team-capsule3.jpg",
+      desktop: "/assets/team-capsule3.jpg",
+      mobile: "/assets/mob-team-capsule3.jpg",
     },
     pointersTitle: "Why work with Procedure?",
     pointers: [
@@ -1319,8 +1270,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       heading:
         "“Innovation happens when we dare to step outside our comfort zone and explore the unknown.”",
       hashTags: "#technogeek #podcaster #futurist #pro",
-      imageUrl:
-        "/assets/ulhas-bw-2.jpg",
+      imageUrl: "/assets/ulhas-bw-2.jpg",
       subHeading:
         "With Ulhas at the helm, innovation is propelled into uncharted territories, promising a future brimming with technological marvels that reshape the landscape of Procedure. His vision has been recognized by the international community, leading him to win multiple awards and accolades for his contributions in the field of innovation.",
       paragraphs: [
@@ -1343,10 +1293,8 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       {
         name: "Renuka Rode",
         position: "General Manager",
-        image1:
-          "/assets/renuka-bw.jpg",
-        image2:
-          "/assets/renuka-1.jpg",
+        image1: "/assets/renuka-bw.jpg",
+        image2: "/assets/renuka-1.jpg",
         href: "/about/renuka-rode",
         color: "bg-brickred",
       },
@@ -1366,8 +1314,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       heading:
         "“Blend the art of technology with science of product management to build a masterpiece.”",
       hashTags: "#innovisionary #alchemist #automationguru #pro",
-      imageUrl:
-        "/assets/braj-bw-2.jpg",
+      imageUrl: "/assets/braj-bw-2.jpg",
       subHeading:
         "Braj’s story of inception is nothing short of extraordinary. With an unwavering determination and a mind wired for forward thinking, his journey to co-founding Procedure is a testament to his ingenuity and passion for solving complex problems with technology.",
       paragraphs: [
@@ -1382,18 +1329,15 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       {
         name: "Renuka Rode",
         position: "General Manager",
-        image1:
-          "/assets/renuka-bw.jpg",
-        image2:
-          "/assets/renuka-1.jpg",
+        image1: "/assets/renuka-bw.jpg",
+        image2: "/assets/renuka-1.jpg",
         href: "/about/renuka-rode",
         color: "bg-brickred",
       },
       {
         name: "Ulhas Mandrawadkar",
         position: "Co-Founder and CTO",
-        image1:
-          "/assets/ulhas-bw.jpg",
+        image1: "/assets/ulhas-bw.jpg",
         image2: "/assets/ulhas-1.jpg",
         href: "/about/ulhas-mandrawadkar",
         color: "bg-blue",
@@ -1414,8 +1358,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       heading:
         "“To produce excellence without boundaries, infuse talent with larger-picture thinking.”",
       hashTags: "#OPSmaestro #QApro #projectguru #efficiencyninja",
-      imageUrl:
-        "/assets/renuka-bw-2.jpg",
+      imageUrl: "/assets/renuka-bw-2.jpg",
       subHeading:
         "Renuka’s true strength lies in her ability to infuse innovation into every facet of Procedure’s operations. She champions marketing initiatives as well as talent engagement projects, diving right in to take charge of them all—setting up new systems and managing from scratch anything that demands attention.",
       paragraphs: [
@@ -1437,8 +1380,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       {
         name: "Ulhas Mandrawadkar",
         position: "Co-Founder and CTO",
-        image1:
-          "/assets/ulhas-bw.jpg",
+        image1: "/assets/ulhas-bw.jpg",
         image2: "/assets/ulhas-1.jpg",
         href: "/about/ulhas-mandrawadkar",
         color: "bg-blue",
@@ -1451,8 +1393,7 @@ export const blogsData = [
   {
     date: "November 30, 2022",
     name: "Rizwan Memon",
-    imgSrc:
-      "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
+    imgSrc: "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
     title: "Frontend Performance Testing: Best Practices",
     description:
       "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -1461,8 +1402,7 @@ export const blogsData = [
   {
     date: "May 26, 2022",
     name: "Rucheta Gogte",
-    imgSrc:
-      "/assets/resources-blog3.webp",
+    imgSrc: "/assets/resources-blog3.webp",
     title: "Why Robot Framework",
     description:
       "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -1472,8 +1412,7 @@ export const blogsData = [
   {
     date: "January 3, 2022",
     name: "Sreeraj Rajan",
-    imgSrc:
-      "/assets/resources-blog4.webp",
+    imgSrc: "/assets/resources-blog4.webp",
     title: "Reducing our Deployment times by 87%",
     description:
       "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -1483,8 +1422,7 @@ export const blogsData = [
   {
     date: "June 10, 2021",
     name: "Sreeraj Rajan",
-    imgSrc:
-      "/assets/resources-blog2.webp",
+    imgSrc: "/assets/resources-blog2.webp",
     title: "Connecting Django to RDS via pgbouncer using IAM auth",
     description:
       "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -1498,10 +1436,8 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
     heroSection: {
       heading: "Frontend Performance Testing: Best Practices",
       images: {
-        desktop:
-          "/assets/blog1-banner.webp",
-        mobile:
-          "/assets/mob-blog1-banner.webp",
+        desktop: "/assets/blog1-banner.webp",
+        mobile: "/assets/mob-blog1-banner.webp",
       },
       date: "November 30, 2022",
       name: "Rizwan Memon",
@@ -1514,8 +1450,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "May 26, 2022",
         name: "Rucheta Gogte",
-        imgSrc:
-          "/assets/resources-blog3.webp",
+        imgSrc: "/assets/resources-blog3.webp",
         title: "Why Robot Framework",
         description:
           "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -1525,8 +1460,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "January 3, 2022",
         name: "Sreeraj Rajan",
-        imgSrc:
-          "/assets/resources-blog4.webp",
+        imgSrc: "/assets/resources-blog4.webp",
         title: "Reducing our Deployment times by 87%",
         description:
           "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -1536,8 +1470,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "June 10, 2021",
         name: "Sreeraj Rajan",
-        imgSrc:
-          "/assets/resources-blog2.webp",
+        imgSrc: "/assets/resources-blog2.webp",
         title: "Connecting Django to RDS via pgbouncer using IAM auth",
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -2369,10 +2302,8 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
     heroSection: {
       heading: "Why Robot Framework",
       images: {
-        desktop:
-          "/assets/blog3-banner.webp",
-        mobile:
-          "/assets/mob-blog3-banner.webp",
+        desktop: "/assets/blog3-banner.webp",
+        mobile: "/assets/mob-blog3-banner.webp",
       },
       date: "May 26, 2022",
       name: "Rucheta Gogte",
@@ -2385,8 +2316,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "November 30, 2022",
         name: "Rizwan Memon",
-        imgSrc:
-          "/assets/resources-blog3.webp",
+        imgSrc: "/assets/resources-blog3.webp",
         title: "Frontend Performance Testing: Best Practices",
         description:
           "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -2396,8 +2326,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "January 3, 2022",
         name: "Sreeraj Rajan",
-        imgSrc:
-          "/assets/resources-blog4.webp",
+        imgSrc: "/assets/resources-blog4.webp",
         title: "Reducing our Deployment times by 87%",
         description:
           "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -2407,8 +2336,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "June 10, 2021",
         name: "Sreeraj Rajan",
-        imgSrc:
-          "/assets/resources-blog2.webp",
+        imgSrc: "/assets/resources-blog2.webp",
         title: "Connecting Django to RDS via pgbouncer using IAM auth",
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -2643,10 +2571,8 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
     heroSection: {
       heading: "Reducing our Deployment times by 87%",
       images: {
-        desktop:
-          "/assets/blog4-banner.webp",
-        mobile:
-          "/assets/mob-blog4-banner.webp",
+        desktop: "/assets/blog4-banner.webp",
+        mobile: "/assets/mob-blog4-banner.webp",
       },
       date: "January 3, 2022",
       name: "Sreeraj Rajan",
@@ -2659,8 +2585,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "November 30, 2022",
         name: "Rizwan Memon",
-        imgSrc:
-          "/assets/resources-blog3.webp",
+        imgSrc: "/assets/resources-blog3.webp",
         title: "Frontend Performance Testing: Best Practices",
         description:
           "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -2670,8 +2595,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "May 26, 2022",
         name: "Rucheta Gogte",
-        imgSrc:
-          "/assets/resources-blog3.webp",
+        imgSrc: "/assets/resources-blog3.webp",
         title: "Why Robot Framework",
         description:
           "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -2681,8 +2605,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "June 10, 2021",
         name: "Sreeraj Rajan",
-        imgSrc:
-          "/assets/resources-blog2.webp",
+        imgSrc: "/assets/resources-blog2.webp",
         title: "Connecting Django to RDS via pgbouncer using IAM auth",
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -2890,10 +2813,8 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
     heroSection: {
       heading: "Connecting Django to RDS via pgbouncer using IAM auth",
       images: {
-        desktop:
-          "/assets/blog2-banner.webp",
-        mobile:
-          "/assets/mob-blog2-banner.webp",
+        desktop: "/assets/blog2-banner.webp",
+        mobile: "/assets/mob-blog2-banner.webp",
       },
       date: "June 10, 2021",
       name: "Sreeraj Rajan",
@@ -2906,8 +2827,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "November 30, 2022",
         name: "Rizwan Memon",
-        imgSrc:
-          "/assets/resources-blog3.webp",
+        imgSrc: "/assets/resources-blog3.webp",
         title: "Frontend Performance Testing: Best Practices",
         description:
           "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -2917,8 +2837,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "May 26, 2022",
         name: "Rucheta Gogte",
-        imgSrc:
-          "/assets/resources-blog3.webp",
+        imgSrc: "/assets/resources-blog3.webp",
         title: "Why Robot Framework",
         description:
           "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -2928,8 +2847,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       {
         date: "January 3, 2022",
         name: "Sreeraj Rajan",
-        imgSrc:
-          "/assets/resources-blog4.webp",
+        imgSrc: "/assets/resources-blog4.webp",
         title: "Reducing our Deployment times by 87%",
         description:
           "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -3205,10 +3123,8 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
       description:
         "Streamlining Crisis Communication for Enhanced Coordination & Effective Response",
       href: "/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
-      bgImage:
-        "/assets/home-snooker-plum.webp",
-      imgSrc:
-        "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
+      bgImage: "/assets/home-snooker-plum.webp",
+      imgSrc: "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
       services: [
         { id: "ux-ui", name: "UI & UX", link: "/tag/ux-ui/" },
         {
@@ -3219,71 +3135,76 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
         { id: "innovation", name: "Innovation", link: "/tag/innovation/" },
       ],
       heroSection: {
-        desktop:
-          "/assets/plum-case-study-banner.webp",
-        mobile:
-          "/assets/mob-plum-casestudy-detail-banner.webp",
+        desktop: "/assets/plum-case-study-banner.webp",
+        mobile: "/assets/mob-plum-casestudy-detail-banner.webp",
       },
       content: {
         overview: [
-          'Need help with complex vendor payments, high transaction volumes, and the limitations of credit card use? Discover how we transformed the FinTech landscape with a groundbreaking platform tailor-made for a prominent FinTech client.',
-          'Delve into our innovative use of technology for streamlining bulk payments, swift and reliable delivery, and developing two distinct application versions tailored to unique user requirements.'
+          "Need help with complex vendor payments, high transaction volumes, and the limitations of credit card use? Discover how we transformed the FinTech landscape with a groundbreaking platform tailor-made for a prominent FinTech client.",
+          "Delve into our innovative use of technology for streamlining bulk payments, swift and reliable delivery, and developing two distinct application versions tailored to unique user requirements.",
         ],
         challenge: [
-          'In this dynamic and varied business world, many companies face the intricate task of managing regular vendor payments. Maintaining accurate records, handling numerous transactions, and remembering vendor account details is a considerable challenge.',
-          'Additionally, dealing with multiple vendors, necessitates different payment modes, typically recorded in databases or CSV/Excel formats, making the manual management process strenuous and prone to errors.',
-          'An innovative and comprehensive solution was needed to address these challenges effectively.'
+          "In this dynamic and varied business world, many companies face the intricate task of managing regular vendor payments. Maintaining accurate records, handling numerous transactions, and remembering vendor account details is a considerable challenge.",
+          "Additionally, dealing with multiple vendors, necessitates different payment modes, typically recorded in databases or CSV/Excel formats, making the manual management process strenuous and prone to errors.",
+          "An innovative and comprehensive solution was needed to address these challenges effectively.",
         ],
         approach: [
-          'We embarked on a collaborative journey with our FinTech Client, informed by thorough market research. In-depth discussions helped us understand the broad plan, including envisioned features for future iterations and the characteristics of the typical user persona.',
-          'Integrating all these insights into our planning, we came up with the MVP. Our development approach focused on user-centric design, agility, security, and scalability, ensuring a reliable and adaptable FinTech solution.'
+          "We embarked on a collaborative journey with our FinTech Client, informed by thorough market research. In-depth discussions helped us understand the broad plan, including envisioned features for future iterations and the characteristics of the typical user persona.",
+          "Integrating all these insights into our planning, we came up with the MVP. Our development approach focused on user-centric design, agility, security, and scalability, ensuring a reliable and adaptable FinTech solution.",
         ],
         solution: [
           {
-            heading: 'Efficient Batch Payments',
-            description: 'Users can initiate multiple transactions simultaneously, saving time and effort.',
-            color: 'dot-wine'
+            heading: "Efficient Batch Payments",
+            description:
+              "Users can initiate multiple transactions simultaneously, saving time and effort.",
+            color: "dot-wine",
           },
           {
-            heading: 'Convenient Batch Creation',
-            description: 'Catering to businesses of all sizes with manual input or CSV file uploads.',
-            color: 'dot-ochre'
+            heading: "Convenient Batch Creation",
+            description:
+              "Catering to businesses of all sizes with manual input or CSV file uploads.",
+            color: "dot-ochre",
           },
           {
-            heading: 'Accurate Pre-Payment Review',
-            description: 'A dedicated step checks payment details thoroughly before authorization.',
-            color: 'dot-iceblue'
+            heading: "Accurate Pre-Payment Review",
+            description:
+              "A dedicated step checks payment details thoroughly before authorization.",
+            color: "dot-iceblue",
           },
           {
-            heading: 'Comprehensive Batch Information',
-            description: 'Detailed batch insights enhance user awareness.',
-            color: 'dot-red'
+            heading: "Comprehensive Batch Information",
+            description: "Detailed batch insights enhance user awareness.",
+            color: "dot-red",
           },
           {
-            heading: 'Simplifying the Payment Process',
-            description: 'Users can make a single payment for the entire batch, streamlining operations.',
-            color: 'dot-green'
+            heading: "Simplifying the Payment Process",
+            description:
+              "Users can make a single payment for the entire batch, streamlining operations.",
+            color: "dot-green",
           },
           {
-            heading: 'Flexible Beneficiary Code Integration',
-            description: 'Payment details can be added using unique beneficiary codes, offering flexibility.',
-            color: 'dot-blue'
+            heading: "Flexible Beneficiary Code Integration",
+            description:
+              "Payment details can be added using unique beneficiary codes, offering flexibility.",
+            color: "dot-blue",
           },
           {
-            heading: 'Dual Entry Modes Providing',
-            description: 'user the choice & flexibility to create manual entries or CSV uploads',
-            color: 'dot-iceblue'
+            heading: "Dual Entry Modes Providing",
+            description:
+              "user the choice & flexibility to create manual entries or CSV uploads",
+            color: "dot-iceblue",
           },
           {
-            heading: 'Credit Card to Bank Payments',
-            description: 'Facilitating credit card payments, even for vendors without the required infrastructure, expanding the payment options and optimizing working capital.',
-            color: 'dot-red'
-          }
+            heading: "Credit Card to Bank Payments",
+            description:
+              "Facilitating credit card payments, even for vendors without the required infrastructure, expanding the payment options and optimizing working capital.",
+            color: "dot-red",
+          },
         ],
         impactAndResult: [
-          'Our solution profoundly impacted the business landscape, reshaping how companies manage vendor payments. By addressing the intricate challenges of bulk payments, we’ve significantly reduced the burden of high transaction volumes, manual errors, and the limitations of credit card usage.',
-          'This transformative solution has empowered businesses to streamline operations, enhance financial flexibility, and expand payment options. The platform has set new industry standards, revolutionizing vendor payment management.'
-        ]
+          "Our solution profoundly impacted the business landscape, reshaping how companies manage vendor payments. By addressing the intricate challenges of bulk payments, we’ve significantly reduced the burden of high transaction volumes, manual errors, and the limitations of credit card usage.",
+          "This transformative solution has empowered businesses to streamline operations, enhance financial flexibility, and expand payment options. The platform has set new industry standards, revolutionizing vendor payment management.",
+        ],
       },
       socialLinks: [
         {
@@ -3301,7 +3222,7 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
           src: "/assets/fb.svg",
           alt: "Facebook",
         },
-      ]
+      ],
     },
   "a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses": {
     id: "a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses",
@@ -3310,10 +3231,8 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
     description:
       "A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses",
     href: "/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
-    bgImage:
-      "/assets/home-case-study-espn.webp",
-    imgSrc:
-      "/assets/espn-case-study.webp?fit=700%2C700&ssl=1",
+    bgImage: "/assets/home-case-study-espn.webp",
+    imgSrc: "/assets/espn-case-study.webp?fit=700%2C700&ssl=1",
     services: [
       { id: "ux-ui", name: "UI & UX", link: "/tag/ux-ui/" },
       {
@@ -3322,48 +3241,68 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
         link: "/tag/process-consulting/",
       },
       { id: "innovation", name: "Innovation", link: "/tag/innovation/" },
-      { id: "product-engineering", name: "Product Engineering", link: "/tag/product-engineering/" },
-      { id: "quality-testing", name: "Quality Testing", link: "/tag/quality-testing/" },
-      { id: "performance-governance", name: "Performance Governance", link: "/tag/performance-governance/" },
+      {
+        id: "product-engineering",
+        name: "Product Engineering",
+        link: "/tag/product-engineering/",
+      },
+      {
+        id: "quality-testing",
+        name: "Quality Testing",
+        link: "/tag/quality-testing/",
+      },
+      {
+        id: "performance-governance",
+        name: "Performance Governance",
+        link: "/tag/performance-governance/",
+      },
       { id: "agile", name: "Agile", link: "/tag/agile/" },
     ],
     heroSection: {
-      desktop:
-        "/assets/espn-case-study-banner.webp",
-      mobile:
-        "/assets/mob-espn-casestudy-detail-banner-1.webp",
+      desktop: "/assets/espn-case-study-banner.webp",
+      mobile: "/assets/mob-espn-casestudy-detail-banner-1.webp",
     },
     content: {
-      overview: ['During chaotic events like neighbourhood fires, efficient team coordination is essential. To address this, Procedure collaborated with a client to create tailored Communication Systems, ensuring a streamlined and impactful response to potential disasters.'],
-      challenge: ['When disaster strikes, seconds count. A small outburst can become an inferno, consuming homes and entire towns. Ineffective communication is the catalyst for chaos, a precursor of delayed responses, and a multiplier of destruction. Our challenge was monumental: to simplify communication when every second matters.'],
+      overview: [
+        "During chaotic events like neighbourhood fires, efficient team coordination is essential. To address this, Procedure collaborated with a client to create tailored Communication Systems, ensuring a streamlined and impactful response to potential disasters.",
+      ],
+      challenge: [
+        "When disaster strikes, seconds count. A small outburst can become an inferno, consuming homes and entire towns. Ineffective communication is the catalyst for chaos, a precursor of delayed responses, and a multiplier of destruction. Our challenge was monumental: to simplify communication when every second matters.",
+      ],
       approach: [
         "Our client, a leader in mission-critical communication services, entrusted us with designing two essential platforms - a Control Room Web App and a Field Agent Mobile App. The web application's robust tools enable critical incident management—while the mobile app optimizes communication and collaboration for field agents.",
         "Throughout the design process, we fleshed out low-fidelity wireframes to deliver production-ready designs that met client requirements.",
-        "We successfully created two software platforms that help control room operators and field agents perform their jobs more efficiently."
+        "We successfully created two software platforms that help control room operators and field agents perform their jobs more efficiently.",
       ],
       solution: [
         {
-          heading: 'Group and 1:1 Conversations',
-          description: 'Facilitates rapid, coordinated responses by empowering users with various communication methods and high-priority SOS alerts',
-          color: 'dot-blue'
+          heading: "Group and 1:1 Conversations",
+          description:
+            "Facilitates rapid, coordinated responses by empowering users with various communication methods and high-priority SOS alerts",
+          color: "dot-blue",
         },
         {
-          heading: 'Diverse Call Types',
-          description: 'Optimises the resource allocation and response time by prioritising audio and video calls, thus ensuring prompt attention to the most urgent situations',
-          color: 'dot-ochre'
+          heading: "Diverse Call Types",
+          description:
+            "Optimises the resource allocation and response time by prioritising audio and video calls, thus ensuring prompt attention to the most urgent situations",
+          color: "dot-ochre",
         },
         {
-          heading: 'Real-time Location Tracking',
-          description: 'Offering real-time location tracking, precise resource allocation, situational awareness, location sharing and patrol path definition',
-          color: 'dot-wine'
+          heading: "Real-time Location Tracking",
+          description:
+            "Offering real-time location tracking, precise resource allocation, situational awareness, location sharing and patrol path definition",
+          color: "dot-wine",
         },
         {
-          heading: 'Ambient Viewing',
-          description: 'Enhances decision making and response coordination in mission critical situations by providing real time video feeds from field agents',
-          color: 'dot-blue'
+          heading: "Ambient Viewing",
+          description:
+            "Enhances decision making and response coordination in mission critical situations by providing real time video feeds from field agents",
+          color: "dot-blue",
         },
       ],
-      impactAndResult: ['Through the solutions - the Control Room Web App and the Field Agent Mobile App - we ushered in a significant transformation in crisis management and emergency response. Imagine improved coordination, heightened situational awareness, quicker response times, and effortless information sharing. This isn’t merely a case study; it represents the commitment to resilience in the face of adversity. Delve further into this narrative and explore how we brought order to chaos in collaboration with our client.']
+      impactAndResult: [
+        "Through the solutions - the Control Room Web App and the Field Agent Mobile App - we ushered in a significant transformation in crisis management and emergency response. Imagine improved coordination, heightened situational awareness, quicker response times, and effortless information sharing. This isn’t merely a case study; it represents the commitment to resilience in the face of adversity. Delve further into this narrative and explore how we brought order to chaos in collaboration with our client.",
+      ],
     },
     socialLinks: [
       {
@@ -3381,6 +3320,6 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
         src: "/assets/fb.svg",
         alt: "Facebook",
       },
-    ]
+    ],
   },
 };

@@ -3,6 +3,12 @@ import PageNavbar from "@/components/PageNavbar";
 import { blogsData } from "@/data";
 import React from "react";
 import { twMerge } from "tailwind-merge";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Resources | Procedure",
+  description: "",
+};
 
 const Page = () => {
   return (
@@ -12,14 +18,14 @@ const Page = () => {
           <PageNavbar className="static mt-14 lg:w-full">
             <h1
               className={twMerge(
-                "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot dot-blue"
+                "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot dot-blue",
               )}
             >
               Resources
             </h1>
             <h1
               className={twMerge(
-                "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot dot-red"
+                "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot dot-red",
               )}
             >
               Blogs & Insights

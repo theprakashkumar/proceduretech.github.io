@@ -4,6 +4,13 @@ import PageBackgroundImage from "@/components/PageBackgroundImage";
 import Consultation from "../../components/Consultation";
 import CapabilitiesNavigation from "./components/CapablitiesNavigation";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Capabilities | Procedure",
+  description: "",
+};
+
 const Capabilities = () => {
   return (
     <>
@@ -26,7 +33,7 @@ const Capabilities = () => {
             </PageNavbar>
           </div>
         </div>
-        <PageBackgroundImage 
+        <PageBackgroundImage
           desktopImage="/assets/capabilities-banner.jpg"
           mobileImage="/assets/mob-capabilities-banner.jpg"
           alt={"Capabilities Banner"}
@@ -48,9 +55,7 @@ const Capabilities = () => {
           <h3 className="dot dot-green">We think</h3>
           <h3 className="dot dot-ochre">Therefore we build</h3>
         </div>
-        <Consultation 
-          backgroundColor="#1DA069"
-        />
+        <Consultation backgroundColor="#1DA069" />
       </div>
     </>
   );

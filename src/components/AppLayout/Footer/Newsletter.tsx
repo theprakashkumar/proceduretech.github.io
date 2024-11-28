@@ -9,23 +9,30 @@ const Newsletter = () => {
       <div>
         <div>
           <form className="pb-14">
-            <label className="text-white/40 mb-1.5 inline-block" htmlFor='name'>Name</label>
+            <label className="text-white/40 mb-1.5 inline-block" htmlFor="name">
+              Name
+            </label>
             <span className="relative">
-              <input 
+              <input
                 size={40}
                 maxLength={400}
                 type="text"
-                name='Name'
+                name="Name"
                 className="w-full bg-white border border-[#dee2e6] h-full rounded-md py-1.5 px-2.5 text-[#3850B4] text-xl mb-2.5"
               />
             </span>
-            <label className="text-white/40 mb-1.5 inline-block" htmlFor='email'>Email</label>
+            <label
+              className="text-white/40 mb-1.5 inline-block"
+              htmlFor="email"
+            >
+              Email
+            </label>
             <span className="relative">
-              <input 
+              <input
                 size={40}
                 maxLength={400}
                 type="email"
-                name='Email'
+                name="Email"
                 className="w-full bg-white border border-[#dee2e6] h-full rounded-md py-1.5 px-2.5 text-[#3850B4] text-xl mb-2.5"
               />
             </span>

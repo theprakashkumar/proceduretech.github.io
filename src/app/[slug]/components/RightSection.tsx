@@ -3,11 +3,11 @@ import Link from "next/link";
 import React from "react";
 
 type RightSectionProps = {
-  latestPosts: PostType[]
-  tags: TagsType[]
-}
+  latestPosts: PostType[];
+  tags: TagsType[];
+};
 
-const RightSection = ({latestPosts, tags}: RightSectionProps) => {
+const RightSection = ({ latestPosts, tags }: RightSectionProps) => {
   return (
     <div className="lg:w-[30%] mr-0 pt-5 border-t-0 lg:border-t lg:border-t-black/20">
       <h4 className="text-4xl mb-10 mt-5 text-[#505050] font-semibold">

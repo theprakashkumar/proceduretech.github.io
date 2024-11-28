@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 
 export default async function Page({
   params,
-}:{
+}: {
   params: Promise<{ slug: string }>;
 }) {
   const slug = (await params).slug;
@@ -29,7 +29,7 @@ export default async function Page({
               <h1
                 className={twMerge(
                   "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot",
-                  pageData.heroSection.style.nameColor
+                  pageData.heroSection.style.nameColor,
                 )}
               >
                 {pageData.heroSection.name}
@@ -41,7 +41,12 @@ export default async function Page({
           </div>
         </div>
         <div className="mt-28 -mb-12 lg:mb-0 lg:mt-12 lg:pl-[7vw]">
-          <div className={twMerge("flex flex-wrap rounded-none pt-12 lg:pt-0 lg:flex-nowrap justify-evenly items-center lg:rounded-l-full bg-blue",pageData.profileSection.backgroundColor)}>
+          <div
+            className={twMerge(
+              "flex flex-wrap rounded-none pt-12 lg:pt-0 lg:flex-nowrap justify-evenly items-center lg:rounded-l-full bg-blue",
+              pageData.profileSection.backgroundColor,
+            )}
+          >
             <div className="max-w-xl px-[7vw] lg:px-0 lg:ml-[4%]">
               <h3 className="text-2xl lg:text-4xl font-light mb-1.5">
                 {pageData.profileSection.heading}

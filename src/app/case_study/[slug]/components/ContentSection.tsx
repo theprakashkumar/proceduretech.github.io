@@ -6,10 +6,10 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 type ContentSectionProps = {
-  pageData: CaseStudiesDataType
-}
+  pageData: CaseStudiesDataType;
+};
 
-const ContentSection = ({pageData}: ContentSectionProps) => {
+const ContentSection = ({ pageData }: ContentSectionProps) => {
   return (
     <div className="w-full mr-0 mb-12 border-b border-b-black/20 lg:border-0 lg:mb-0 lg:w-[65%] lg:mr-[5%]">
       <h4 className="text-4xl mb-2.5 mt-5 text-[#505050] font-semibold">

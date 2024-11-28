@@ -4,6 +4,12 @@ import Consultation from "@/components/Consultation";
 import OurClients from "@/components/ClientsSection";
 import IndustriesType from "./components/IndustriesType";
 import BackgroundImage from "../../components/PageBackgroundImage";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Industries | Procedure",
+  description: "",
+};
 
 const Industries = () => {
   return (
@@ -28,10 +34,10 @@ const Industries = () => {
             </PageNavbar>
           </div>
         </div>
-        <BackgroundImage 
-          desktopImage='/assets/industries-banner.jpg'
-          mobileImage='/assets/mob-industries-banner.jpg'
-          alt='Industries Banner'
+        <BackgroundImage
+          desktopImage="/assets/industries-banner.jpg"
+          mobileImage="/assets/mob-industries-banner.jpg"
+          alt="Industries Banner"
         />
       </section>
       <IndustriesType />

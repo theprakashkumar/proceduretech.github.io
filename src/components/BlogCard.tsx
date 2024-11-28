@@ -31,11 +31,7 @@ const BlogCard = ({
     />
     <h4 className="text-4xl mb-2.5 mt-5 text-gray-600">{title}</h4>
     <p className="mb-7">{description}</p>
-    <Link
-      className="primary-button bg-white"
-      href={link}
-      target="_blank"
-    >
+    <Link className="primary-button bg-white" href={link} target="_blank">
       Read
     </Link>
   </div>

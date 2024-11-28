@@ -97,7 +97,7 @@ export type TeamMemberDataType = {
   image2: string;
   href: string;
   color: string;
-}
+};
 
 export type AboutPagesDataType = {
   heroSection: {
@@ -120,13 +120,13 @@ export type AboutPagesDataType = {
   teamMembersData: TeamMemberDataType[];
 };
 
-export type AuthorDataType =  {
+export type AuthorDataType = {
   imgSrc: string;
   name: string;
   teamName: string;
 };
 
-export type PostType =  {
+export type PostType = {
   date: string;
   name: string;
   imgSrc: string;
@@ -134,13 +134,13 @@ export type PostType =  {
   description: string;
   link: string;
   imgClassName: string;
-}
+};
 
 export type TagsType = {
   name: string;
   link: string;
   id: string;
-}
+};
 
 export type BlogPageDataType = {
   heroSection: {
@@ -179,10 +179,10 @@ export type CaseStudyContent = {
 };
 
 export type SocialLinksType = {
-  href: string,
+  href: string;
   src: string;
-  alt: string
-}
+  alt: string;
+};
 
 export type CaseStudiesDataType = {
   id: string;
@@ -195,5 +195,5 @@ export type CaseStudiesDataType = {
   services: CaseStudyService[];
   heroSection: CaseStudyHeroSection;
   content: CaseStudyContent;
-  socialLinks: SocialLinksType[]
+  socialLinks: SocialLinksType[];
 };

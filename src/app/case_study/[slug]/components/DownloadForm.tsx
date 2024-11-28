@@ -19,16 +19,14 @@ const DownloadForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
   };
-  
+
   return (
     <div className="lg:w-[30%] mr-0">
       <h3 className="text-4xl mb-7 mt-5 max-w-60 font-semibold text-[#505050]">
         Download the full Case Study
       </h3>
       <div>
-        <form
-          onSubmit={handleSubmit}
-        >
+        <form onSubmit={handleSubmit}>
           {[
             { name: "email", type: "email", placeholder: "Email" },
             { name: "phone", type: "tel", placeholder: "Phone" },

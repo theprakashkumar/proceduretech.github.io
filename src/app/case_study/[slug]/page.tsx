@@ -7,6 +7,12 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 import DownloadForm from "./components/DownloadForm";
 import ContentSection from "./components/ContentSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Case Study | Procedure",
+  description: "",
+};
 
 export const dynamicParams = false;
 
@@ -39,7 +45,7 @@ export default async function Page({
             >
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl pt-4 dot mb-1.5 tracking-tighter"
+                  "text-5xl lg:text-6xl xl:text-7xl pt-4 dot mb-1.5 tracking-tighter",
                 )}
               >
                 {pageData.description}
@@ -69,9 +75,7 @@ export default async function Page({
       <section className="">
         <div className="container-padding">
           <div className="mt-[7vw] flex flex-wrap pb-7 lg:border-b lg:border-b-black/20">
-            <ContentSection 
-              pageData={pageData}
-            />
+            <ContentSection pageData={pageData} />
             <DownloadForm />
           </div>
         </div>

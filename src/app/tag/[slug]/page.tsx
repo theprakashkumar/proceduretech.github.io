@@ -6,12 +6,12 @@ import { notFound } from "next/navigation";
 export async function generateStaticParams() {
   const allTags = [
     ...Object.values(blogsPageData).flatMap((blog) => blog.tags),
-    ...Object.values(caseStudiesData).flatMap((caseStudy) => caseStudy.services),
+    ...Object.values(caseStudiesData).flatMap(
+      (caseStudy) => caseStudy.services,
+    ),
   ];
 
-  const uniqueTags = Array.from(
-    new Set(allTags.map((tag) => tag.id))
-  );
+  const uniqueTags = Array.from(new Set(allTags.map((tag) => tag.id)));
 
   return uniqueTags.map((id) => ({ slug: id }));
 }
@@ -60,13 +60,12 @@ export default async function Page({
         <div className="container-padding">
           <div>
             {filteredBlogData.map((blogData) => (
-              <div key={blogData.id} className="mb-10 pb-10 border-b border-b-black/20">
-                <h4 className="mb-5">
-                  {blogData.heroSection.heading}
-                </h4>
-                <p className="mb-8">
-                  {blogData.subHeadings.join(' ')}
-                </p>
+              <div
+                key={blogData.id}
+                className="mb-10 pb-10 border-b border-b-black/20"
+              >
+                <h4 className="mb-5">{blogData.heroSection.heading}</h4>
+                <p className="mb-8">{blogData.subHeadings.join(" ")}</p>
                 <Link
                   className="primary-button bg-white"
                   href={`/${blogData.id}`}
@@ -75,14 +74,13 @@ export default async function Page({
                 </Link>
               </div>
             ))}
-             {filteredCaseStudiesData.map((caseStudy) => (
-              <div key={caseStudy.id} className="mb-10 pb-10 border-b border-b-black/20">
-                <h4 className="mb-5">
-                  {caseStudy.description}
-                </h4>
-                <p className="mb-8">
-                  {caseStudy.content.overview.join(' ')}
-                </p>
+            {filteredCaseStudiesData.map((caseStudy) => (
+              <div
+                key={caseStudy.id}
+                className="mb-10 pb-10 border-b border-b-black/20"
+              >
+                <h4 className="mb-5">{caseStudy.description}</h4>
+                <p className="mb-8">{caseStudy.content.overview.join(" ")}</p>
                 <Link
                   className="primary-button bg-white"
                   href={`/case_study/${caseStudy.id}`}

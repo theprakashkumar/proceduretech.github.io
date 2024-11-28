@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 type LeftSectionProps = {
-  subHeadings: string[]
-  content: string
-}
+  subHeadings: string[];
+  content: string;
+};
 
-const LeftSection = ({subHeadings, content}: LeftSectionProps) => {
+const LeftSection = ({ subHeadings, content }: LeftSectionProps) => {
   return (
     <div className="w-full mr-0 mb-12 lg:mb-0 lg:w-[65%] lg:mr-[5%] blog--description">
       {subHeadings.map((data, index) => (
@@ -15,7 +15,7 @@ const LeftSection = ({subHeadings, content}: LeftSectionProps) => {
       ))}
       <div dangerouslySetInnerHTML={{ __html: content }}></div>
     </div>
-  )
-}
+  );
+};
 
-export default LeftSection
+export default LeftSection;

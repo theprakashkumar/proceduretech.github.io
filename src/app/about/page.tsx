@@ -36,7 +36,7 @@ const About = () => {
             </PageNavbar>
           </div>
         </div>
-        <PageBackgroundImage 
+        <PageBackgroundImage
           desktopImage="/assets/about-banner.jpg"
           mobileImage="/assets/mob-about-banner.jpg"
           alt="About Banner"

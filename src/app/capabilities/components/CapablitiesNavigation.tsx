@@ -14,7 +14,7 @@ const CapabilitiesNavigation = () => {
         >
           <h2
             className={twMerge(
-              `text-5xl text-gray-500 font-bold mb-9 dot capitalize after:bg-[#7EB9E6]`
+              `text-5xl text-gray-500 font-bold mb-9 dot capitalize after:bg-[#7EB9E6]`,
             )}
           >
             {data.title}

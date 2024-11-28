@@ -6,6 +6,13 @@ import PhotoSlider from "../components/PhotoSlider";
 import Pointers from "@/components/Pointers";
 import { lifeProcedureData } from "@/data";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Life at Procedure",
+  description: "",
+};
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -31,7 +38,7 @@ export default async function Page({
               <h1
                 className={twMerge(
                   "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot",
-                  pageData.heroSection.style.headingColor
+                  pageData.heroSection.style.headingColor,
                 )}
               >
                 {pageData.heroSection.heading}
@@ -39,10 +46,10 @@ export default async function Page({
               <h1
                 className={twMerge(
                   "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot",
-                  pageData.heroSection.style.subHeadingColor
+                  pageData.heroSection.style.subHeadingColor,
                 )}
               >
-                 {pageData.heroSection.subHeading}
+                {pageData.heroSection.subHeading}
               </h1>
             </PageNavbar>
           </div>
@@ -52,7 +59,7 @@ export default async function Page({
         <div
           className={twMerge(
             "flex items-center justify-between overflow-hidden h-auto pt-12 lg:pt-0 m-0 lg:h-96 px-[7vw] lg:rounded-r-full lg:mr-[calc(7vw*_3)]",
-            pageData.profileOne.color
+            pageData.profileOne.color,
           )}
         >
           <div className="mx-auto p-0 lg:m-0">
@@ -68,17 +75,41 @@ export default async function Page({
           />
         </div>
         <div className="block h-auto overflow-hidden lg:ml-[calc(7vw*_3)]">
-          <Image className="rounded-l-full" width={1920} height={600} src={pageData.sectionImageOne.desktop} alt='desktop image for mobile' />
-          <Image className="hidden" width={1920} height={600} src={pageData.sectionImageOne.mobile} alt='desktop image for mobile' />
+          <Image
+            className="rounded-l-full"
+            width={1920}
+            height={600}
+            src={pageData.sectionImageOne.desktop}
+            alt="desktop image for mobile"
+          />
+          <Image
+            className="hidden"
+            width={1920}
+            height={600}
+            src={pageData.sectionImageOne.mobile}
+            alt="desktop image for mobile"
+          />
         </div>
         <div className="block h-auto overflow-hidden lg:mr-[calc(7vw*_3)]">
-          <Image className="rounded-r-full" width={1920} height={600} src={pageData.sectionImageTwo.desktop} alt='desktop image for mobile' />
-          <Image className="hidden" width={1920} height={600} src={pageData.sectionImageTwo.mobile} alt='desktop image for mobile' />
+          <Image
+            className="rounded-r-full"
+            width={1920}
+            height={600}
+            src={pageData.sectionImageTwo.desktop}
+            alt="desktop image for mobile"
+          />
+          <Image
+            className="hidden"
+            width={1920}
+            height={600}
+            src={pageData.sectionImageTwo.mobile}
+            alt="desktop image for mobile"
+          />
         </div>
         <div
           className={twMerge(
             "flex items-center flex-row-reverse justify-between overflow-hidden h-auto pt-12 lg:pt-0 m-0 lg:h-96 px-[7vw] lg:rounded-l-full lg:ml-[calc(7vw*_3)]",
-            pageData.profileTwo.color
+            pageData.profileTwo.color,
           )}
         >
           <div className="mx-auto p-0 lg:m-0">
@@ -94,7 +125,7 @@ export default async function Page({
           />
         </div>
       </section>
-      <Pointers  
+      <Pointers
         pointers={pageData.pointers}
         eachElementClassName="w-full lg:w-[28%] mr-0 lg:mr-[5.3%] mb-12 lg:mb-[5%]"
       />

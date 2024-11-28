@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
@@ -47,7 +47,7 @@ const Consultation = ({
       <div
         className={twMerge(
           "rounded-r-full py-[7vw] text-white",
-          cardStyles[type].container
+          cardStyles[type].container,
         )}
         style={{ backgroundColor }}
       >
@@ -83,7 +83,7 @@ const Consultation = ({
                 type="submit"
                 className={twMerge(
                   "primary-button mt-5",
-                  cardStyles[type].button
+                  cardStyles[type].button,
                 )}
               >
                 Go

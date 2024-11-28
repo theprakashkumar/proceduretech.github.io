@@ -1,5 +1,4 @@
 import PageNavbar from "@/components/PageNavbar";
-import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import Consultation from "../../../components/Consultation";
 import Pointers from "../../../components/Pointers";
@@ -42,22 +41,6 @@ export default async function Page({
           mobile={pageData.heroSection.images.mobile}
           alt='Digital ventures image'
         />
-        <div className="mt-10 mb-12 lg:mt-12 pl-[7vw]">
-          <Image
-            className="hidden max-w-full rounded-l-full lg:block"
-            width={1920}
-            height={599}
-            src={pageData.heroSection.images.desktop}
-            alt="Digital ventures image"
-          />
-          <Image
-            className="block max-w-full rounded-l-full lg:hidden"
-            width={800}
-            height={517}
-            src={pageData.heroSection.images.mobile}
-            alt="Digital ventures image"
-          />
-        </div>  
         <h4 className="block max-w-[50rem] -mb-16 font-light text-xl container-padding lg:hidden">
           {pageData.heroSection.description}
         </h4>

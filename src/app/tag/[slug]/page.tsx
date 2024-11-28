@@ -3,6 +3,19 @@ import { blogsPageData, caseStudiesData } from "@/data";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+export async function generateStaticParams() {
+  const allTags = [
+    ...Object.values(blogsPageData).flatMap((blog) => blog.tags),
+    ...Object.values(caseStudiesData).flatMap((caseStudy) => caseStudy.services),
+  ];
+
+  const uniqueTags = Array.from(
+    new Set(allTags.map((tag) => tag.id))
+  );
+
+  return uniqueTags.map((id) => ({ slug: id }));
+}
+
 export default async function Page({
   params,
 }: {

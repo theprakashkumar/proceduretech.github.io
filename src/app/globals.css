@@ -96,7 +96,7 @@ body {
 }
 
 .team-home {
-  background-image: url(https://procedure.tech/wp-content/themes/proceduretech/img/home/home-football-black.jpg);
+  background-image: url(/assets/home-football-black.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;

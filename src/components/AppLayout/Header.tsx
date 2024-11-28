@@ -128,7 +128,7 @@ const Header = () => {
                 height={100}
                 className="align-middle w-full"
                 src={
-                  "https://procedure.tech/wp-content/themes/proceduretech/img/procedure-logo.svg"
+                  "/assets/logo.svg"
                 }
                 alt={"Procedure Logo"}
               />

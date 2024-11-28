@@ -316,7 +316,7 @@ const Footer = () => {
                 width={100}
                 height={100}
                 className="w-48 lg:w-[18.75rem] align-middle max-w-full"
-                src="https://procedure.tech/wp-content/uploads/2023/08/procedure-footer-logo.svg"
+                src="/assets/procedure-footer-logo.svg"
                 alt="Footer logo"
               />
             </div>
@@ -325,7 +325,7 @@ const Footer = () => {
                 width={100}
                 height={100}
                 className="w-[18.75rem] lg:w-[25rem] align-middle max-w-full"
-                src="https://procedure.tech/wp-content/uploads/2023/08/procedure-footer-tagline.svg"
+                src="/assets/procedure-footer-tagline.svg"
                 alt="Tagline image"
               />
             </div>

@@ -13,8 +13,8 @@ const cardData = [
       "We are more than a team—we’re talented individuals with different backgrounds who come together to tackle challenges. You can feel the energy when we all get together!",
     href: "/lifeprocedure/cultureprocedure/",
     buttonName: "Culture@Procedure",
-    img1: "https://procedure.tech/wp-content/uploads/2023/10/life-capsule1-v2.webp",
-    img2: "https://procedure.tech/wp-content/uploads/2023/10/life-capsule1-coloured-v2.webp",
+    img1: "/assets/life-capsule1-v2.webp",
+    img2: "/assets/life-capsule1-coloured-v2.webp",
     color: "bg-blue",
   },
   {
@@ -23,8 +23,8 @@ const cardData = [
       "At Procedure, I always feel like I’m performing at the top of my game because we all take a proactive approach to solving challenges and delivering the best.",
     href: "/lifeprocedure/teamprocedure/",
     buttonName: "Team@Procedure",
-    img1: "https://procedure.tech/wp-content/uploads/2023/10/life-capsule2-v2.webp",
-    img2: "https://procedure.tech/wp-content/uploads/2023/10/life-capsule2-coloured-v2.webp",
+    img1: "/assets/life-capsule2-v2.webp",
+    img2: "/assets/life-capsule2-coloured-v2.webp",
     color: "bg-brickred",
   },
   {
@@ -33,16 +33,16 @@ const cardData = [
       "We believe that constant learning and the pursuit of excellence are at the core of our culture. We enjoy being challenged by new ideas and continually look for ways to improve.",
     href: "/contact#joinpros",
     buttonName: "Join Us",
-    img1: "https://procedure.tech/wp-content/uploads/2023/10/life-capsule3-v2.webp",
-    img2: "https://procedure.tech/wp-content/uploads/2023/10/life-capsule3-coloured-v2.webp",
+    img1: "/assets/life-capsule3-v2.webp",
+    img2: "/assets/life-capsule3-coloured-v2.webp",
     color: "bg-green",
   },
   {
     title: "And the Coffee",
     description:
       "Working at Procedure is like being inside a constantly brewing coffee pot - both stimulating and invigorating! Its our secret sauce that fuels creativity and curiosity, and keeps us buzzing.",
-    img1: "https://procedure.tech/wp-content/uploads/2023/10/coffee-v2-v2.webp",
-    img2: "https://procedure.tech/wp-content/uploads/2023/10/coffee-v2-v2.webp",
+    img1: "/assets/coffee-v2-v2.webp",
+    img2: "/assets/coffee-v2-v2.webp",
     color: "bg-grey",
   },
 ];
@@ -81,10 +81,10 @@ const pointerData = [
 ];
 
 const photoData = [
-  "https://procedure.tech/wp-content/uploads/2023/10/life1-v2-1.webp",
-  "https://procedure.tech/wp-content/uploads/2023/10/life2-v2-1.webp",
-  "https://procedure.tech/wp-content/uploads/2023/10/life3-v2-1-1.webp",
-  "https://procedure.tech/wp-content/uploads/2023/10/life4-v2-2.webp",
+  "/assets/life1-v2-1.webp",
+  "/assets/life2-v2-1.webp",
+  "/assets/life3-v2-1-1.webp",
+  "/assets/life4-v2-2.webp",
 ];
 
 const LifeProcedure = () => {

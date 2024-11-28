@@ -11,7 +11,7 @@ const CapabilitiesTabs = () => {
       <div 
         className="bg-cover bg-center p-16 lg:pl-0 lg:py-28 lg:pr-[7vw] lg:rounded-l-full"
         style={{
-          backgroundImage: `url('${tabs[selectedIndex].bgImage})`,
+          backgroundImage: `url(${tabs[selectedIndex].bgImage})`,
         }}
     >
         <TabsSection

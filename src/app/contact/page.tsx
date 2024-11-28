@@ -1,6 +1,7 @@
 import Image from "next/image";
 import PageNavbar from "@/components/PageNavbar";
 import Link from "next/link";
+import PageBackgroundImage from "@/components/PageBackgroundImage";
 
 const Contact = () => {
   return (
@@ -24,24 +25,11 @@ const Contact = () => {
             </PageNavbar>
           </div>
         </div>
-        <div className="hidden lg:block">
-          <Image
-            width={1920}
-            height={1476}
-            className="max-w-full overflow-clip"
-            src="https://procedure.tech/wp-content/uploads/2023/08/contact-banner.jpg"
-            alt="Contact Banner"
-          />
-        </div>
-        <div className="block lg:hidden">
-          <Image
-            width={1920}
-            height={1476}
-            className="max-w-full align-middle overflow-clip"
-            src="https://procedure.tech/wp-content/uploads/2023/10/mob-contact-banner-v2.jpg"
-            alt="Contact Banner"
-          />
-        </div>
+        <PageBackgroundImage 
+          desktopImage="/assets/contact-banner.jpg"
+          mobileImage="/assets/mob-contact-banner-v2.jpg"
+          alt="Contact Banner"
+        />
       </section>
       <section>
         <div className="mb-28 pr-[7vw] lg:pr-[calc(7vw*_3)]">
@@ -126,14 +114,14 @@ const Contact = () => {
             className="hidden rounded-r-full -scale-x-100 lg:block"
             height={579}
             width={1920}
-            src="https://procedure.tech/wp-content/uploads/2023/08/about-join-us.jpg"
+            src="/assets/about-join-us.jpg"
             alt=""
           />
           <Image
             className="block rounded-r-full -scale-x-100 lg:hidden"
             height={1000}
             width={800}
-            src="https://procedure.tech/wp-content/uploads/2023/08/mob-contact-v3.jpg"
+            src="/assets/mob-contact-v3.jpg"
             alt=""
           />
           <div className="">

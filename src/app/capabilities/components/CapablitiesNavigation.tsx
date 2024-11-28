@@ -32,7 +32,7 @@ const CapabilitiesNavigation = () => {
                   className="block lg:hidden top-0 right-0 absolute group-hover:block"
                   width={49}
                   height={49}
-                  src="https://procedure.tech/wp-content/themes/proceduretech/img/svg/arrow-button.svg"
+                  src="/assets/arrow-button.svg"
                   alt="pointer"
                 />
               </li>

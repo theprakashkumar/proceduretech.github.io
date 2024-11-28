@@ -4,27 +4,27 @@ import Image from "next/image";
 const socialLinks = [
   {
     href: "https://www.linkedin.com/company/procedurehq/",
-    src: "https://procedure.tech/wp-content/uploads/2023/08/linkedin-1.svg",
+    src: "/assets/linkedin-1.svg",
     alt: "LinkedIn",
   },
   {
     href: "https://www.youtube.com/@ProcedureHQ/featured",
-    src: "https://procedure.tech/wp-content/uploads/2023/08/youtube.svg",
+    src: "/assets/youtube.svg",
     alt: "YouTube",
   },
   {
     href: "https://twitter.com/ProcedureHQ",
-    src: "https://procedure.tech/wp-content/uploads/2023/09/footer-twitter.svg",
+    src: "/assets/footer-twitter.svg",
     alt: "Twitter",
   },
   {
     href: "https://www.instagram.com/procedure_hq/",
-    src: "https://procedure.tech/wp-content/uploads/2023/08/insta.svg",
+    src: "/assets/insta.svg",
     alt: "Instagram",
   },
   {
     href: "https://www.facebook.com/ProcedureHQ",
-    src: "https://procedure.tech/wp-content/uploads/2023/08/fb-1.svg",
+    src: "/assets/fb-1.svg",
     alt: "Facebook",
   },
 ];

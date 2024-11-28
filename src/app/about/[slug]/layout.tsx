@@ -23,14 +23,14 @@ const Layout = ({
             className="hidden rounded-r-full lg:block max-w-full"
             width={1920}
             height={579}
-            src="https://procedure.tech/wp-content/themes/proceduretech/img/about/about-join-us.jpg"
+            src="/assets/about-join-us.jpg"
             alt="about team members"
           />
           <Image
             className="block rounded-r-full lg:hidden max-w-full"
             width={800}
             height={1000}
-            src="https://procedure.tech/wp-content/themes/proceduretech/img/about/mob-about-join-us-v3.jpg"
+            src="/assets/mob-about-join-us-v3.jpg"
             alt="about team members"
           />
           <div className="absolute top-0 left-0 pt-16 max-w-16 z-5 pl-[7vw] flex flex-col sm:flex-row">

@@ -81,14 +81,14 @@ export default async function Page({
           className="hidden max-w-full rounded-l-full lg:block"
           width={1920}
           height={599}
-          src="https://procedure.tech/wp-content/uploads/2023/08/table-tennis.webp"
+          src="/assets/table-tennis.webp"
           alt="Digital ventures image"
         />
         <Image
           className="block max-w-full rounded-l-full lg:hidden"
           width={800}
           height={517}
-          src="https://procedure.tech/wp-content/uploads/2023/08/mob-table-tennis-v3.webp"
+          src="/assets/mob-table-tennis-v3.webp"
           alt="Digital ventures image"
         />
         <div className="absolute top-1/2 -translate-y-1/2 right-0 pl-[calc(7vw_*_6)] sm:pl-0 max-w-lg lg:max-w-xl">

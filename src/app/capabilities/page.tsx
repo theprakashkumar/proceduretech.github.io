@@ -27,8 +27,8 @@ const Capabilities = () => {
           </div>
         </div>
         <PageBackgroundImage 
-          desktopImage="https://procedure.tech/wp-content/uploads/2023/08/capabilities-banner.jpg"
-          mobileImage="https://procedure.tech/wp-content/uploads/2023/08/mob-capabilities-banner.jpg"
+          desktopImage="/assets/capabilities-banner.jpg"
+          mobileImage="/assets/mob-capabilities-banner.jpg"
           alt={"Capabilities Banner"}
         />
       </section>

@@ -10,7 +10,7 @@ const HomepageTabs = () => {
     <div
       className="bg-cover bg-center py-16 lg:pt-28 lg:pb-36"
       style={{
-        backgroundImage: `url('${tabs[selectedIndex].bgImage})`,
+        backgroundImage: `url(${tabs[selectedIndex].bgImage})`,
       }}
     >
       <div className="container-padding">

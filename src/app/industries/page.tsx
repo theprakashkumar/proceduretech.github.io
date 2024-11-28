@@ -29,8 +29,8 @@ const Industries = () => {
           </div>
         </div>
         <BackgroundImage 
-          desktopImage='https://procedure.tech/wp-content/uploads/2023/08/industries-banner.jpg'
-          mobileImage='https://procedure.tech/wp-content/uploads/2023/08/mob-industries-banner.jpg'
+          desktopImage='/assets/industries-banner.jpg'
+          mobileImage='/assets/mob-industries-banner.jpg'
           alt='Industries Banner'
         />
       </section>

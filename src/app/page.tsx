@@ -12,7 +12,7 @@ export default function Home() {
       <div className="relative overflow-hidden bg-[#f0eff2]">
         <div className="visible animate-[fadeIn] text-center lg:text-start">
           <video
-            src="https://videos.files.wordpress.com/SLOAqkn3/red-ball-swirl-v3.mp4"
+            src="/assets/red-ball-swirl-v3.mp4"
             className="w-[228%] max-w-none relative right-[113%] lg:max-w-full lg:right-0"
             autoPlay
             loop

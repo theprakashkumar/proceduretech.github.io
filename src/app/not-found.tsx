@@ -29,7 +29,7 @@ const NotFound = () => {
                   width={22}
                   height={23}
                   className="absolute top-2.5 right-4 cursor-pointer max-w-full"
-                  src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/404-search-icon.svg"
+                  src="/assets/404-search-icon.svg"
                   alt=""
                 />
               </div>

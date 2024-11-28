@@ -30,8 +30,8 @@ const About = () => {
           </div>
         </div>
         <PageBackgroundImage 
-          desktopImage="https://procedure.tech/wp-content/uploads/2023/08/about-banner.jpg"
-          mobileImage="https://procedure.tech/wp-content/uploads/2023/08/mob-about-banner.jpg"
+          desktopImage="/assets/about-banner.jpg"
+          mobileImage="/assets/mob-about-banner.jpg"
           alt="About Banner"
         />
       </section>

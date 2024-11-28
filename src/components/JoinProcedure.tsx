@@ -78,7 +78,7 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
                 className="absolute right-5 top-3 pointer-events-none z-[2]"
                 width={16}
                 height={16}
-                src="https://procedure.tech/wp-content/uploads/2023/09/upload-icon-1.svg"
+                src="/assets/upload-icon-1.svg"
                 alt="join-row-icon"
               />
             </div>

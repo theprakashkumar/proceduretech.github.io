@@ -17,9 +17,9 @@ export const capabilitiesPagesData: {
         "Our complete suite of technology services to deliver better products, create stronger brands, new markets, and greater profitability through digital capabilities.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/digital-ventures.jpg",
+          "/assets/digital-ventures.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-digital-venture.jpg",
+          "/assets/mob-digital-venture.jpg",
       },
       color: "dot-brown",
     },
@@ -66,9 +66,9 @@ export const capabilitiesPagesData: {
         "Procedure is your trusted ally on the path to groundbreaking solutions. Let’s defy the status quo together and create a future that’s nothing short of extraordinary.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/innovation.jpg",
+          "/assets/innovation.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-innovation.jpg",
+          "/assets/mob-innovation.jpg",
       },
       color: "dot-blue",
     },
@@ -115,9 +115,9 @@ export const capabilitiesPagesData: {
         "Our UX experts are passionate about transforming products into meaningful experiences, simplifying complex systems and building digital services with seamless experiences.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/ui-and-ux.jpg",
+          "/assets/ui-and-ux.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-ui-ux.jpg",
+          "/assets/mob-ui-ux.jpg",
       },
       color: "dot-green",
     },
@@ -164,9 +164,9 @@ export const capabilitiesPagesData: {
         "We help clients implement their DX strategy by connecting the dots between technology and business goals, identifying relevant solutions and partners.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/dx-and-modernization.jpg",
+          "/assets/dx-and-modernization.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-dx-modernization.jpg",
+          "/assets/mob-dx-modernization.jpg",
       },
       color: "dot-brown",
     },
@@ -213,9 +213,9 @@ export const capabilitiesPagesData: {
         "At Procedure, we’re not just consultants, we’re partners in your success. Trust us to optimize your business processes, design innovative solutions, and establish a culture of continuous improvement.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/process-consulting.jpg",
+          "/assets/process-consulting.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-process-consulting.jpg",
+          "/assets/mob-process-consulting.jpg",
       },
       color: "dot-blue",
     },
@@ -261,9 +261,9 @@ export const capabilitiesPagesData: {
       description:
         "Procedure puts Agile tools to work in order to drive collaboration, prioritize user experience and optimize results through iterative development.",
       images: {
-        desktop: "https://procedure.tech/wp-content/uploads/2023/08/agile.jpg",
+        desktop: "/assets/agile.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-agile.jpg",
+          "/assets/mob-agile.jpg",
       },
       color: "dot-green",
     },
@@ -310,9 +310,9 @@ export const capabilitiesPagesData: {
         "Procedure is driven by a passion for innovation and a focus on our clients’ success. We help companies translate their vision into reality by creating applications that transcend boundaries.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/app-development.jpg",
+          "/assets/app-development.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-app-development.jpg",
+          "/assets/mob-app-development.jpg",
       },
       color: "dot-brown",
     },
@@ -364,9 +364,9 @@ export const capabilitiesPagesData: {
       description:
         "Our cloud services propel our clients to new heights and revolutionizes their products and offerings. Procedure will take your business to cloud nine, leaving your competition trailing behind.",
       images: {
-        desktop: "https://procedure.tech/wp-content/uploads/2023/08/cloud.jpg",
+        desktop: "/assets/cloud.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-cloud.jpg",
+          "/assets/mob-cloud.jpg",
       },
       color: "dot-brown",
     },
@@ -412,9 +412,9 @@ export const capabilitiesPagesData: {
       description:
         "Transcend the limits of traditional software development and embrace a future where agility, scalability, and automation reign supreme. Prepare to boldly go where no business has gone before.",
       images: {
-        desktop: "https://procedure.tech/wp-content/uploads/2023/08/devops.jpg",
+        desktop: "/assets/devops.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-devops.jpg",
+          "/assets/mob-devops.jpg",
       },
       color: "dot-blue",
     },
@@ -467,9 +467,9 @@ export const capabilitiesPagesData: {
         "At Procedure, we live and breathe innovation. We are the partner you need to create products that are pushing boundaries. Let’s build something great together!",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/product-engineering.jpg",
+          "/assets/product-engineering.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-product-engineering.jpg",
+          "/assets/mob-product-engineering.jpg",
       },
       color: "dot-blue",
     },
@@ -522,9 +522,9 @@ export const capabilitiesPagesData: {
         "We are the maestros conducting the symphony of your technology ecosystem. We bring intelligence, proactive support and future-proof expertise to help you thrive in an ever changing world.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/managed-services.jpg",
+          "/assets/managed-services.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-managed-services.jpg",
+          "/assets/mob-managed-services.jpg",
       },
       color: "dot-green",
     },
@@ -577,9 +577,9 @@ export const capabilitiesPagesData: {
         "Experience the future of mobile technology with us, where cutting-edge design collides with seamless functionality. Let us embark on a journey of innovation to take your brand to new heights.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/mobile-solutions.jpg",
+          "/assets/mobile-solutions.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-mobile-solutions.jpg",
+          "/assets/mob-mobile-solutions.jpg",
       },
       color: "dot-green",
     },
@@ -626,9 +626,9 @@ export const capabilitiesPagesData: {
         "With our SWAT interventions, challenges are met head-on and swiftly conquered. Our forward-thinking approach powers rapid resolution, enhanced efficiency and future-proof preparedness.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/swat-interventions.jpg",
+          "/assets/swat-interventions.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-swat-interventions.jpg",
+          "/assets/mob-swat-interventions.jpg",
       },
       color: "dot-brown",
     },
@@ -675,9 +675,9 @@ export const capabilitiesPagesData: {
         "At Procedure, we’re not just offering security services - we’re unlocking a secure future for your business. Let’s create a future where security is not a concern but an asset.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/security.jpg",
+          "/assets/security.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-security.jpg",
+          "/assets/mob-security.jpg",
       },
       color: "dot-blue",
     },
@@ -718,9 +718,9 @@ export const capabilitiesPagesData: {
         "Procedure’s performance governance services empower you to achieve peak performance, future-proof your systems, and make data-driven optimizations to unlock new possibilities.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/performance-governance.jpg",
+          "/assets/performance-governance.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-performance-governance.jpg",
+          "/assets/mob-performance-governance.jpg",
       },
       color: "dot-brown",
     },
@@ -767,9 +767,9 @@ export const capabilitiesPagesData: {
         "At Procedure, quality control is not an afterthought - it’s an active pursuit. Liberate your business from the confines of mediocre software to create a future of excellence and customer satisfaction.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/quality-and-testing.jpg",
+          "/assets/quality-and-testing.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-quality-testing.jpg",
+          "/assets/mob-quality-testing.jpg",
       },
       color: "dot-brown",
     },
@@ -857,9 +857,9 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
         "We can help your bank take its services—and brand experience—to the next level. We deliver products that address cybersecurity concerns and increase efficiency.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/banking.jpg",
+          "/assets/banking.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-banking.jpg",
+          "/assets/mob-banking.jpg",
       },
       color: "dot-green",
     },
@@ -905,9 +905,9 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
       description:
         "With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them.",
       images: {
-        desktop: "https://procedure.tech/wp-content/uploads/2023/08/edtech.jpg",
+        desktop: "/assets/edtech.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-edtech.jpg",
+          "/assets/mob-edtech.jpg",
       },
       color: "dot-red",
     },
@@ -954,9 +954,9 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
         "With our expertise and forward-thinking approach, your business can leverage technology and embrace innovation to reshape the future of finance.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/fintech.jpg",
+          "/assets/fintech.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-fintech.jpg",
+          "/assets/mob-fintech.jpg",
       },
       color: "dot-red",
     },
@@ -1009,9 +1009,9 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
         "With our forward-thinking approach, you can savor the benefits of improved processes, enhanced customization and seamless customer experiences and leave your competitors hungry for more.",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/foodtech.jpg",
+          "/assets/foodtech.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-foodtech.jpg",
+          "/assets/mob-foodtech.jpg",
       },
       color: "dot-green",
     },
@@ -1058,9 +1058,9 @@ export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
         "By automating processes, utilizing advanced analytics and AI tools, we enhance customer experience and security. Let’s create and innovate for insurance, from sunsets to moonshots!",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/foodtech.jpg",
+          "/assets/foodtech.jpg",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/08/mob-foodtech.jpg",
+          "/assets/mob-foodtech.jpg",
       },
       color: "dot-green",
     },
@@ -1117,7 +1117,7 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       description:
         "Procedure’s culture encourages everyone to contribute their unique insights and ideas. This leads us to learn from each other and continually improve—creating a dynamic workplace.",
       imageUrl:
-        "https://procedure.tech/wp-content/uploads/2023/09/culture1-bw.jpg",
+        "/assets/culture1-bw.jpg",
       color: "bg-green",
     },
     profileTwo: {
@@ -1125,20 +1125,20 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       description:
         "At Procedure, teamwork leads to trust. The challenge of work is part of every job—but the diverse team I worked with here made me think outside my box and find lifelong friends.",
       imageUrl:
-        "https://procedure.tech/wp-content/uploads/2023/09/culture2-bw.jpg",
+        "/assets/culture2-bw.jpg",
       color: "bg-brickred",
     },
     sectionImageOne: {
       desktop:
-        "https://procedure.tech/wp-content/uploads/2023/09/culture-capsule2.jpg",
+        "/assets/culture-capsule2.jpg",
       mobile:
-        "https://procedure.tech/wp-content/uploads/2023/10/mob-culture-capsule2.jpg",
+        "/assets/mob-culture-capsule2.jpg",
     },
     sectionImageTwo: {
       desktop:
-        "https://procedure.tech/wp-content/uploads/2023/09/culture-capsule3.jpg",
+        "/assets/culture-capsule3.jpg",
       mobile:
-        "https://procedure.tech/wp-content/uploads/2023/10/mob-culture-capsule3.jpg",
+        "/assets/mob-culture-capsule3.jpg",
     },
     pointersTitle: "Be a Part of Promising",
     pointers: [
@@ -1174,9 +1174,9 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       },
     ],
     photoSliders: [
-      "https://procedure.tech/wp-content/uploads/2023/10/culture1-v2.webp",
-      "https://procedure.tech/wp-content/uploads/2023/10/culture2-v2.webp",
-      "https://procedure.tech/wp-content/uploads/2023/10/culture3-v2.webp",
+      "/assets/culture1-v2.webp",
+      "/assets/culture2-v2.webp",
+      "/assets/culture3-v2.webp",
     ],
   },
   teamprocedure: {
@@ -1193,27 +1193,27 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       description:
         "I enjoy working at Procedure because the team spirit and can-do energy are so infectious. Every project teaches me something new, and it’s amazing how much you can achieve when you’re all working together!",
       imageUrl:
-        "https://procedure.tech/wp-content/uploads/2023/10/team-capsule1.jpg",
+        "/assets/team-capsule1.jpg",
       color: "bg-brickred",
     },
     profileTwo: {
       name: "Rachel Salunke",
       description:
         "The best part about working at Procedure is the teamwork that leads to unique creativity. Solving design challenges with a diverse set of people leads to far better solutions and ideas.",
-      imageUrl: "https://procedure.tech/wp-content/uploads/2023/09/team4.jpg",
+      imageUrl: "/assets/team4.jpg",
       color: "bg-blue",
     },
     sectionImageOne: {
       desktop:
-        "https://procedure.tech/wp-content/uploads/2023/09/team-capsule2.jpg",
+        "/assets/team-capsule2.jpg",
       mobile:
-        "https://procedure.tech/wp-content/uploads/2023/10/mob-team-capsule2.jpg",
+        "/assets/mob-team-capsule2.jpg",
     },
     sectionImageTwo: {
       desktop:
-        "https://procedure.tech/wp-content/uploads/2023/09/team-capsule3.jpg",
+        "/assets/team-capsule3.jpg",
       mobile:
-        "https://procedure.tech/wp-content/uploads/2023/10/mob-team-capsule3.jpg",
+        "/assets/mob-team-capsule3.jpg",
     },
     pointersTitle: "Why work with Procedure?",
     pointers: [
@@ -1249,9 +1249,9 @@ export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
       },
     ],
     photoSliders: [
-      "https://procedure.tech/wp-content/uploads/2023/10/work1-v2.webp",
-      "https://procedure.tech/wp-content/uploads/2023/10/work2-v2-1.webp",
-      "https://procedure.tech/wp-content/uploads/2023/10/work3-v2-1.webp",
+      "/assets/work1-v2.webp",
+      "/assets/work2-v2-1.webp",
+      "/assets/work3-v2-1.webp",
     ],
   },
 };
@@ -1281,24 +1281,24 @@ export const aboutPageMembersData = [
   {
     name: "Ulhas Mandrawadkar",
     position: "Co-Founder and CTO",
-    image1: "https://procedure.tech/wp-content/uploads/2023/08/ulhas-bw.jpg",
-    image2: "https://procedure.tech/wp-content/uploads/2023/08/ulhas-1.jpg",
+    image1: "/assets/ulhas-bw.jpg",
+    image2: "/assets/ulhas-1.jpg",
     href: "/about/ulhas-mandrawadkar",
     color: "bg-blue",
   },
   {
     name: "Renuka Rode",
     position: "General Manager",
-    image1: "https://procedure.tech/wp-content/uploads/2023/08/renuka-bw.jpg",
-    image2: "https://procedure.tech/wp-content/uploads/2023/08/renuka-1.jpg",
+    image1: "/assets/renuka-bw.jpg",
+    image2: "/assets/renuka-1.jpg",
     href: "/about/renuka-rode",
     color: "bg-brickred",
   },
   {
     name: "Braj Baheti",
     position: "Co-Founder and CEO",
-    image1: "https://procedure.tech/wp-content/uploads/2023/08/braj-bw.jpg",
-    image2: "https://procedure.tech/wp-content/uploads/2023/08/braj-1.jpg",
+    image1: "/assets/braj-bw.jpg",
+    image2: "/assets/braj-1.jpg",
     href: "/about/braj-baheti",
     color: "bg-green",
   },
@@ -1320,7 +1320,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         "“Innovation happens when we dare to step outside our comfort zone and explore the unknown.”",
       hashTags: "#technogeek #podcaster #futurist #pro",
       imageUrl:
-        "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/ulhas-bw-2.jpg?fit=800%2C800&ssl=1",
+        "/assets/ulhas-bw-2.jpg",
       subHeading:
         "With Ulhas at the helm, innovation is propelled into uncharted territories, promising a future brimming with technological marvels that reshape the landscape of Procedure. His vision has been recognized by the international community, leading him to win multiple awards and accolades for his contributions in the field of innovation.",
       paragraphs: [
@@ -1335,8 +1335,8 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       {
         name: "Braj Baheti",
         position: "Co-Founder and CEO",
-        image1: "https://procedure.tech/wp-content/uploads/2023/08/braj-bw.jpg",
-        image2: "https://procedure.tech/wp-content/uploads/2023/08/braj-1.jpg",
+        image1: "/assets/braj-bw.jpg",
+        image2: "/assets/braj-1.jpg",
         href: "/about/braj-baheti",
         color: "bg-green",
       },
@@ -1344,9 +1344,9 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         name: "Renuka Rode",
         position: "General Manager",
         image1:
-          "https://procedure.tech/wp-content/uploads/2023/08/renuka-bw.jpg",
+          "/assets/renuka-bw.jpg",
         image2:
-          "https://procedure.tech/wp-content/uploads/2023/08/renuka-1.jpg",
+          "/assets/renuka-1.jpg",
         href: "/about/renuka-rode",
         color: "bg-brickred",
       },
@@ -1367,7 +1367,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         "“Blend the art of technology with science of product management to build a masterpiece.”",
       hashTags: "#innovisionary #alchemist #automationguru #pro",
       imageUrl:
-        "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/braj-bw-2.jpg?fit=800%2C800&ssl=1",
+        "/assets/braj-bw-2.jpg",
       subHeading:
         "Braj’s story of inception is nothing short of extraordinary. With an unwavering determination and a mind wired for forward thinking, his journey to co-founding Procedure is a testament to his ingenuity and passion for solving complex problems with technology.",
       paragraphs: [
@@ -1383,9 +1383,9 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         name: "Renuka Rode",
         position: "General Manager",
         image1:
-          "https://procedure.tech/wp-content/uploads/2023/08/renuka-bw.jpg",
+          "/assets/renuka-bw.jpg",
         image2:
-          "https://procedure.tech/wp-content/uploads/2023/08/renuka-1.jpg",
+          "/assets/renuka-1.jpg",
         href: "/about/renuka-rode",
         color: "bg-brickred",
       },
@@ -1393,8 +1393,8 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         name: "Ulhas Mandrawadkar",
         position: "Co-Founder and CTO",
         image1:
-          "https://procedure.tech/wp-content/uploads/2023/08/ulhas-bw.jpg",
-        image2: "https://procedure.tech/wp-content/uploads/2023/08/ulhas-1.jpg",
+          "/assets/ulhas-bw.jpg",
+        image2: "/assets/ulhas-1.jpg",
         href: "/about/ulhas-mandrawadkar",
         color: "bg-blue",
       },
@@ -1415,7 +1415,7 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         "“To produce excellence without boundaries, infuse talent with larger-picture thinking.”",
       hashTags: "#OPSmaestro #QApro #projectguru #efficiencyninja",
       imageUrl:
-        "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/renuka-bw-2.jpg?fit=800%2C800&ssl=1",
+        "/assets/renuka-bw-2.jpg",
       subHeading:
         "Renuka’s true strength lies in her ability to infuse innovation into every facet of Procedure’s operations. She champions marketing initiatives as well as talent engagement projects, diving right in to take charge of them all—setting up new systems and managing from scratch anything that demands attention.",
       paragraphs: [
@@ -1429,8 +1429,8 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
       {
         name: "Braj Baheti",
         position: "Co-Founder and CEO",
-        image1: "https://procedure.tech/wp-content/uploads/2023/08/braj-bw.jpg",
-        image2: "https://procedure.tech/wp-content/uploads/2023/08/braj-1.jpg",
+        image1: "/assets/braj-bw.jpg",
+        image2: "/assets/braj-1.jpg",
         href: "/about/braj-baheti",
         color: "bg-green",
       },
@@ -1438,8 +1438,8 @@ export const aboutPageData: { [key: string]: AboutPagesDataType } = {
         name: "Ulhas Mandrawadkar",
         position: "Co-Founder and CTO",
         image1:
-          "https://procedure.tech/wp-content/uploads/2023/08/ulhas-bw.jpg",
-        image2: "https://procedure.tech/wp-content/uploads/2023/08/ulhas-1.jpg",
+          "/assets/ulhas-bw.jpg",
+        image2: "/assets/ulhas-1.jpg",
         href: "/about/ulhas-mandrawadkar",
         color: "bg-blue",
       },
@@ -1452,7 +1452,7 @@ export const blogsData = [
     date: "November 30, 2022",
     name: "Rizwan Memon",
     imgSrc:
-      "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/plum-case-study.webp?fit=700%2C700&ssl=1",
+      "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
     title: "Frontend Performance Testing: Best Practices",
     description:
       "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -1462,7 +1462,7 @@ export const blogsData = [
     date: "May 26, 2022",
     name: "Rucheta Gogte",
     imgSrc:
-      "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+      "/assets/resources-blog3.webp",
     title: "Why Robot Framework",
     description:
       "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -1473,7 +1473,7 @@ export const blogsData = [
     date: "January 3, 2022",
     name: "Sreeraj Rajan",
     imgSrc:
-      "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/01/resources-blog4.webp?fit=800%2C800&ssl=1",
+      "/assets/resources-blog4.webp",
     title: "Reducing our Deployment times by 87%",
     description:
       "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -1484,7 +1484,7 @@ export const blogsData = [
     date: "June 10, 2021",
     name: "Sreeraj Rajan",
     imgSrc:
-      "https://i0.wp.com/procedure.tech/wp-content/uploads/2021/06/resources-blog2.webp?fit=800%2C800&ssl=1",
+      "/assets/resources-blog2.webp",
     title: "Connecting Django to RDS via pgbouncer using IAM auth",
     description:
       "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -1499,9 +1499,9 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       heading: "Frontend Performance Testing: Best Practices",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2022/11/blog1-banner.webp",
+          "/assets/blog1-banner.webp",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2022/11/mob-blog1-banner.webp",
+          "/assets/mob-blog1-banner.webp",
       },
       date: "November 30, 2022",
       name: "Rizwan Memon",
@@ -1515,7 +1515,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "May 26, 2022",
         name: "Rucheta Gogte",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog3.webp",
         title: "Why Robot Framework",
         description:
           "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -1526,7 +1526,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "January 3, 2022",
         name: "Sreeraj Rajan",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/01/resources-blog4.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog4.webp",
         title: "Reducing our Deployment times by 87%",
         description:
           "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -1537,7 +1537,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "June 10, 2021",
         name: "Sreeraj Rajan",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2021/06/resources-blog2.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog2.webp",
         title: "Connecting Django to RDS via pgbouncer using IAM auth",
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -1573,7 +1573,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       },
     ],
     author: {
-      imgSrc: "https://procedure.tech/wp-content/uploads/2022/11/rizwan.jpg",
+      imgSrc: "/assets/rizwan.jpg",
       name: "Rizwan Memon",
       teamName: "Tech@Procedure",
     },
@@ -1774,7 +1774,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
           data-recalc-dims="1"
           decoding="async"
           class=""
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/lcp-1.png?w=750&amp;ssl=1"
+          src="/assets/lcp-1.png?w=750&amp;ssl=1"
           alt=""
         />
       </p>
@@ -2009,7 +2009,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
           data-recalc-dims="1"
           decoding="async"
           class=""
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/lighthouse.png?w=750&amp;ssl=1"
+          src="/assets/lighthouse.png"
           alt=""
         />
       </p>
@@ -2021,7 +2021,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
           data-recalc-dims="1"
           decoding="async"
           class=""
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/report.png?w=750&amp;ssl=1"
+          src="/assets/report.png"
           alt=""
         />
       </p>
@@ -2095,7 +2095,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
           data-recalc-dims="1"
           decoding="async"
           class=""
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/workflow.png?w=750&amp;ssl=1"
+          src="/assets/workflow.png"
           alt=""
         />
       </p>
@@ -2340,7 +2340,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://procedure.tech/frontend-performance-testing-best-practices/&amp;title=Frontend Performance Testing: Best Practices"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/linkedin.svg"
+              src="/assets/linkedin.svg"
               alt="linkedin"
           /></a>
         </li>
@@ -2349,7 +2349,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://twitter.com/intent/tweet?text=Frontend Performance Testing: Best Practices&amp;url=https://procedure.tech/frontend-performance-testing-best-practices/&amp;via=wpvkp"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/twitter.svg"
+              src="/assets/twitter.svg"
               alt="twitter"
           /></a>
         </li>
@@ -2358,7 +2358,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/frontend-performance-testing-best-practices/"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/fb.svg"
+              src="/assets/fb.svg"
               alt="facebook"
           /></a>
         </li>
@@ -2370,9 +2370,9 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       heading: "Why Robot Framework",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2022/05/blog3-banner.webp",
+          "/assets/blog3-banner.webp",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2022/05/mob-blog3-banner.webp",
+          "/assets/mob-blog3-banner.webp",
       },
       date: "May 26, 2022",
       name: "Rucheta Gogte",
@@ -2386,7 +2386,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "November 30, 2022",
         name: "Rizwan Memon",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog3.webp",
         title: "Frontend Performance Testing: Best Practices",
         description:
           "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -2397,7 +2397,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "January 3, 2022",
         name: "Sreeraj Rajan",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/01/resources-blog4.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog4.webp",
         title: "Reducing our Deployment times by 87%",
         description:
           "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -2408,7 +2408,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "June 10, 2021",
         name: "Sreeraj Rajan",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2021/06/resources-blog2.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog2.webp",
         title: "Connecting Django to RDS via pgbouncer using IAM auth",
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -2449,7 +2449,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       },
     ],
     author: {
-      imgSrc: "https://procedure.tech/wp-content/uploads/2022/05/rucheta.jpg",
+      imgSrc: "/assets/rucheta.jpg",
       name: "Rucheta Gogte",
       teamName: "Tech@Procedure",
     },
@@ -2472,7 +2472,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
           height="472"
           width="750"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/Image-40.jpg?resize=750%2C472&amp;ssl=1"
+          src="/assets/Image-40.jpg"
           alt=""
           class=""
         />
@@ -2513,7 +2513,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         <img
           data-recalc-dims="1"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/Image-41.jpg?w=750&amp;ssl=1"
+          src="/assets/Image-41.jpg?w=750&amp;ssl=1"
           alt=""
           class=""
         />
@@ -2534,7 +2534,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         <img
           data-recalc-dims="1"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/Image-42.jpg?w=750&amp;ssl=1"
+          src="/assets/Image-42.jpg?w=750&amp;ssl=1"
           alt=""
           class=""
         />
@@ -2552,7 +2552,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         <img
           data-recalc-dims="1"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/Image-43.jpg?w=750&amp;ssl=1"
+          src="/assets/Image-43.jpg?w=750&amp;ssl=1"
           alt=""
           class=""
         />
@@ -2568,7 +2568,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         <img
           data-recalc-dims="1"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2023/09/Image-44.jpg?w=750&amp;ssl=1"
+          src="/assets/Image-44.jpg?w=750&amp;ssl=1"
           alt=""
           class=""
         />
@@ -2614,7 +2614,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://procedure.tech/why-robot-framework/&amp;title=Why Robot Framework"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/linkedin.svg"
+              src="/assets/linkedin.svg"
               alt="linkedin"
           /></a>
         </li>
@@ -2623,7 +2623,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://twitter.com/intent/tweet?text=Why Robot Framework&amp;url=https://procedure.tech/why-robot-framework/&amp;via=wpvkp"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/twitter.svg"
+              src="/assets/twitter.svg"
               alt="twitter"
           /></a>
         </li>
@@ -2632,7 +2632,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/why-robot-framework/"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/fb.svg"
+              src="/assets/fb.svg"
               alt="facebook"
           /></a>
         </li>
@@ -2644,9 +2644,9 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       heading: "Reducing our Deployment times by 87%",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2022/01/blog4-banner.webp",
+          "/assets/blog4-banner.webp",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2022/01/mob-blog4-banner.webp",
+          "/assets/mob-blog4-banner.webp",
       },
       date: "January 3, 2022",
       name: "Sreeraj Rajan",
@@ -2660,7 +2660,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "November 30, 2022",
         name: "Rizwan Memon",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog3.webp",
         title: "Frontend Performance Testing: Best Practices",
         description:
           "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -2671,7 +2671,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "May 26, 2022",
         name: "Rucheta Gogte",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog3.webp",
         title: "Why Robot Framework",
         description:
           "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -2682,7 +2682,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "June 10, 2021",
         name: "Sreeraj Rajan",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2021/06/resources-blog2.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog2.webp",
         title: "Connecting Django to RDS via pgbouncer using IAM auth",
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
@@ -2718,7 +2718,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       },
     ],
     author: {
-      imgSrc: "https://procedure.tech/wp-content/uploads/2021/06/sreeraj.jpg",
+      imgSrc: "/assets/sreeraj.jpg",
       name: "Sreeraj Rajan",
       teamName: "Tech@Procedure",
     },
@@ -2753,7 +2753,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         <img
           data-recalc-dims="1"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2022/01/uat-deployment-image-1.png?w=750&amp;ssl=1"
+          src="/assets/uat-deployment-image-1.png?w=750&amp;ssl=1"
           alt=""
           class=""
         />
@@ -2839,7 +2839,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         <img
           data-recalc-dims="1"
           decoding="async"
-          src="https://i0.wp.com/procedure.tech/wp-content/uploads/2022/01/uat-deployment-image-2.png?w=750&amp;ssl=1"
+          src="/assets/uat-deployment-image-2.png?w=750&amp;ssl=1"
           alt=""
           class=""
         />
@@ -2861,7 +2861,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://procedure.tech/reducing-our-deployment-times-by-87/&amp;title=Reducing our Deployment times by 87%"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/linkedin.svg"
+              src="/assets/linkedin.svg"
               alt="linkedin"
           /></a>
         </li>
@@ -2870,7 +2870,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://twitter.com/intent/tweet?text=Reducing our Deployment times by 87%&amp;url=https://procedure.tech/reducing-our-deployment-times-by-87/&amp;via=wpvkp"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/twitter.svg"
+              src="/assets/twitter.svg"
               alt="twitter"
           /></a>
         </li>
@@ -2879,7 +2879,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/reducing-our-deployment-times-by-87/"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/fb.svg"
+              src="/assets/fb.svg"
               alt="facebook"
           /></a>
         </li>
@@ -2891,9 +2891,9 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       heading: "Connecting Django to RDS via pgbouncer using IAM auth",
       images: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2021/06/blog2-banner.webp",
+          "/assets/blog2-banner.webp",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2021/06/mob-blog2-banner.webp",
+          "/assets/mob-blog2-banner.webp",
       },
       date: "June 10, 2021",
       name: "Sreeraj Rajan",
@@ -2907,7 +2907,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "November 30, 2022",
         name: "Rizwan Memon",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog3.webp",
         title: "Frontend Performance Testing: Best Practices",
         description:
           "You have been working hard to deliver all the features on the project, and suddenly…",
@@ -2918,7 +2918,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "May 26, 2022",
         name: "Rucheta Gogte",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/05/resources-blog3.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog3.webp",
         title: "Why Robot Framework",
         description:
           "If you are trying to identify what are the best automation frameworks out there, we…",
@@ -2929,7 +2929,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
         date: "January 3, 2022",
         name: "Sreeraj Rajan",
         imgSrc:
-          "https://i0.wp.com/procedure.tech/wp-content/uploads/2022/01/resources-blog4.webp?fit=800%2C800&ssl=1",
+          "/assets/resources-blog4.webp",
         title: "Reducing our Deployment times by 87%",
         description:
           "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
@@ -2970,7 +2970,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       },
     ],
     author: {
-      imgSrc: "https://procedure.tech/wp-content/uploads/2021/06/sreeraj.jpg",
+      imgSrc: "/assets/sreeraj.jpg",
       name: "Sreeraj Rajan",
       teamName: "Tech@Procedure",
     },
@@ -3169,7 +3169,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://procedure.tech/connecting-django-to-rds-via-pgbouncer-using-iam-auth/&amp;title=Connecting Django to RDS via pgbouncer using IAM auth"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/linkedin.svg"
+              src="/assets/linkedin.svg"
               alt="linkedin"
           /></a>
         </li>
@@ -3178,7 +3178,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://twitter.com/intent/tweet?text=Connecting Django to RDS via pgbouncer using IAM auth&amp;url=https://procedure.tech/connecting-django-to-rds-via-pgbouncer-using-iam-auth/&amp;via=wpvkp"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/twitter.svg"
+              src="/assets/twitter.svg"
               alt="twitter"
           /></a>
         </li>
@@ -3187,7 +3187,7 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
             target="_blank"
             href="https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/connecting-django-to-rds-via-pgbouncer-using-iam-auth/"
             ><img
-              src="https://procedure.tech/wp-content/themes/proceduretech/img/icons/fb.svg"
+              src="/assets/fb.svg"
               alt="facebook"
           /></a>
         </li>
@@ -3206,9 +3206,9 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
         "Streamlining Crisis Communication for Enhanced Coordination & Effective Response",
       href: "/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
       bgImage:
-        "https://procedure.tech/wp-content/uploads/2023/10/home-snooker-plum.webp",
+        "/assets/home-snooker-plum.webp",
       imgSrc:
-        "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/plum-case-study.webp?fit=700%2C700&ssl=1",
+        "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
       services: [
         { id: "ux-ui", name: "UI & UX", link: "/tag/ux-ui/" },
         {
@@ -3220,9 +3220,9 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
       ],
       heroSection: {
         desktop:
-          "https://procedure.tech/wp-content/uploads/2023/08/plum-case-study-banner.webp",
+          "/assets/plum-case-study-banner.webp",
         mobile:
-          "https://procedure.tech/wp-content/uploads/2023/10/mob-plum-casestudy-detail-banner.webp",
+          "/assets/mob-plum-casestudy-detail-banner.webp",
       },
       content: {
         overview: [
@@ -3288,17 +3288,17 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
       socialLinks: [
         {
           href: "https://www.linkedin.com/shareArticle?mini=true&url=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/&title=Streamlining Crisis Communication for Enhanced Coordination & Effective Response",
-          src: "https://procedure.tech/wp-content/themes/proceduretech/img/icons/linkedin.svg",
+          src: "/assets/linkedin.svg",
           alt: "LinkedIn",
         },
         {
           href: "https://twitter.com/intent/tweet?text=Streamlining Crisis Communication for Enhanced Coordination & Effective Response&url=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/&via=wpvkp",
-          src: "https://procedure.tech/wp-content/themes/proceduretech/img/icons/twitter.svg",
+          src: "/assets/twitter.svg",
           alt: "Twitter",
         },
         {
           href: "https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
-          src: "https://procedure.tech/wp-content/themes/proceduretech/img/icons/fb.svg",
+          src: "/assets/fb.svg",
           alt: "Facebook",
         },
       ]
@@ -3311,9 +3311,9 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
       "A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses",
     href: "/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
     bgImage:
-      "https://procedure.tech/wp-content/uploads/2023/10/home-case-study-espn.webp",
+      "/assets/home-case-study-espn.webp",
     imgSrc:
-      "https://i0.wp.com/procedure.tech/wp-content/uploads/2023/08/espn-case-study.webp?fit=700%2C700&ssl=1",
+      "/assets/espn-case-study.webp?fit=700%2C700&ssl=1",
     services: [
       { id: "ux-ui", name: "UI & UX", link: "/tag/ux-ui/" },
       {
@@ -3329,9 +3329,9 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
     ],
     heroSection: {
       desktop:
-        "https://procedure.tech/wp-content/uploads/2023/08/espn-case-study-banner.webp",
+        "/assets/espn-case-study-banner.webp",
       mobile:
-        "https://procedure.tech/wp-content/uploads/2023/08/mob-espn-casestudy-detail-banner-1.webp",
+        "/assets/mob-espn-casestudy-detail-banner-1.webp",
     },
     content: {
       overview: ['During chaotic events like neighbourhood fires, efficient team coordination is essential. To address this, Procedure collaborated with a client to create tailored Communication Systems, ensuring a streamlined and impactful response to potential disasters.'],
@@ -3368,17 +3368,17 @@ export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
     socialLinks: [
       {
         href: "https://www.linkedin.com/shareArticle?mini=true&url=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/&title=A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses",
-        src: "https://procedure.tech/wp-content/themes/proceduretech/img/icons/linkedin.svg",
+        src: "/assets/linkedin.svg",
         alt: "LinkedIn",
       },
       {
         href: "https://twitter.com/intent/tweet?text=A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses&url=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/&via=wpvkp",
-        src: "https://procedure.tech/wp-content/themes/proceduretech/img/icons/twitter.svg",
+        src: "/assets/twitter.svg",
         alt: "Twitter",
       },
       {
         href: "https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
-        src: "https://procedure.tech/wp-content/themes/proceduretech/img/icons/fb.svg",
+        src: "/assets/fb.svg",
         alt: "Facebook",
       },
     ]

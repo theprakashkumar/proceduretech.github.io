@@ -5,12 +5,12 @@ import { twMerge } from "tailwind-merge";
 
 const videos = [
   {
-    src: "https://videos.files.wordpress.com/8qNSFTGt/home-spiral-balls-v2.mp4",
+    src: "/assets/home-spiral-balls-v2.mp4",
     className:
       "hidden lg:inline max-w-full max-h-[51.875rem] relative -right-[15%] xl:right-auto",
   },
   {
-    src: "https://videos.files.wordpress.com/yMCrh7At/mobile-home-spiral-balls-v3.mp4",
+    src: "/assets/mobile-home-spiral-balls-v3.mp4",
     className:
       "inline lg:hidden max-w-full max-h-[37.5rem] lg:max-h-[51.875rem] relative right-0 lg:right-[-15%] xl:right-auto",
   },

@@ -1,13 +1,13 @@
-import PointerCard from "@/components/PointerCard";
-import { CaseStudiesDataType } from "@/data/types";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import { twMerge } from "tailwind-merge";
+import PointerCard from '@/components/PointerCard'
+import { CaseStudiesDataType } from '@/data/types'
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+import { twMerge } from 'tailwind-merge'
 
 type ContentSectionProps = {
-  pageData: CaseStudiesDataType;
-};
+  pageData: CaseStudiesDataType
+}
 
 const ContentSection = ({ pageData }: ContentSectionProps) => {
   return (
@@ -20,7 +20,7 @@ const ContentSection = ({ pageData }: ContentSectionProps) => {
         Services
       </h4>
       <div className="flex flex-wrap pb-10">
-        {pageData.services.map((service) => (
+        {pageData.services.map(service => (
           <Link
             key={service.link}
             className="py-1.5 px-5 bg-[#D0D0D0] mr-2.5 mb-2.5 rounded-full border-none text-sm relative animation-easein-slow left-0 hover:bg-[rgba(208,208,208,0.3)]"
@@ -36,7 +36,7 @@ const ContentSection = ({ pageData }: ContentSectionProps) => {
       {pageData.content.overview.map((data, index) => (
         <p
           key={`overview-${index}`}
-          className={twMerge("mb-14 font-light", index !== 0 && "-mt-7")}
+          className={twMerge('mb-14 font-light', index !== 0 && '-mt-7')}
         >
           {data}
         </p>
@@ -47,7 +47,7 @@ const ContentSection = ({ pageData }: ContentSectionProps) => {
       {pageData.content.challenge.map((data, index) => (
         <p
           key={`challenge-${index}`}
-          className={twMerge("mb-14 font-light", index !== 0 && "-mt-7")}
+          className={twMerge('mb-14 font-light', index !== 0 && '-mt-7')}
         >
           {data}
         </p>
@@ -58,7 +58,7 @@ const ContentSection = ({ pageData }: ContentSectionProps) => {
       {pageData.content.approach.map((data, index) => (
         <p
           key={`approach-${index}`}
-          className={twMerge("mb-14 font-light", index !== 0 && "-mt-7")}
+          className={twMerge('mb-14 font-light', index !== 0 && '-mt-7')}
         >
           {data}
         </p>
@@ -82,14 +82,14 @@ const ContentSection = ({ pageData }: ContentSectionProps) => {
       {pageData.content.impactAndResult.map((data, index) => (
         <p
           key={`impactAndResult-${index}`}
-          className={twMerge("mb-14 font-light", index !== 0 && "-mt-7")}
+          className={twMerge('mb-14 font-light', index !== 0 && '-mt-7')}
         >
           {data}
         </p>
       ))}
       <h6 className="text-lg font-medium mt-24 mb-5">Share</h6>
       <ul className="text-base flex gap-5 font-light m-0 pb-5">
-        {pageData.socialLinks.map((social) => (
+        {pageData.socialLinks.map(social => (
           <li className="inline list-none" key={social.href}>
             <Link className="py-2.5 mr-4" href={social.href}>
               <Image
@@ -104,7 +104,7 @@ const ContentSection = ({ pageData }: ContentSectionProps) => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default ContentSection;
+export default ContentSection

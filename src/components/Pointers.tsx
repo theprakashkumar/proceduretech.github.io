@@ -1,12 +1,12 @@
-import React from "react";
-import { PointersType } from "@/data/types";
-import PointerCard from "./PointerCard";
+import React from 'react'
+import { PointersType } from '@/data/types'
+import PointerCard from './PointerCard'
 
 type PointersProps = {
-  title?: string;
-  pointers: PointersType[];
-  eachElementClassName?: string;
-};
+  title?: string
+  pointers: PointersType[]
+  eachElementClassName?: string
+}
 
 const Pointers = ({ title, pointers, eachElementClassName }: PointersProps) => {
   return (
@@ -25,7 +25,7 @@ const Pointers = ({ title, pointers, eachElementClassName }: PointersProps) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Pointers;
+export default Pointers

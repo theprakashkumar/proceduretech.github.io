@@ -1,53 +1,53 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
-import { twMerge } from "tailwind-merge";
-import InputField from "./InputField";
+import React, { useState } from 'react'
+import { twMerge } from 'tailwind-merge'
+import InputField from './InputField'
 
 const cardStyles = {
   colored: {
-    container: "text-white",
-    input: "border-[#dee2e6]",
-    button: "bg-white",
+    container: 'text-white',
+    input: 'border-[#dee2e6]',
+    button: 'bg-white',
   },
   transparent: {
-    container: "-mb-5 text-[#212529] pt-[7vw] pb-0",
-    input: "border-[#249F6B]",
-    button: "bg-green-600/50",
+    container: '-mb-5 text-[#212529] pt-[7vw] pb-0',
+    input: 'border-[#249F6B]',
+    button: 'bg-green-600/50',
   },
-};
+}
 
 type ConsultationType = {
-  backgroundColor?: string;
-  type?: keyof typeof cardStyles;
-};
+  backgroundColor?: string
+  type?: keyof typeof cardStyles
+}
 
 const Consultation = ({
   backgroundColor,
-  type = "colored",
+  type = 'colored',
 }: ConsultationType) => {
   const [formData, setFormData] = useState({
-    email: "",
-    phone: "",
-    name: "",
-    companyName: "",
-  });
+    email: '',
+    phone: '',
+    name: '',
+    companyName: '',
+  })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-  };
+    e.preventDefault()
+  }
 
   return (
     <div className="mb-28 pr-[7vw] lg:pr-[calc(7vw*_3)]">
       <div
         className={twMerge(
-          "rounded-r-full py-[7vw] text-white",
-          cardStyles[type].container,
+          'rounded-r-full py-[7vw] text-white',
+          cardStyles[type].container
         )}
         style={{ backgroundColor }}
       >
@@ -58,15 +58,15 @@ const Consultation = ({
             onSubmit={handleSubmit}
           >
             {[
-              { name: "email", type: "email", placeholder: "Email" },
-              { name: "phone", type: "tel", placeholder: "Phone" },
-              { name: "name", type: "text", placeholder: "Name" },
+              { name: 'email', type: 'email', placeholder: 'Email' },
+              { name: 'phone', type: 'tel', placeholder: 'Phone' },
+              { name: 'name', type: 'text', placeholder: 'Name' },
               {
-                name: "companyName",
-                type: "text",
-                placeholder: "Company Name",
+                name: 'companyName',
+                type: 'text',
+                placeholder: 'Company Name',
               },
-            ].map((field) => (
+            ].map(field => (
               <InputField
                 key={field.name}
                 name={field.name}
@@ -82,8 +82,8 @@ const Consultation = ({
               <button
                 type="submit"
                 className={twMerge(
-                  "primary-button mt-5",
-                  cardStyles[type].button,
+                  'primary-button mt-5',
+                  cardStyles[type].button
                 )}
               >
                 Go
@@ -93,7 +93,7 @@ const Consultation = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Consultation;
+export default Consultation

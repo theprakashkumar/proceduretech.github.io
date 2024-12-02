@@ -1,125 +1,125 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
-import { usePathname } from "next/navigation";
-import { Bars3Icon } from "@heroicons/react/24/outline";
-import { twMerge } from "tailwind-merge";
-import { capabilitiesData } from "@/constants/constant";
+import React, { useState } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import { MagnifyingGlassIcon } from '@heroicons/react/16/solid'
+import { usePathname } from 'next/navigation'
+import { Bars3Icon } from '@heroicons/react/24/outline'
+import { twMerge } from 'tailwind-merge'
+import { capabilitiesData } from '@/constants/constant'
 
 type itemsType = {
-  title: string;
-  href: string;
-};
+  title: string
+  href: string
+}
 
 type DropdownItem = {
-  title?: string;
-  items: itemsType[];
-};
+  title?: string
+  items: itemsType[]
+}
 
 const navLinks = [
   {
-    id: "home",
-    title: "Home",
-    href: "/",
+    id: 'home',
+    title: 'Home',
+    href: '/',
   },
   {
-    id: "capabilities",
-    title: "Capabilities",
+    id: 'capabilities',
+    title: 'Capabilities',
     dropdown: capabilitiesData,
   },
   {
-    id: "industries",
-    title: "Industries",
+    id: 'industries',
+    title: 'Industries',
     dropdown: [
       {
         items: [
-          { title: "Banking", href: "/industries/banking" },
-          { title: "EdTech", href: "/industries/edtech" },
-          { title: "FinTech", href: "/industries/fintech" },
-          { title: "FoodTech", href: "/industries/foodtech" },
-          { title: "InsurTech", href: "/industries/insurtech" },
-          { title: "Case Studies", href: "/industries/case-studies" },
+          { title: 'Banking', href: '/industries/banking' },
+          { title: 'EdTech', href: '/industries/edtech' },
+          { title: 'FinTech', href: '/industries/fintech' },
+          { title: 'FoodTech', href: '/industries/foodtech' },
+          { title: 'InsurTech', href: '/industries/insurtech' },
+          { title: 'Case Studies', href: '/industries/case-studies' },
         ],
       },
     ],
   },
   {
-    id: "lifeprocedure",
-    title: "Life@Procedure",
+    id: 'lifeprocedure',
+    title: 'Life@Procedure',
     dropdown: [
       {
         items: [
           {
-            title: "Culture@Procedure",
-            href: "/lifeprocedure/cultureprocedure",
+            title: 'Culture@Procedure',
+            href: '/lifeprocedure/cultureprocedure',
           },
-          { title: "Team@Procedure", href: "/lifeprocedure/teamprocedure" },
+          { title: 'Team@Procedure', href: '/lifeprocedure/teamprocedure' },
         ],
       },
     ],
   },
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
     dropdown: [
       {
         items: [
-          { title: "Ulhas Mandrawadkar", href: "/about/ulhas-mandrawadkar/" },
-          { title: "Braj Baheti", href: "/about/braj-baheti/" },
-          { title: "Renuka Rode", href: "/about/renuka-rode/" },
+          { title: 'Ulhas Mandrawadkar', href: '/about/ulhas-mandrawadkar/' },
+          { title: 'Braj Baheti', href: '/about/braj-baheti/' },
+          { title: 'Renuka Rode', href: '/about/renuka-rode/' },
         ],
       },
     ],
   },
   {
-    id: "resources",
-    title: "Resources",
-    href: "/resources",
+    id: 'resources',
+    title: 'Resources',
+    href: '/resources',
   },
   {
-    id: "contact",
-    title: "Contact",
-    href: "/contact",
+    id: 'contact',
+    title: 'Contact',
+    href: '/contact',
   },
-];
+]
 
 const Header = () => {
-  const pathname = usePathname();
-  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const pathname = usePathname()
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
 
   const handleMouseEnter = (id: string) => {
-    setActiveDropdown(id);
-  };
+    setActiveDropdown(id)
+  }
 
   const handleMouseLeave = () => {
-    setActiveDropdown(null);
-  };
+    setActiveDropdown(null)
+  }
 
   return (
     <header className="w-full fixed left-0 top-0 z-40">
       <nav
         className={twMerge(
-          "lg:bg-[#f0eff2]",
-          isNavbarOpen ? "bg-transparent" : "bg-[#f0eff2]",
+          'lg:bg-[#f0eff2]',
+          isNavbarOpen ? 'bg-transparent' : 'bg-[#f0eff2]'
         )}
       >
         <div
           className={twMerge(
-            "flex lg:items-center lg:justify-between relative lg:px-[7vw] lg:h-12",
+            'flex lg:items-center lg:justify-between relative lg:px-[7vw] lg:h-12',
             isNavbarOpen
-              ? "h-auto p-0 flex-col lg:flex-row"
-              : "h-12 px-[7vw] items-center",
+              ? 'h-auto p-0 flex-col lg:flex-row'
+              : 'h-12 px-[7vw] items-center'
           )}
         >
           <div
             className={twMerge(
-              "flex justify-between w-full lg:w-auto",
+              'flex justify-between w-full lg:w-auto',
               isNavbarOpen &&
-                "h-12 lg:h-auto bg-[#f0eff2] px-[7vw] lg:px-0 items-center lg:items-center",
+                'h-12 lg:h-auto bg-[#f0eff2] px-[7vw] lg:px-0 items-center lg:items-center'
             )}
           >
             <Link
@@ -130,15 +130,15 @@ const Header = () => {
                 width={100}
                 height={100}
                 className="align-middle w-full"
-                src={"/assets/logo.svg"}
-                alt={"Procedure Logo"}
+                src={'/assets/logo.svg'}
+                alt={'Procedure Logo'}
               />
             </Link>
             <a className="group lg:hidden animation-easein-slow absolute right-12 -top-1.5 py-4 px-5 z-20 cursor-pointer">
               <MagnifyingGlassIcon className="text-black/90 w-7 h-7 group-hover:text-black/65" />
             </a>
             <button
-              onClick={() => setIsNavbarOpen((prev) => !prev)}
+              onClick={() => setIsNavbarOpen(prev => !prev)}
               className="-mr-[5vw] h-full flex lg:hidden justify-center items-center mt-1"
             >
               <Bars3Icon className="text-black/90 w-8 h-8 stroke-[2] group-hover:text-black/65" />
@@ -146,7 +146,7 @@ const Header = () => {
           </div>
           <div className="hidden lg:flex basis-auto flex-grow items-center">
             <div className="flex ml-auto pl-0">
-              {navLinks.map((navLink) => (
+              {navLinks.map(navLink => (
                 <li
                   key={navLink.id}
                   className="relative group list-item list-none text-left"
@@ -155,21 +155,21 @@ const Header = () => {
                 >
                   <Link
                     className={twMerge(
-                      "py-[0.9375rem] hover:text-white hover:bg-[rgba(46,46,46,0.6)] group-hover:bg-[rgba(46,46,46,0.6)] group-hover:text-white",
-                      pathname.split("/").includes(navLink.id) ||
-                        (pathname === "/" && navLink.id === "home")
-                        ? "text-black"
-                        : "text-black/65",
+                      'py-[0.9375rem] hover:text-white hover:bg-[rgba(46,46,46,0.6)] group-hover:bg-[rgba(46,46,46,0.6)] group-hover:text-white',
+                      pathname.split('/').includes(navLink.id) ||
+                        (pathname === '/' && navLink.id === 'home')
+                        ? 'text-black'
+                        : 'text-black/65'
                     )}
-                    href={navLink.href || ""}
+                    href={navLink.href || ''}
                   >
                     <span
                       className={twMerge(
-                        "relative font-semibold text-[13px] leading-5 mx-5",
-                        pathname.split("/").includes(navLink.id) ||
-                          (pathname === "/" && navLink.id === "home")
+                        'relative font-semibold text-[13px] leading-5 mx-5',
+                        pathname.split('/').includes(navLink.id) ||
+                          (pathname === '/' && navLink.id === 'home')
                           ? 'after:content-[""] after:absolute after:-bottom-[3px] after:left-0 after:h-[0.1875rem] after:w-full after:bg-[#4A65D6]'
-                          : "",
+                          : ''
                       )}
                     >
                       {navLink.title}
@@ -186,7 +186,7 @@ const Header = () => {
                               href={`/${navLink.id}`}
                               onClick={handleMouseLeave}
                             >
-                              {index === 0 ? "Overview" : ""}
+                              {index === 0 ? 'Overview' : ''}
                             </Link>
                           </li>
                           {data?.title && (
@@ -207,7 +207,7 @@ const Header = () => {
                           <li>
                             <hr className="border-t my-4 overflow-hidden" />
                           </li>
-                          {data.items.map((item) => (
+                          {data.items.map(item => (
                             <li key={item.title}>
                               <Link
                                 className="block text-white bg-none text-sm font-light py-1.5 px-5 animation-easein-slow shift-to-right whitespace-nowrap"
@@ -234,7 +234,7 @@ const Header = () => {
           {isNavbarOpen && (
             <div className="block basis-auto flex-grow text-start w-full">
               <div className="flex flex-col w-full py-12 max-h-[95vh] overflow-y-scroll bg-[rgba(46,46,46,0.6)] backdrop-blur-xl">
-                {navLinks.map((navLink) => (
+                {navLinks.map(navLink => (
                   <li
                     key={navLink.id}
                     className="group list-item list-none text-left"
@@ -243,9 +243,9 @@ const Header = () => {
                   >
                     <Link
                       className={
-                        "border-y border-y-white/20 mx-[7vw] py-4 text-lg text-white font-semibold block"
+                        'border-y border-y-white/20 mx-[7vw] py-4 text-lg text-white font-semibold block'
                       }
-                      href={navLink.href ?? "/"}
+                      href={navLink.href ?? '/'}
                     >
                       <span
                         className={`inline-block animation-easein-slow m-0 leading-7`}
@@ -262,11 +262,11 @@ const Header = () => {
                                 className="text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right capitalize"
                                 href={`/${navLink.id}`}
                                 onClick={() => {
-                                  handleMouseLeave();
-                                  setIsNavbarOpen(false);
+                                  handleMouseLeave()
+                                  setIsNavbarOpen(false)
                                 }}
                               >
-                                {index === 0 ? "Overview" : ""}
+                                {index === 0 ? 'Overview' : ''}
                               </Link>
                             </li>
                             {data?.title && (
@@ -287,14 +287,14 @@ const Header = () => {
                             <li>
                               <hr className="border-t border-t-gray-200/50 my-4 overflow-hidden" />
                             </li>
-                            {data.items.map((item) => (
+                            {data.items.map(item => (
                               <li key={item.title}>
                                 <Link
                                   className="block text-white bg-none text-sm font-light py-1.5 animation-easein-slow shift-to-right whitespace-nowrap"
                                   href={item.href}
                                   onClick={() => {
-                                    handleMouseLeave();
-                                    setIsNavbarOpen(false);
+                                    handleMouseLeave()
+                                    setIsNavbarOpen(false)
                                   }}
                                 >
                                   {item.title}
@@ -313,7 +313,7 @@ const Header = () => {
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

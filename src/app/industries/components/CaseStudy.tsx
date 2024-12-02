@@ -1,16 +1,16 @@
-import Image from "next/image";
-import Link from "next/link";
-import { twMerge } from "tailwind-merge";
+import Image from 'next/image'
+import Link from 'next/link'
+import { twMerge } from 'tailwind-merge'
 
 type CaseStudyProps = {
-  date: string;
-  imgSrc: string;
-  title: string;
-  sector: string;
-  services: string;
-  link: string;
-  className?: string;
-};
+  date: string
+  imgSrc: string
+  title: string
+  sector: string
+  services: string
+  link: string
+  className?: string
+}
 
 const CaseStudy = ({
   date,
@@ -24,7 +24,7 @@ const CaseStudy = ({
   <div className="w-full mb-24 sm:w-2/5 sm:mr-[10%] sm:mb-[10%]">
     <h6 className="mb-5">{date}</h6>
     <Image
-      className={twMerge("rounded-r-full max-w-full", className)}
+      className={twMerge('rounded-r-full max-w-full', className)}
       width={700}
       height={700}
       src={imgSrc}
@@ -45,6 +45,6 @@ const CaseStudy = ({
       Download
     </Link>
   </div>
-);
+)
 
-export default CaseStudy;
+export default CaseStudy

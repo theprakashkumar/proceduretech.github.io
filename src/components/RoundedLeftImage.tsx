@@ -1,11 +1,11 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image'
+import React from 'react'
 
 type RoundedLeftImageProps = {
-  desktop: string;
-  mobile: string;
-  alt?: string;
-};
+  desktop: string
+  mobile: string
+  alt?: string
+}
 
 const RoundedLeftImage = ({ desktop, mobile }: RoundedLeftImageProps) => {
   return (
@@ -25,7 +25,7 @@ const RoundedLeftImage = ({ desktop, mobile }: RoundedLeftImageProps) => {
         alt="Digital ventures image"
       />
     </div>
-  );
-};
+  )
+}
 
-export default RoundedLeftImage;
+export default RoundedLeftImage

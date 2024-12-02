@@ -1,10 +1,10 @@
-import React from "react";
-import Image from "next/image";
-import { clientsData } from "@/constants/constant";
+import React from 'react'
+import Image from 'next/image'
+import { clientsData } from '@/constants/constant'
 
 type ClientsSection = {
-  className?: string;
-};
+  className?: string
+}
 
 const ClientsSection = ({ className }: ClientsSection) => {
   return (
@@ -25,7 +25,7 @@ const ClientsSection = ({ className }: ClientsSection) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ClientsSection;
+export default ClientsSection

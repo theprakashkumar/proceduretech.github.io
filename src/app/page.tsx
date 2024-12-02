@@ -1,9 +1,9 @@
-import BlogSection from "@/components/BlogSection";
-import HomepageTabs from "./components/HomepageTabs";
-import TeamSection from "@/app/components/TeamSection";
-import Link from "next/link";
-import JoinProcedure from "@/components/JoinProcedure";
-import AgileDeliverySection from "./components/AgileDeliverySection";
+import BlogSection from '@/components/BlogSection'
+import HomepageTabs from './components/HomepageTabs'
+import TeamSection from '@/app/components/TeamSection'
+import Link from 'next/link'
+import JoinProcedure from '@/components/JoinProcedure'
+import AgileDeliverySection from './components/AgileDeliverySection'
 
 export default function Home() {
   return (
@@ -52,5 +52,5 @@ export default function Home() {
         </div>
       </div>
     </>
-  );
+  )
 }

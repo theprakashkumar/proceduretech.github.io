@@ -1,11 +1,11 @@
-import BlogSection from "@/components/BlogSection";
-import JoinProcedure from "@/components/JoinProcedure";
-import React from "react";
+import BlogSection from '@/components/BlogSection'
+import JoinProcedure from '@/components/JoinProcedure'
+import React from 'react'
 
 const Layout = ({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) => {
   return (
     <>
@@ -19,7 +19,7 @@ const Layout = ({
       </section>
       <BlogSection />
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

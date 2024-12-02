@@ -1,12 +1,12 @@
-import { aboutPageMembersData } from "@/data";
-import Link from "next/link";
-import React from "react";
-import TeamCard from "./TeamCard";
+import { aboutPageMembersData } from '@/data'
+import Link from 'next/link'
+import React from 'react'
+import TeamCard from './TeamCard'
 
 const TeamsData = () => {
   return (
     <section className="flex flex-wrap">
-      {aboutPageMembersData.map((member) => (
+      {aboutPageMembersData.map(member => (
         <TeamCard key={member.name} member={member} />
       ))}
       <div className="flex odd:px-[7vw] even:px-[7vw] lg:odd:pl-[7vw] lg:odd:pr-[calc(7vw_/_2)] lg:even:pr-[7vw] lg:even:pl-[calc(7vw_/_2_+_1rem)] h-auto flex-wrap lg:flex-nowrap lg:h-[18.75rem] w-full lg:w-6/12 animation-easein-slow flex-col justify-center items-start bg-black/60 text-white py-14 lg:py-0">
@@ -22,7 +22,7 @@ const TeamsData = () => {
         </Link>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default TeamsData;
+export default TeamsData

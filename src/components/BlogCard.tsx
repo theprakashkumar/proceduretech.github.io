@@ -1,15 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
-import { twMerge } from "tailwind-merge";
+import Image from 'next/image'
+import Link from 'next/link'
+import { twMerge } from 'tailwind-merge'
 
 type BlogCardProps = {
-  date: string;
-  imgSrc: string;
-  title: string;
-  description: string;
-  link: string;
-  imgClassName?: string;
-};
+  date: string
+  imgSrc: string
+  title: string
+  description: string
+  link: string
+  imgClassName?: string
+}
 
 const BlogCard = ({
   date,
@@ -22,7 +22,7 @@ const BlogCard = ({
   <div className="w-full mb-24 sm:w-2/5 sm:mr-[10%] sm:mb-[10%]">
     <h6 className="mb-5">{date}</h6>
     <Image
-      className={twMerge("rounded-r-full max-w-full", imgClassName)}
+      className={twMerge('rounded-r-full max-w-full', imgClassName)}
       width={700}
       height={700}
       src={imgSrc}
@@ -35,6 +35,6 @@ const BlogCard = ({
       Read
     </Link>
   </div>
-);
+)
 
-export default BlogCard;
+export default BlogCard

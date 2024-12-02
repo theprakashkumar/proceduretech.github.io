@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const BlogSection = () => {
   return (
@@ -7,7 +7,7 @@ const BlogSection = () => {
       <div className="visible animate-[fadeIn] px-[7vw] py-28 w-full lg:w-6/12 bg-black text-white">
         <h6 className="mb-7 font-light uppercase text-sm">blog</h6>
         <h5 className="text-4xl font-light mb-7 lg:max-w-80 leading-10">
-          Connecting Django to RDS via pg bouncer using IAM auth​{" "}
+          Connecting Django to RDS via pg bouncer using IAM auth​{' '}
         </h5>
         <Link
           className="primary-button bg-white"
@@ -29,7 +29,7 @@ const BlogSection = () => {
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BlogSection;
+export default BlogSection

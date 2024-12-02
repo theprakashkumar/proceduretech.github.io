@@ -1,17 +1,17 @@
-import BlogSection from "@/components/BlogSection";
-import React from "react";
+import BlogSection from '@/components/BlogSection'
+import React from 'react'
 
 const Layout = ({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) => {
   return (
     <>
       {children}
       <BlogSection />
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

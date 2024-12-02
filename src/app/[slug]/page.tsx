@@ -1,37 +1,37 @@
-import PageNavbar from "@/components/PageNavbar";
-import { blogsPageData } from "@/data";
-import Image from "next/image";
-import React from "react";
-import { twMerge } from "tailwind-merge";
-import Author from "./components/Author";
-import LeftSection from "./components/LeftSection";
-import RightSection from "./components/RightSection";
-import { DynamicPagePropsType } from "../types";
-import { Metadata } from "next/types";
-import { removeDashAndCapitalize } from "@/utils/utils";
+import PageNavbar from '@/components/PageNavbar'
+import { blogsPageData } from '@/data'
+import Image from 'next/image'
+import React from 'react'
+import { twMerge } from 'tailwind-merge'
+import Author from './components/Author'
+import LeftSection from './components/LeftSection'
+import RightSection from './components/RightSection'
+import { DynamicPagePropsType } from '../types'
+import { Metadata } from 'next/types'
+import { removeDashAndCapitalize } from '@/utils/utils'
 
-export const dynamicParams = false;
+export const dynamicParams = false
 
 export async function generateStaticParams() {
-  return Object.keys(blogsPageData).map((pageName) => ({
+  return Object.keys(blogsPageData).map(pageName => ({
     slug: pageName,
-  }));
+  }))
 }
 
-export async function generateMetadata({ params }: DynamicPagePropsType): Promise<Metadata>  {
+export async function generateMetadata({
+  params,
+}: DynamicPagePropsType): Promise<Metadata> {
   const slug = (await params).slug
 
   return {
     title: removeDashAndCapitalize(slug),
-    description: ""
-  };
+    description: '',
+  }
 }
 
-export default async function Page({
-  params,
-}: DynamicPagePropsType) {
-  const slug = (await params).slug;
-  const pageData = blogsPageData[slug];
+export default async function Page({ params }: DynamicPagePropsType) {
+  const slug = (await params).slug
+  const pageData = blogsPageData[slug]
 
   return (
     <>
@@ -44,7 +44,7 @@ export default async function Page({
             >
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl pt-4 dot mb-1.5 tracking-tighter",
+                  'text-5xl lg:text-6xl xl:text-7xl pt-4 dot mb-1.5 tracking-tighter'
                 )}
               >
                 {pageData.heroSection.heading}
@@ -99,5 +99,5 @@ export default async function Page({
         </div>
       </div>
     </>
-  );
+  )
 }

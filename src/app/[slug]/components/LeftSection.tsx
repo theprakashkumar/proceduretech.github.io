@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 type LeftSectionProps = {
-  subHeadings: string[];
-  content: string;
-};
+  subHeadings: string[]
+  content: string
+}
 
 const LeftSection = ({ subHeadings, content }: LeftSectionProps) => {
   return (
@@ -15,7 +15,7 @@ const LeftSection = ({ subHeadings, content }: LeftSectionProps) => {
       ))}
       <div dangerouslySetInnerHTML={{ __html: content }}></div>
     </div>
-  );
-};
+  )
+}
 
-export default LeftSection;
+export default LeftSection

@@ -1,26 +1,26 @@
-import React from "react";
-import Link from "next/link";
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import HoverImage from "./HoverImage";
+import React from 'react'
+import Link from 'next/link'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
+import HoverImage from './HoverImage'
 
 const imageData = [
-  { img1: "/assets/team-collage1.webp", img2: "/assets/team-collage1c.webp" },
-  { img1: "/assets/team-collage2.webp", img2: "/assets/team-collage2c.webp" },
-  { img1: "/assets/team-collage3.webp", img2: "/assets/team-collage3c.webp" },
-  { img1: "/assets/team-collage4.webp", img2: "/assets/team-collage4c.webp" },
-  { img1: "/assets/team-collage5.webp", img2: "/assets/team-collage5c.webp" },
-  { img1: "/assets/team-collage6.webp", img2: "/assets/team-collage6c.webp" },
-  { img1: "/assets/team-collage7.webp", img2: "/assets/team-collage7c.webp" },
-  { img1: "/assets/team-collage8.webp", img2: "/assets/team-collage8c.webp" },
-  { img1: "/assets/team-collage9.webp", img2: "/assets/team-collage9c.webp" },
-  { img1: "/assets/team-collage10.webp", img2: "/assets/team-collage10c.webp" },
-  { img1: "/assets/team-collage11.webp", img2: "/assets/team-collage11c.webp" },
-  { img1: "/assets/team-collage12.webp", img2: "/assets/team-collage12c.webp" },
-  { img1: "/assets/team-collage13.webp", img2: "/assets/team-collage13c.webp" },
-  { img1: "/assets/team-collage14.webp", img2: "/assets/team-collage14c.webp" },
-  { img1: "/assets/team-collage15.webp", img2: "/assets/team-collage15c.webp" },
-  { img1: "/assets/team-collage16.webp", img2: "/assets/team-collage16c.webp" },
-];
+  { img1: '/assets/team-collage1.webp', img2: '/assets/team-collage1c.webp' },
+  { img1: '/assets/team-collage2.webp', img2: '/assets/team-collage2c.webp' },
+  { img1: '/assets/team-collage3.webp', img2: '/assets/team-collage3c.webp' },
+  { img1: '/assets/team-collage4.webp', img2: '/assets/team-collage4c.webp' },
+  { img1: '/assets/team-collage5.webp', img2: '/assets/team-collage5c.webp' },
+  { img1: '/assets/team-collage6.webp', img2: '/assets/team-collage6c.webp' },
+  { img1: '/assets/team-collage7.webp', img2: '/assets/team-collage7c.webp' },
+  { img1: '/assets/team-collage8.webp', img2: '/assets/team-collage8c.webp' },
+  { img1: '/assets/team-collage9.webp', img2: '/assets/team-collage9c.webp' },
+  { img1: '/assets/team-collage10.webp', img2: '/assets/team-collage10c.webp' },
+  { img1: '/assets/team-collage11.webp', img2: '/assets/team-collage11c.webp' },
+  { img1: '/assets/team-collage12.webp', img2: '/assets/team-collage12c.webp' },
+  { img1: '/assets/team-collage13.webp', img2: '/assets/team-collage13c.webp' },
+  { img1: '/assets/team-collage14.webp', img2: '/assets/team-collage14c.webp' },
+  { img1: '/assets/team-collage15.webp', img2: '/assets/team-collage15c.webp' },
+  { img1: '/assets/team-collage16.webp', img2: '/assets/team-collage16c.webp' },
+]
 
 const TeamSection = () => {
   return (
@@ -67,7 +67,7 @@ const TeamSection = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TeamSection;
+export default TeamSection

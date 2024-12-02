@@ -1,6 +1,6 @@
-import PageNavbar from "@/components/PageNavbar";
-import React from "react";
-import Image from "next/image";
+import PageNavbar from '@/components/PageNavbar'
+import React from 'react'
+import Image from 'next/image'
 
 const NotFound = () => {
   return (
@@ -10,7 +10,7 @@ const NotFound = () => {
           <PageNavbar isNavVisible={false} className="static mt-14 lg:w-full">
             <h1
               className={
-                "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot dot-blue"
+                'text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot dot-blue'
               }
             >
               404 Error
@@ -43,7 +43,7 @@ const NotFound = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default NotFound;
+export default NotFound

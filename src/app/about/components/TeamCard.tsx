@@ -1,12 +1,12 @@
-import HoverImage from "@/app/components/HoverImage";
-import { TeamMemberDataType } from "@/data/types";
-import Link from "next/link";
-import React from "react";
-import { twMerge } from "tailwind-merge";
+import HoverImage from '@/app/components/HoverImage'
+import { TeamMemberDataType } from '@/data/types'
+import Link from 'next/link'
+import React from 'react'
+import { twMerge } from 'tailwind-merge'
 
 type TeamCardProps = {
-  member: TeamMemberDataType;
-};
+  member: TeamMemberDataType
+}
 
 const TeamCard = ({ member }: TeamCardProps) => {
   return (
@@ -14,8 +14,8 @@ const TeamCard = ({ member }: TeamCardProps) => {
       key={member.name}
       href={member.href}
       className={twMerge(
-        "odd:px-[7vw] even:px-[7vw] lg:odd:pl-[7vw] lg:odd:pr-[calc(7vw_/_2)] lg:even:pr-[7vw] lg:even:pl-[calc(7vw_/_2_+_1rem)] h-auto flex-wrap lg:flex-nowrap lg:h-[18.75rem] w-full lg:w-6/12 flex justify-between animation-easein-slow",
-        member.color,
+        'odd:px-[7vw] even:px-[7vw] lg:odd:pl-[7vw] lg:odd:pr-[calc(7vw_/_2)] lg:even:pr-[7vw] lg:even:pl-[calc(7vw_/_2_+_1rem)] h-auto flex-wrap lg:flex-nowrap lg:h-[18.75rem] w-full lg:w-6/12 flex justify-between animation-easein-slow',
+        member.color
       )}
     >
       <div className="pt-14">
@@ -30,7 +30,7 @@ const TeamCard = ({ member }: TeamCardProps) => {
         className="max-w-full max-h-full self-end align-middle w-full lg:w-auto"
       />
     </Link>
-  );
-};
+  )
+}
 
-export default TeamCard;
+export default TeamCard

@@ -1,32 +1,32 @@
-"use client";
+'use client'
 
-import Image from "next/image";
-import React, { useState } from "react";
-import { twMerge } from "tailwind-merge";
+import Image from 'next/image'
+import React, { useState } from 'react'
+import { twMerge } from 'tailwind-merge'
 
 const style = {
   dark: {
-    input: "bg-black text-white/50 border-white/30",
-    button: "bg-white",
+    input: 'bg-black text-white/50 border-white/30',
+    button: 'bg-white',
   },
   light: {
-    input: "input-white bg-white text-[#212529] border-[#249F6B]",
-    button: "bg-green-600/50",
+    input: 'input-white bg-white text-[#212529] border-[#249F6B]',
+    button: 'bg-green-600/50',
   },
-};
+}
 
 type JoinProcedureProps = {
-  type?: keyof typeof style;
-};
+  type?: keyof typeof style
+}
 
-const options = ["Design Team", "Tech Team", "Other"];
+const options = ['Design Team', 'Tech Team', 'Other']
 
-const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
-  const [selectedOption, setSelectedOption] = useState(options[0]);
+const JoinProcedure = ({ type = 'light' }: JoinProcedureProps) => {
+  const [selectedOption, setSelectedOption] = useState(options[0])
 
   const handleOptionChange = (value: string) => {
-    setSelectedOption(value);
-  };
+    setSelectedOption(value)
+  }
 
   return (
     <>
@@ -42,7 +42,7 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
             <div className="flex flex-wrap sm:flex-nowrap ml-1.5 -mb-5 sm:ml-0 sm:mb-0 justify-between">
               <span className="relative">
                 <span className="flex flex-col sm:block">
-                  {options.map((option) => (
+                  {options.map(option => (
                     <span key={option} className="inline-block ml-2.5">
                       <label className="mb-5 sm:mb-0 block w-full mr-8 sm:inline-block">
                         <input
@@ -67,8 +67,8 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
                 <input
                   size={40}
                   className={twMerge(
-                    "file-upload-input cursor-pointer border py-2 px-5 rounded-full w-full",
-                    style[type].input,
+                    'file-upload-input cursor-pointer border py-2 px-5 rounded-full w-full',
+                    style[type].input
                   )}
                   type="file"
                   name="file"
@@ -85,8 +85,8 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
           </div>
           <button
             className={twMerge(
-              "text-sm text-black rounded-full shadow-md px-6 py-2.5 border-none animation-easein-slow shift-to-right",
-              style[type].button,
+              'text-sm text-black rounded-full shadow-md px-6 py-2.5 border-none animation-easein-slow shift-to-right',
+              style[type].button
             )}
           >
             Go
@@ -94,7 +94,7 @@ const JoinProcedure = ({ type = "light" }: JoinProcedureProps) => {
         </form>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default JoinProcedure;
+export default JoinProcedure

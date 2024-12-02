@@ -1,15 +1,15 @@
-import PageNavbar from "@/components/PageNavbar";
-import IndustriesTabs from "./components/IndustriesTabs";
-import Consultation from "@/components/Consultation";
-import OurClients from "@/components/ClientsSection";
-import IndustriesType from "./components/IndustriesType";
-import BackgroundImage from "../../components/PageBackgroundImage";
-import { Metadata } from "next";
+import PageNavbar from '@/components/PageNavbar'
+import IndustriesTabs from './components/IndustriesTabs'
+import Consultation from '@/components/Consultation'
+import OurClients from '@/components/ClientsSection'
+import IndustriesType from './components/IndustriesType'
+import BackgroundImage from '../../components/PageBackgroundImage'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Industries",
-  description: "",
-};
+  title: 'Industries',
+  description: '',
+}
 
 const Industries = () => {
   return (
@@ -53,7 +53,7 @@ const Industries = () => {
         <Consultation backgroundColor="#1DA069" />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Industries;
+export default Industries

@@ -1,11 +1,11 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Layout = ({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) => {
   return (
     <>
@@ -50,7 +50,7 @@ const Layout = ({
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

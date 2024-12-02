@@ -1,8 +1,8 @@
-import Link from "next/link";
-import React from "react";
-import Image from "next/image";
-import SocialMediaSection from "./SocialMediaSection";
-import Newsletter from "./Newsletter";
+import Link from 'next/link'
+import React from 'react'
+import Image from 'next/image'
+import SocialMediaSection from './SocialMediaSection'
+import Newsletter from './Newsletter'
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
               <h5 className="text-xl mb-12 font-medium leading-[1.2]">
                 <Link
                   className="animation-easein-slow shift-to-right"
-                  href={"/"}
+                  href={'/'}
                 >
                   Home
                 </Link>
@@ -22,7 +22,7 @@ const Footer = () => {
               <h5 className="text-xl mb-12 font-medium leading-[1.2]">
                 <Link
                   className="animation-easein-slow shift-to-right"
-                  href={"/about"}
+                  href={'/about'}
                 >
                   About
                 </Link>
@@ -30,7 +30,7 @@ const Footer = () => {
               <h5 className="text-xl mb-12 font-medium leading-[1.2]">
                 <Link
                   className="animation-easein-slow shift-to-right"
-                  href={"/lifeprocedure"}
+                  href={'/lifeprocedure'}
                 >
                   Life@Procedure
                 </Link>
@@ -58,7 +58,7 @@ const Footer = () => {
               <h5 className="text-xl mb-12 font-medium leading-[1.2]">
                 <Link
                   className="animation-easein-slow shift-to-right"
-                  href={"/capabilities"}
+                  href={'/capabilities'}
                 >
                   Capabilities
                 </Link>
@@ -333,7 +333,7 @@ const Footer = () => {
         </div>
       </section>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

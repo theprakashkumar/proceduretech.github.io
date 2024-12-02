@@ -1,16 +1,16 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image'
+import React from 'react'
 
 type PageBackgroundImageProps = {
-  desktopImage: string;
-  mobileImage: string;
-  alt: string;
-};
+  desktopImage: string
+  mobileImage: string
+  alt: string
+}
 
 const PageBackgroundImage = ({
   desktopImage,
   mobileImage,
-  alt = "Banner",
+  alt = 'Banner',
 }: PageBackgroundImageProps) => {
   return (
     <>
@@ -33,7 +33,7 @@ const PageBackgroundImage = ({
         />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PageBackgroundImage;
+export default PageBackgroundImage

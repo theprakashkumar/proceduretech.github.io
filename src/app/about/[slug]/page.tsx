@@ -1,34 +1,34 @@
-import PageNavbar from "@/components/PageNavbar";
-import { aboutPageData } from "@/data";
-import Image from "next/image";
-import { twMerge } from "tailwind-merge";
-import TeamCard from "../components/TeamCard";
-import { DynamicPagePropsType } from "@/app/types";
-import { Metadata } from "next/types";
-import { removeDashAndCapitalize } from "@/utils/utils";
+import PageNavbar from '@/components/PageNavbar'
+import { aboutPageData } from '@/data'
+import Image from 'next/image'
+import { twMerge } from 'tailwind-merge'
+import TeamCard from '../components/TeamCard'
+import { DynamicPagePropsType } from '@/app/types'
+import { Metadata } from 'next/types'
+import { removeDashAndCapitalize } from '@/utils/utils'
 
-export const dynamicParams = false;
+export const dynamicParams = false
 
-export async function generateMetadata({ params }: DynamicPagePropsType): Promise<Metadata>  {
+export async function generateMetadata({
+  params,
+}: DynamicPagePropsType): Promise<Metadata> {
   const slug = (await params).slug
 
   return {
     title: removeDashAndCapitalize(slug),
-    description: ""
-  };
+    description: '',
+  }
 }
 
 export async function generateStaticParams() {
-  return Object.keys(aboutPageData).map((pageName) => ({
+  return Object.keys(aboutPageData).map(pageName => ({
     slug: pageName,
-  }));
+  }))
 }
 
-export default async function Page({
-  params,
-}: DynamicPagePropsType) {
-  const slug = (await params).slug;
-  const pageData = aboutPageData[slug];
+export default async function Page({ params }: DynamicPagePropsType) {
+  const slug = (await params).slug
+  const pageData = aboutPageData[slug]
 
   return (
     <>
@@ -38,8 +38,8 @@ export default async function Page({
             <PageNavbar className="static mt-14 lg:w-full">
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot",
-                  pageData.heroSection.style.nameColor,
+                  'text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot',
+                  pageData.heroSection.style.nameColor
                 )}
               >
                 {pageData.heroSection.name}
@@ -53,8 +53,8 @@ export default async function Page({
         <div className="mt-28 -mb-12 lg:mb-0 lg:mt-12 lg:pl-[7vw]">
           <div
             className={twMerge(
-              "flex flex-wrap rounded-none pt-12 lg:pt-0 lg:flex-nowrap justify-evenly items-center lg:rounded-l-full bg-blue",
-              pageData.profileSection.backgroundColor,
+              'flex flex-wrap rounded-none pt-12 lg:pt-0 lg:flex-nowrap justify-evenly items-center lg:rounded-l-full bg-blue',
+              pageData.profileSection.backgroundColor
             )}
           >
             <div className="max-w-xl px-[7vw] lg:px-0 lg:ml-[4%]">
@@ -90,10 +90,10 @@ export default async function Page({
         </div>
       </section>
       <section className="flex flex-wrap mb-28">
-        {pageData.teamMembersData.map((member) => (
+        {pageData.teamMembersData.map(member => (
           <TeamCard key={member.name} member={member} />
         ))}
       </section>
     </>
-  );
+  )
 }

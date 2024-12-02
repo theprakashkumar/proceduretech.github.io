@@ -1,17 +1,17 @@
-import PageNavbar from "@/components/PageNavbar";
-import ClientsSection from "@/components/ClientsSection";
-import { aboutPagePointerData } from "@/data";
-import PageBackgroundImage from "@/components/PageBackgroundImage";
-import Pointers from "@/components/Pointers";
-import Consultation from "@/components/Consultation";
-import TeamsData from "./components/TeamsData";
+import PageNavbar from '@/components/PageNavbar'
+import ClientsSection from '@/components/ClientsSection'
+import { aboutPagePointerData } from '@/data'
+import PageBackgroundImage from '@/components/PageBackgroundImage'
+import Pointers from '@/components/Pointers'
+import Consultation from '@/components/Consultation'
+import TeamsData from './components/TeamsData'
 
-import { Metadata } from "next";
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "About",
-  description: "",
-};
+  title: 'About',
+  description: '',
+}
 
 const About = () => {
   return (
@@ -53,7 +53,7 @@ const About = () => {
         <Consultation type="transparent" />
       </section>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

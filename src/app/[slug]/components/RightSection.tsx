@@ -1,11 +1,11 @@
-import { PostType, TagsType } from "@/data/types";
-import Link from "next/link";
-import React from "react";
+import { PostType, TagsType } from '@/data/types'
+import Link from 'next/link'
+import React from 'react'
 
 type RightSectionProps = {
-  latestPosts: PostType[];
-  tags: TagsType[];
-};
+  latestPosts: PostType[]
+  tags: TagsType[]
+}
 
 const RightSection = ({ latestPosts, tags }: RightSectionProps) => {
   return (
@@ -35,7 +35,7 @@ const RightSection = ({ latestPosts, tags }: RightSectionProps) => {
         Tag Cloud
       </h4>
       <div className="flex flex-wrap lg:border-b border-b-black/20 pb-10">
-        {tags.map((tag) => (
+        {tags.map(tag => (
           <Link
             key={tag.link}
             className="py-1.5 px-5 bg-[#D0D0D0] mr-2.5 mb-2.5 rounded-full border-none text-sm relative animation-easein-slow left-0 hover:bg-[rgba(208,208,208,0.3)]"
@@ -46,7 +46,7 @@ const RightSection = ({ latestPosts, tags }: RightSectionProps) => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default RightSection;
+export default RightSection

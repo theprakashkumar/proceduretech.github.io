@@ -1,12 +1,12 @@
-import React from "react";
-import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
-import Link from "next/link";
-import { tabs } from "@/constants/constant";
+import React from 'react'
+import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
+import Link from 'next/link'
+import { tabs } from '@/constants/constant'
 
 type TabsSectionsProps = {
-  selectedIndex: number;
-  setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
-};
+  selectedIndex: number
+  setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
+}
 
 const TabsSection = ({
   selectedIndex,
@@ -29,7 +29,7 @@ const TabsSection = ({
         ))}
       </TabList>
       <TabPanels className="text-white pt-5 lg:pt-[6vw]">
-        {tabs.map((tab) => (
+        {tabs.map(tab => (
           <TabPanel
             key={tab.name}
             className="block transition-opacity duration-150 ease-linear"
@@ -47,7 +47,7 @@ const TabsSection = ({
         ))}
       </TabPanels>
     </TabGroup>
-  );
-};
+  )
+}
 
-export default TabsSection;
+export default TabsSection

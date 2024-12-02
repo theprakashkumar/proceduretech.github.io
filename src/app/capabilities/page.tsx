@@ -1,15 +1,15 @@
-import CapabilitiesTabs from "./components/CapabilitiesTabs";
-import PageNavbar from "@/components/PageNavbar";
-import PageBackgroundImage from "@/components/PageBackgroundImage";
-import Consultation from "../../components/Consultation";
-import CapabilitiesNavigation from "./components/CapablitiesNavigation";
+import CapabilitiesTabs from './components/CapabilitiesTabs'
+import PageNavbar from '@/components/PageNavbar'
+import PageBackgroundImage from '@/components/PageBackgroundImage'
+import Consultation from '../../components/Consultation'
+import CapabilitiesNavigation from './components/CapablitiesNavigation'
 
-import { Metadata } from "next";
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Capabilities",
-  description: "",
-};
+  title: 'Capabilities',
+  description: '',
+}
 
 const Capabilities = () => {
   return (
@@ -36,7 +36,7 @@ const Capabilities = () => {
         <PageBackgroundImage
           desktopImage="/assets/capabilities-banner.jpg"
           mobileImage="/assets/mob-capabilities-banner.jpg"
-          alt={"Capabilities Banner"}
+          alt={'Capabilities Banner'}
         />
       </section>
       <section>
@@ -58,7 +58,7 @@ const Capabilities = () => {
         <Consultation backgroundColor="#1DA069" />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Capabilities;
+export default Capabilities

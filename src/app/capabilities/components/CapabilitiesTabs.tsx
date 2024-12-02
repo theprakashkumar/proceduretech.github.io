@@ -1,11 +1,11 @@
-"use client";
+'use client'
 
-import TabsSection from "@/components/TabsSection";
-import { tabs } from "@/constants/constant";
-import React, { useState } from "react";
+import TabsSection from '@/components/TabsSection'
+import { tabs } from '@/constants/constant'
+import React, { useState } from 'react'
 
 const CapabilitiesTabs = () => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(0)
   return (
     <div className="lg:pl-[7vw]">
       <div
@@ -20,7 +20,7 @@ const CapabilitiesTabs = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CapabilitiesTabs;
+export default CapabilitiesTabs

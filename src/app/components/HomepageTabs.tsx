@@ -1,11 +1,11 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
-import { tabs } from "@/constants/constant";
-import TabsSection from "@/components/TabsSection";
+import React, { useState } from 'react'
+import { tabs } from '@/constants/constant'
+import TabsSection from '@/components/TabsSection'
 
 const HomepageTabs = () => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(0)
   return (
     <div
       className="bg-cover bg-center py-16 lg:pt-28 lg:pb-36"
@@ -20,7 +20,7 @@ const HomepageTabs = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HomepageTabs;
+export default HomepageTabs

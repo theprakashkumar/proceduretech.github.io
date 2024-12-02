@@ -1,24 +1,24 @@
-"use client";
+'use client'
 
-import InputField from "@/components/InputField";
-import React, { useState } from "react";
+import InputField from '@/components/InputField'
+import React, { useState } from 'react'
 
 const DownloadForm = () => {
   const [formData, setFormData] = useState({
-    email: "",
-    phone: "",
-    name: "",
-    companyName: "",
-  });
+    email: '',
+    phone: '',
+    name: '',
+    companyName: '',
+  })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-  };
+    e.preventDefault()
+  }
 
   return (
     <div className="lg:w-[30%] mr-0">
@@ -28,15 +28,15 @@ const DownloadForm = () => {
       <div>
         <form onSubmit={handleSubmit}>
           {[
-            { name: "email", type: "email", placeholder: "Email" },
-            { name: "phone", type: "tel", placeholder: "Phone" },
-            { name: "name", type: "text", placeholder: "Name" },
+            { name: 'email', type: 'email', placeholder: 'Email' },
+            { name: 'phone', type: 'tel', placeholder: 'Phone' },
+            { name: 'name', type: 'text', placeholder: 'Name' },
             {
-              name: "companyName",
-              type: "text",
-              placeholder: "Company Name",
+              name: 'companyName',
+              type: 'text',
+              placeholder: 'Company Name',
             },
-          ].map((field) => (
+          ].map(field => (
             <InputField
               key={field.name}
               name={field.name}
@@ -51,7 +51,7 @@ const DownloadForm = () => {
           <div className="w-full mb-5 pr-5">
             <button
               type="submit"
-              className={"primary-button mt-5 bg-green-600/50"}
+              className={'primary-button mt-5 bg-green-600/50'}
             >
               Go
             </button>
@@ -96,7 +96,7 @@ const DownloadForm = () => {
       ))}
     </div> */}
     </div>
-  );
-};
+  )
+}
 
-export default DownloadForm;
+export default DownloadForm

@@ -1,36 +1,36 @@
-import HoverImage from "@/app/components/HoverImage";
-import PageNavbar from "@/components/PageNavbar";
-import Image from "next/image";
-import { twMerge } from "tailwind-merge";
-import PhotoSlider from "../components/PhotoSlider";
-import Pointers from "@/components/Pointers";
-import { lifeProcedureData } from "@/data";
-import { DynamicPagePropsType } from "@/app/types";
-import { removeDashAndCapitalize } from "@/utils/utils";
-import { Metadata } from "next/types";
+import HoverImage from '@/app/components/HoverImage'
+import PageNavbar from '@/components/PageNavbar'
+import Image from 'next/image'
+import { twMerge } from 'tailwind-merge'
+import PhotoSlider from '../components/PhotoSlider'
+import Pointers from '@/components/Pointers'
+import { lifeProcedureData } from '@/data'
+import { DynamicPagePropsType } from '@/app/types'
+import { removeDashAndCapitalize } from '@/utils/utils'
+import { Metadata } from 'next/types'
 
-export const dynamicParams = false;
+export const dynamicParams = false
 
-export async function generateMetadata({ params }: DynamicPagePropsType): Promise<Metadata>  {
+export async function generateMetadata({
+  params,
+}: DynamicPagePropsType): Promise<Metadata> {
   const slug = (await params).slug
 
   return {
     title: removeDashAndCapitalize(slug),
-    description: ""
-  };
+    description: '',
+  }
 }
 
 export async function generateStaticParams() {
-  return Object.keys(lifeProcedureData).map((pageName) => ({
+  return Object.keys(lifeProcedureData).map(pageName => ({
     slug: pageName,
-  }));
+  }))
 }
 
-export default async function Page({
-  params,
-}: DynamicPagePropsType) {
-  const slug = (await params).slug;
-  const pageData = lifeProcedureData[slug];
+export default async function Page({ params }: DynamicPagePropsType) {
+  const slug = (await params).slug
+  const pageData = lifeProcedureData[slug]
 
   return (
     <>
@@ -40,16 +40,16 @@ export default async function Page({
             <PageNavbar className="static mt-14 lg:w-full">
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot",
-                  pageData.heroSection.style.headingColor,
+                  'text-5xl lg:text-6xl xl:text-7xl pt-4 mb-1.5 tracking-tighter dot',
+                  pageData.heroSection.style.headingColor
                 )}
               >
                 {pageData.heroSection.heading}
               </h1>
               <h1
                 className={twMerge(
-                  "text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot",
-                  pageData.heroSection.style.subHeadingColor,
+                  'text-5xl lg:text-6xl xl:text-7xl mb-1.5 tracking-tighter dot',
+                  pageData.heroSection.style.subHeadingColor
                 )}
               >
                 {pageData.heroSection.subHeading}
@@ -61,8 +61,8 @@ export default async function Page({
       <section className="-mt-24 lg:mt-0 mb-28">
         <div
           className={twMerge(
-            "flex items-center justify-between overflow-hidden h-auto pt-12 lg:pt-0 m-0 lg:h-96 px-[7vw] lg:rounded-r-full lg:mr-[calc(7vw*_3)]",
-            pageData.profileOne.color,
+            'flex items-center justify-between overflow-hidden h-auto pt-12 lg:pt-0 m-0 lg:h-96 px-[7vw] lg:rounded-r-full lg:mr-[calc(7vw*_3)]',
+            pageData.profileOne.color
           )}
         >
           <div className="mx-auto p-0 lg:m-0">
@@ -111,8 +111,8 @@ export default async function Page({
         </div>
         <div
           className={twMerge(
-            "flex items-center flex-row-reverse justify-between overflow-hidden h-auto pt-12 lg:pt-0 m-0 lg:h-96 px-[7vw] lg:rounded-l-full lg:ml-[calc(7vw*_3)]",
-            pageData.profileTwo.color,
+            'flex items-center flex-row-reverse justify-between overflow-hidden h-auto pt-12 lg:pt-0 m-0 lg:h-96 px-[7vw] lg:rounded-l-full lg:ml-[calc(7vw*_3)]',
+            pageData.profileTwo.color
           )}
         >
           <div className="mx-auto p-0 lg:m-0">
@@ -136,5 +136,5 @@ export default async function Page({
         <PhotoSlider photoData={pageData.photoSliders} />
       </section>
     </>
-  );
+  )
 }

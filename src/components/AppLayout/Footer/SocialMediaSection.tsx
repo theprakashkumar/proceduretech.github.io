@@ -1,33 +1,33 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link'
+import Image from 'next/image'
 
 const socialLinks = [
   {
-    href: "https://www.linkedin.com/company/procedurehq/",
-    src: "/assets/linkedin-1.svg",
-    alt: "LinkedIn",
+    href: 'https://www.linkedin.com/company/procedurehq/',
+    src: '/assets/linkedin-1.svg',
+    alt: 'LinkedIn',
   },
   {
-    href: "https://www.youtube.com/@ProcedureHQ/featured",
-    src: "/assets/youtube.svg",
-    alt: "YouTube",
+    href: 'https://www.youtube.com/@ProcedureHQ/featured',
+    src: '/assets/youtube.svg',
+    alt: 'YouTube',
   },
   {
-    href: "https://twitter.com/ProcedureHQ",
-    src: "/assets/footer-twitter.svg",
-    alt: "Twitter",
+    href: 'https://twitter.com/ProcedureHQ',
+    src: '/assets/footer-twitter.svg',
+    alt: 'Twitter',
   },
   {
-    href: "https://www.instagram.com/procedure_hq/",
-    src: "/assets/insta.svg",
-    alt: "Instagram",
+    href: 'https://www.instagram.com/procedure_hq/',
+    src: '/assets/insta.svg',
+    alt: 'Instagram',
   },
   {
-    href: "https://www.facebook.com/ProcedureHQ",
-    src: "/assets/fb-1.svg",
-    alt: "Facebook",
+    href: 'https://www.facebook.com/ProcedureHQ',
+    src: '/assets/fb-1.svg',
+    alt: 'Facebook',
   },
-];
+]
 
 const SocialMediaSection = () => {
   return (
@@ -53,7 +53,7 @@ const SocialMediaSection = () => {
         ))}
       </ul>
     </>
-  );
-};
+  )
+}
 
-export default SocialMediaSection;
+export default SocialMediaSection

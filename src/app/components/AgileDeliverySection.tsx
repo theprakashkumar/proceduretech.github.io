@@ -1,41 +1,41 @@
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
-import React from "react";
-import { twMerge } from "tailwind-merge";
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
+import React from 'react'
+import { twMerge } from 'tailwind-merge'
 
 const videos = [
   {
-    src: "/assets/home-spiral-balls-v2.mp4",
+    src: '/assets/home-spiral-balls-v2.mp4',
     className:
-      "hidden lg:inline max-w-full max-h-[51.875rem] relative -right-[15%] xl:right-auto",
+      'hidden lg:inline max-w-full max-h-[51.875rem] relative -right-[15%] xl:right-auto',
   },
   {
-    src: "/assets/mobile-home-spiral-balls-v3.mp4",
+    src: '/assets/mobile-home-spiral-balls-v3.mp4',
     className:
-      "inline lg:hidden max-w-full max-h-[37.5rem] lg:max-h-[51.875rem] relative right-0 lg:right-[-15%] xl:right-auto",
+      'inline lg:hidden max-w-full max-h-[37.5rem] lg:max-h-[51.875rem] relative right-0 lg:right-[-15%] xl:right-auto',
   },
-];
+]
 
 const links = [
   {
-    title: "Think",
+    title: 'Think',
     description:
-      "Services to help you make the right decisions to achieve business goals",
-    href: "/capabilities/#think",
+      'Services to help you make the right decisions to achieve business goals',
+    href: '/capabilities/#think',
   },
   {
-    title: "Build",
+    title: 'Build',
     description:
-      "We build products faster and better to deliver right to your customers",
-    href: "/capabilities/#build",
+      'We build products faster and better to deliver right to your customers',
+    href: '/capabilities/#build',
   },
   {
-    title: "Measure",
+    title: 'Measure',
     description:
-      "We continually track how well our strategies and products are work",
-    href: "/capabilities/#measure",
+      'We continually track how well our strategies and products are work',
+    href: '/capabilities/#measure',
   },
-];
+]
 
 const AgileDeliverySection = () => {
   return (
@@ -65,8 +65,8 @@ const AgileDeliverySection = () => {
                 <Link
                   key={index}
                   className={twMerge(
-                    "border-t flex items-end py-5 justify-between text-black border-b border-b-black/10 animation-easein-slow shift-to-right",
-                    index === 0 ? "border-t-black/10" : "",
+                    'border-t flex items-end py-5 justify-between text-black border-b border-b-black/10 animation-easein-slow shift-to-right',
+                    index === 0 ? 'border-t-black/10' : ''
                   )}
                   href={link.href}
                 >
@@ -86,7 +86,7 @@ const AgileDeliverySection = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AgileDeliverySection;
+export default AgileDeliverySection

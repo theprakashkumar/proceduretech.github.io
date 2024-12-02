@@ -5,1510 +5,1510 @@ import {
   CaseStudiesDataType,
   IndustriesPagesDataType,
   LifeProcedureDataType,
-} from "./types";
+} from './types'
 
 export const capabilitiesPagesData: {
-  [key: string]: CapabilitiesPagesDataType;
+  [key: string]: CapabilitiesPagesDataType
 } = {
-  "digital-ventures": {
+  'digital-ventures': {
     heroSection: {
-      heading: "Digital Ventures",
+      heading: 'Digital Ventures',
       description:
-        "Our complete suite of technology services to deliver better products, create stronger brands, new markets, and greater profitability through digital capabilities.",
+        'Our complete suite of technology services to deliver better products, create stronger brands, new markets, and greater profitability through digital capabilities.',
       images: {
-        desktop: "/assets/digital-ventures.jpg",
-        mobile: "/assets/mob-digital-venture.jpg",
+        desktop: '/assets/digital-ventures.jpg',
+        mobile: '/assets/mob-digital-venture.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Future-driven Digital Strategy",
+        heading: 'Future-driven Digital Strategy',
         description:
-          "Our Technology Consulting and Advisory Services are pioneers of the Path to Success in the Digital Age, helping digital ventures identify the most relevant and feasible technology solutions that can aid their business objectives.",
-        color: "dot-iceblue",
+          'Our Technology Consulting and Advisory Services are pioneers of the Path to Success in the Digital Age, helping digital ventures identify the most relevant and feasible technology solutions that can aid their business objectives.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Cutting-edge Software Solutions",
+        heading: 'Cutting-edge Software Solutions',
         description:
-          "Software Development Services that empower Digital Ventures with next-gen Technology. Our custom application development caters to a digital venture’s unique requirements while maximizing efficiency and future growth.",
-        color: "dot-ochre",
+          'Software Development Services that empower Digital Ventures with next-gen Technology. Our custom application development caters to a digital venture’s unique requirements while maximizing efficiency and future growth.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Revolutionize with Cloud Power",
+        heading: 'Revolutionize with Cloud Power',
         description:
-          "Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.",
-        color: "dot-wine",
+          'Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.',
+        color: 'dot-wine',
       },
       {
-        heading: "Accelerate with Automation",
+        heading: 'Accelerate with Automation',
         description:
-          "Our DevOps and Automation Services streamline end-to-end software delivery processes with solutions integrating development, testing, and deployment, ensuring faster product releases and better team collaboration.",
-        color: "dot-blue",
+          'Our DevOps and Automation Services streamline end-to-end software delivery processes with solutions integrating development, testing, and deployment, ensuring faster product releases and better team collaboration.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-ochre",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-ochre',
+        backgroundColor: '#B93939',
       },
     },
   },
   innovation: {
     heroSection: {
-      heading: "Innovation",
+      heading: 'Innovation',
       description:
-        "Procedure is your trusted ally on the path to groundbreaking solutions. Let’s defy the status quo together and create a future that’s nothing short of extraordinary.",
+        'Procedure is your trusted ally on the path to groundbreaking solutions. Let’s defy the status quo together and create a future that’s nothing short of extraordinary.',
       images: {
-        desktop: "/assets/innovation.jpg",
-        mobile: "/assets/mob-innovation.jpg",
+        desktop: '/assets/innovation.jpg',
+        mobile: '/assets/mob-innovation.jpg',
       },
-      color: "dot-blue",
+      color: 'dot-blue',
     },
     pointers: [
       {
-        heading: "Innovation Catalyst",
+        heading: 'Innovation Catalyst',
         description:
-          "We kick-start the innovation process by conducting interactive ideation workshops to help uncover new digital solutions to your business challenges. Together, we foster a culture of creativity and discovery.",
-        color: "dot-brown",
+          'We kick-start the innovation process by conducting interactive ideation workshops to help uncover new digital solutions to your business challenges. Together, we foster a culture of creativity and discovery.',
+        color: 'dot-brown',
       },
       {
-        heading: "Cutting-Edge Technologies",
+        heading: 'Cutting-Edge Technologies',
         description:
-          "We use emerging technologies to push the boundaries of what’s possible. From AI-powered systems that think ahead, to blockchain solutions that revolutionize trust—we harness the power of technology so our clients can unlock limitless possibilities for their own businesses.",
-        color: "dot-wine",
+          'We use emerging technologies to push the boundaries of what’s possible. From AI-powered systems that think ahead, to blockchain solutions that revolutionize trust—we harness the power of technology so our clients can unlock limitless possibilities for their own businesses.',
+        color: 'dot-wine',
       },
       {
-        heading: "Design Thinking",
+        heading: 'Design Thinking',
         description:
-          "Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.",
-        color: "dot-iceblue",
+          'Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Collaborative Partnerships",
+        heading: 'Collaborative Partnerships',
         description:
-          "Our DevOps and Automation Services streamline end-to-end software delivery processes with solutions integrating development, testing, and deployment, ensuring faster product releases and better team collaboration.",
-        color: "dot-green",
+          'Our DevOps and Automation Services streamline end-to-end software delivery processes with solutions integrating development, testing, and deployment, ensuring faster product releases and better team collaboration.',
+        color: 'dot-green',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "ux-ui": {
+  'ux-ui': {
     heroSection: {
-      heading: "UX & UI",
+      heading: 'UX & UI',
       description:
-        "Our UX experts are passionate about transforming products into meaningful experiences, simplifying complex systems and building digital services with seamless experiences.",
+        'Our UX experts are passionate about transforming products into meaningful experiences, simplifying complex systems and building digital services with seamless experiences.',
       images: {
-        desktop: "/assets/ui-and-ux.jpg",
-        mobile: "/assets/mob-ui-ux.jpg",
+        desktop: '/assets/ui-and-ux.jpg',
+        mobile: '/assets/mob-ui-ux.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "User Research and Testing",
+        heading: 'User Research and Testing',
         description:
-          "We dive deep into understanding the target audience, conducting comprehensive user research to uncover insights that inform the design process. Through thorough testing, we ensure your application meets user expectations and delights in terms of usability.",
-        color: "dot-iceblue",
+          'We dive deep into understanding the target audience, conducting comprehensive user research to uncover insights that inform the design process. Through thorough testing, we ensure your application meets user expectations and delights in terms of usability.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "IA and Wireframes",
+        heading: 'IA and Wireframes',
         description:
-          "We architect intuitive navigation flow and information hierarchy to enhance user journey and streamline interaction patterns. Our goal is to create a wireframe that can be tested and simulates the user engagement.",
-        color: "dot-ochre",
+          'We architect intuitive navigation flow and information hierarchy to enhance user journey and streamline interaction patterns. Our goal is to create a wireframe that can be tested and simulates the user engagement.',
+        color: 'dot-ochre',
       },
       {
-        heading: "High Fidelity Prototyping",
+        heading: 'High Fidelity Prototyping',
         description:
-          "We work collaboratively with our clients and teams to create a user-first design that aligns with business objectives. Interactive prototypes and high-fidelity mockups enable us to collaborate efficiently across teams.",
-        color: "dot-wine",
+          'We work collaboratively with our clients and teams to create a user-first design that aligns with business objectives. Interactive prototypes and high-fidelity mockups enable us to collaborate efficiently across teams.',
+        color: 'dot-wine',
       },
       {
-        heading: "Visual Design and Branding",
+        heading: 'Visual Design and Branding',
         description:
-          "Our talented designers create effective interfaces that reflect the spirit of your brand identity. We bridge the gap between designers and developers to create a seamless user experience across all digital touchpoints.",
-        color: "dot-blue",
+          'Our talented designers create effective interfaces that reflect the spirit of your brand identity. We bridge the gap between designers and developers to create a seamless user experience across all digital touchpoints.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-ochre",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-ochre',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "dx-modernization": {
+  'dx-modernization': {
     heroSection: {
-      heading: "DX & Modernization",
+      heading: 'DX & Modernization',
       description:
-        "We help clients implement their DX strategy by connecting the dots between technology and business goals, identifying relevant solutions and partners.",
+        'We help clients implement their DX strategy by connecting the dots between technology and business goals, identifying relevant solutions and partners.',
       images: {
-        desktop: "/assets/dx-and-modernization.jpg",
-        mobile: "/assets/mob-dx-modernization.jpg",
+        desktop: '/assets/dx-and-modernization.jpg',
+        mobile: '/assets/mob-dx-modernization.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Strategy Development",
+        heading: 'Strategy Development',
         description:
-          "Our experts conduct a thorough analysis of the current systems, processes and technology landscape to identify areas of improvement, prioritize goals and define a roadmap for digital transformation.",
-        color: "dot-iceblue",
+          'Our experts conduct a thorough analysis of the current systems, processes and technology landscape to identify areas of improvement, prioritize goals and define a roadmap for digital transformation.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "User-Centric Design & Experience",
+        heading: 'User-Centric Design & Experience',
         description:
-          "We emphasize user-centric design principles to enhance the overall digital experience for clients and their customers. Our UX/UI experts conduct in-depth research, implement intuitive navigation, and UI design.",
-        color: "dot-wine",
+          'We emphasize user-centric design principles to enhance the overall digital experience for clients and their customers. Our UX/UI experts conduct in-depth research, implement intuitive navigation, and UI design.',
+        color: 'dot-wine',
       },
       {
-        heading: "Legacy System Modernization",
+        heading: 'Legacy System Modernization',
         description:
-          "By leveraging the latest technologies and best practices we ensure a smooth transition from outdated systems to modern, scalable, and efficient solutions to improve operational efficiency and reduce maintenance costs.",
-        color: "dot-iceblue",
+          'By leveraging the latest technologies and best practices we ensure a smooth transition from outdated systems to modern, scalable, and efficient solutions to improve operational efficiency and reduce maintenance costs.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Cloud Migration and Integration",
+        heading: 'Cloud Migration and Integration',
         description:
-          "We help businesses tap into the benefits of cloud computing, By seamlessly integrating your systems and applications, we enable you to achieve a unified and interconnected ecosystem that drives productivity and collaboration.",
-        color: "dot-green",
+          'We help businesses tap into the benefits of cloud computing, By seamlessly integrating your systems and applications, we enable you to achieve a unified and interconnected ecosystem that drives productivity and collaboration.',
+        color: 'dot-green',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "process-consulting": {
+  'process-consulting': {
     heroSection: {
-      heading: "Process Consulting",
+      heading: 'Process Consulting',
       description:
-        "At Procedure, we’re not just consultants, we’re partners in your success. Trust us to optimize your business processes, design innovative solutions, and establish a culture of continuous improvement.",
+        'At Procedure, we’re not just consultants, we’re partners in your success. Trust us to optimize your business processes, design innovative solutions, and establish a culture of continuous improvement.',
       images: {
-        desktop: "/assets/process-consulting.jpg",
-        mobile: "/assets/mob-process-consulting.jpg",
+        desktop: '/assets/process-consulting.jpg',
+        mobile: '/assets/mob-process-consulting.jpg',
       },
-      color: "dot-blue",
+      color: 'dot-blue',
     },
     pointers: [
       {
-        heading: "Process Mapping & Optimization",
+        heading: 'Process Mapping & Optimization',
         description:
-          "Our experts meticulously visualize and analyze your current processes, identify inefficiencies, and propose innovative solutions that will transform the way you work. Prepare for warp-speed efficiency and watch your business thrive.",
-        color: "dot-iceblue",
+          'Our experts meticulously visualize and analyze your current processes, identify inefficiencies, and propose innovative solutions that will transform the way you work. Prepare for warp-speed efficiency and watch your business thrive.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Continuous Improvement",
+        heading: 'Continuous Improvement',
         description:
-          "We don’t just stop at optimizing your current processes. We help you establish a culture of continuous improvement, where your team is empowered to identify areas for improvement and propose new solutions.",
-        color: "dot-ochre",
+          'We don’t just stop at optimizing your current processes. We help you establish a culture of continuous improvement, where your team is empowered to identify areas for improvement and propose new solutions.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Innovation Accelerators",
+        heading: 'Innovation Accelerators',
         description:
-          "Our experts incorporate metrics and KPIs (Key Performance Indicators) into the process design, providing tangible data that measures progress and results. Use our performance metrics to guide decision-making and produce results.",
-        color: "dot-wine",
+          'Our experts incorporate metrics and KPIs (Key Performance Indicators) into the process design, providing tangible data that measures progress and results. Use our performance metrics to guide decision-making and produce results.',
+        color: 'dot-wine',
       },
       {
-        heading: "Future-Proofing Strategies",
+        heading: 'Future-Proofing Strategies',
         description:
-          "We’ve got our eyes firmly fixed on the horizon. Our process consulting services incorporate forward-thinking strategies that anticipate future challenges and equip your business for success in the ever-evolving technological landscape.",
-        color: "dot-blue",
+          'We’ve got our eyes firmly fixed on the horizon. Our process consulting services incorporate forward-thinking strategies that anticipate future challenges and equip your business for success in the ever-evolving technological landscape.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-ochre",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-ochre',
+        backgroundColor: '#B93939',
       },
     },
   },
   agile: {
     heroSection: {
-      heading: "Agile",
+      heading: 'Agile',
       description:
-        "Procedure puts Agile tools to work in order to drive collaboration, prioritize user experience and optimize results through iterative development.",
+        'Procedure puts Agile tools to work in order to drive collaboration, prioritize user experience and optimize results through iterative development.',
       images: {
-        desktop: "/assets/agile.jpg",
-        mobile: "/assets/mob-agile.jpg",
+        desktop: '/assets/agile.jpg',
+        mobile: '/assets/mob-agile.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "Embrace Collaboration",
+        heading: 'Embrace Collaboration',
         description:
-          "Procedure actively collaborates with clients to incorporate their feedback throughout the development process. We use Agile tools like Trello, Asana and Jira to facilitate communication, track progress, and ensure alignment between us and client teams.",
-        color: "dot-brown",
+          'Procedure actively collaborates with clients to incorporate their feedback throughout the development process. We use Agile tools like Trello, Asana and Jira to facilitate communication, track progress, and ensure alignment between us and client teams.',
+        color: 'dot-brown',
       },
       {
-        heading: "User-centric approach",
+        heading: 'User-centric approach',
         description:
-          "We’re committed to delivering solutions that exceed user expectations, resulting in superior user experiences. We put the user at the center of the development process, collect user feedback, and incorporate it into our development process to ensure client solutions meet customer needs.",
-        color: "dot-wine",
+          'We’re committed to delivering solutions that exceed user expectations, resulting in superior user experiences. We put the user at the center of the development process, collect user feedback, and incorporate it into our development process to ensure client solutions meet customer needs.',
+        color: 'dot-wine',
       },
       {
-        heading: "Prioritize Flexibility",
+        heading: 'Prioritize Flexibility',
         description:
-          "We adapt to changing client requirements and ensure that project deliverables remain relevant and responsive to evolving needs. Agile tools allows us to pivot when priorities change and ensure that client solutions are built in a flexible and sustainable manner.",
-        color: "dot-iceblue",
+          'We adapt to changing client requirements and ensure that project deliverables remain relevant and responsive to evolving needs. Agile tools allows us to pivot when priorities change and ensure that client solutions are built in a flexible and sustainable manner.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Continuous Improvement",
+        heading: 'Continuous Improvement',
         description:
-          "With Agile tools as allies, we regularly reflect on processes and products to identify areas for improvements. Using continuous improvement practices, we gather feedback from clients and analyze data on application usage to optimize processes and deliver better solutions.",
-        color: "dot-green",
+          'With Agile tools as allies, we regularly reflect on processes and products to identify areas for improvements. Using continuous improvement practices, we gather feedback from clients and analyze data on application usage to optimize processes and deliver better solutions.',
+        color: 'dot-green',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "app-development": {
+  'app-development': {
     heroSection: {
-      heading: "App Development",
+      heading: 'App Development',
       description:
-        "Procedure is driven by a passion for innovation and a focus on our clients’ success. We help companies translate their vision into reality by creating applications that transcend boundaries.",
+        'Procedure is driven by a passion for innovation and a focus on our clients’ success. We help companies translate their vision into reality by creating applications that transcend boundaries.',
       images: {
-        desktop: "/assets/app-development.jpg",
-        mobile: "/assets/mob-app-development.jpg",
+        desktop: '/assets/app-development.jpg',
+        mobile: '/assets/mob-app-development.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Accelerated Innovation",
+        heading: 'Accelerated Innovation',
         description:
-          "Our Technology Consulting and Advisory Services are pioneers of the Path to Success in the Digital Age, helping digital ventures identify the most relevant and feasible technology solutions that can aid their business objectives.",
-        color: "dot-brown",
+          'Our Technology Consulting and Advisory Services are pioneers of the Path to Success in the Digital Age, helping digital ventures identify the most relevant and feasible technology solutions that can aid their business objectives.',
+        color: 'dot-brown',
       },
       {
-        heading: "Strategic Problem Solving",
+        heading: 'Strategic Problem Solving',
         description:
-          "Software Development Services that empower Digital Ventures with next-gen Technology. Our custom application development caters to a digital venture’s unique requirements while maximizing efficiency and future growth.",
-        color: "dot-wine",
+          'Software Development Services that empower Digital Ventures with next-gen Technology. Our custom application development caters to a digital venture’s unique requirements while maximizing efficiency and future growth.',
+        color: 'dot-wine',
       },
       {
-        heading: "Immersive User Experiences",
+        heading: 'Immersive User Experiences',
         description:
-          "Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.",
-        color: "dot-iceblue",
+          'Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Future-Proof Architecture",
+        heading: 'Future-Proof Architecture',
         description:
-          "Our DevOps and Automation Services streamline end-to-end software delivery processes with solutions integrating development, testing, and deployment, ensuring faster product releases and better team collaboration.",
-        color: "dot-green",
+          'Our DevOps and Automation Services streamline end-to-end software delivery processes with solutions integrating development, testing, and deployment, ensuring faster product releases and better team collaboration.',
+        color: 'dot-green',
       },
       {
-        heading: "Continuous Evolution",
+        heading: 'Continuous Evolution',
         description:
-          "We’re committed to building long-term relationships with our clients. Our team continually identifies and troubleshoots issues, makes enhancements, and performs updates—all while keeping your applications secure and stable.",
-        color: "dot-ochre",
+          'We’re committed to building long-term relationships with our clients. Our team continually identifies and troubleshoots issues, makes enhancements, and performs updates—all while keeping your applications secure and stable.',
+        color: 'dot-ochre',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
   cloud: {
     heroSection: {
-      heading: "Cloud",
+      heading: 'Cloud',
       description:
-        "Our cloud services propel our clients to new heights and revolutionizes their products and offerings. Procedure will take your business to cloud nine, leaving your competition trailing behind.",
+        'Our cloud services propel our clients to new heights and revolutionizes their products and offerings. Procedure will take your business to cloud nine, leaving your competition trailing behind.',
       images: {
-        desktop: "/assets/cloud.jpg",
-        mobile: "/assets/mob-cloud.jpg",
+        desktop: '/assets/cloud.jpg',
+        mobile: '/assets/mob-cloud.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Cloud Migration",
+        heading: 'Cloud Migration',
         description:
-          "Say goodbye to outdated infrastructure and hello to the cloud! Let our experts seamlessly migrate your systems and applications, ensuring a smooth transition. Embrace enhanced scalability, flexibility—and savings.",
-        color: "dot-iceblue",
+          'Say goodbye to outdated infrastructure and hello to the cloud! Let our experts seamlessly migrate your systems and applications, ensuring a smooth transition. Embrace enhanced scalability, flexibility—and savings.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Cloud Infrastructure Management",
+        heading: 'Cloud Infrastructure Management',
         description:
-          "Trust us to manage your cloud infrastructure with utmost care. We handle everything from provisioning and monitoring to security and optimization. Focus on your core business while we handle the complexities of cloud management.",
-        color: "dot-ochre",
+          'Trust us to manage your cloud infrastructure with utmost care. We handle everything from provisioning and monitoring to security and optimization. Focus on your core business while we handle the complexities of cloud management.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Cloud Application Development",
+        heading: 'Cloud Application Development',
         description:
-          "Leverage the power of cloud-based applications to unlock your business’s full potential. Our talented developers will create highly scalable and performant cloud applications tailor-made for your unique requirements. Watch your productivity skyrocket",
-        color: "dot-wine",
+          'Leverage the power of cloud-based applications to unlock your business’s full potential. Our talented developers will create highly scalable and performant cloud applications tailor-made for your unique requirements. Watch your productivity skyrocket',
+        color: 'dot-wine',
       },
       {
-        heading: "Cloud Security and Compliance",
+        heading: 'Cloud Security and Compliance',
         description:
-          "Leverage the power of cloud-based applications to unlock your business’s full potential. Our talented developers will create highly scalable and performant cloud applications tailor-made for your unique requirements.",
-        color: "dot-blue",
+          'Leverage the power of cloud-based applications to unlock your business’s full potential. Our talented developers will create highly scalable and performant cloud applications tailor-made for your unique requirements.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-ochre",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-ochre',
+        backgroundColor: '#B93939',
       },
     },
   },
   devops: {
     heroSection: {
-      heading: "DevOps",
+      heading: 'DevOps',
       description:
-        "Transcend the limits of traditional software development and embrace a future where agility, scalability, and automation reign supreme. Prepare to boldly go where no business has gone before.",
+        'Transcend the limits of traditional software development and embrace a future where agility, scalability, and automation reign supreme. Prepare to boldly go where no business has gone before.',
       images: {
-        desktop: "/assets/devops.jpg",
-        mobile: "/assets/mob-devops.jpg",
+        desktop: '/assets/devops.jpg',
+        mobile: '/assets/mob-devops.jpg',
       },
-      color: "dot-blue",
+      color: 'dot-blue',
     },
     pointers: [
       {
-        heading: "Automated CI/CD Pipelines",
+        heading: 'Automated CI/CD Pipelines',
         description:
-          "Accelerate your time-to-market in warp speed with our cutting-edge DevOps solutions that automate the entire process, from continuous integration (CI) to continuous delivery (CD) and deployment.",
-        color: "dot-iceblue",
+          'Accelerate your time-to-market in warp speed with our cutting-edge DevOps solutions that automate the entire process, from continuous integration (CI) to continuous delivery (CD) and deployment.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Infrastructure as Code",
+        heading: 'Infrastructure as Code',
         description:
-          "We create immutable infrastructure using code, allowing you to effortlessly provision and manage resources with the precision of a quantum algorithm. Say farewell to traditional infrastructure woes and usher in a new era of agility.",
-        color: "dot-ochre",
+          'We create immutable infrastructure using code, allowing you to effortlessly provision and manage resources with the precision of a quantum algorithm. Say farewell to traditional infrastructure woes and usher in a new era of agility.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Microservices Architecture",
+        heading: 'Microservices Architecture',
         description:
-          "We help you break down monolithic applications into modular components, enabling seamless scalability and optimal resource utilization. Experience unprecedented elasticity as your application adapts and thrives in the cloud.",
-        color: "dot-wine",
+          'We help you break down monolithic applications into modular components, enabling seamless scalability and optimal resource utilization. Experience unprecedented elasticity as your application adapts and thrives in the cloud.',
+        color: 'dot-wine',
       },
       {
-        heading: "Continuous Monitoring",
+        heading: 'Continuous Monitoring',
         description:
-          "You can rest easy knowing that our innovative monitoring systems are keeping an eye on every aspect of your infrastructure, identifying and eliminating bottlenecks before they disrupt any mission-critical systems.",
-        color: "dot-blue",
+          'You can rest easy knowing that our innovative monitoring systems are keeping an eye on every aspect of your infrastructure, identifying and eliminating bottlenecks before they disrupt any mission-critical systems.',
+        color: 'dot-blue',
       },
       {
-        heading: "Cloud-native DevOps",
+        heading: 'Cloud-native DevOps',
         description:
-          "We help you harness the full power of cloud computing, leveraging its elasticity and scalability to create and deploy applications that reach for the stars. Embrace a future where innovation knows no bounds.",
-        color: "dot-green",
+          'We help you harness the full power of cloud computing, leveraging its elasticity and scalability to create and deploy applications that reach for the stars. Embrace a future where innovation knows no bounds.',
+        color: 'dot-green',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-ochre",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-ochre',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "product-engineering": {
+  'product-engineering': {
     heroSection: {
-      heading: "Product Engineering",
+      heading: 'Product Engineering',
       description:
-        "At Procedure, we live and breathe innovation. We are the partner you need to create products that are pushing boundaries. Let’s build something great together!",
+        'At Procedure, we live and breathe innovation. We are the partner you need to create products that are pushing boundaries. Let’s build something great together!',
       images: {
-        desktop: "/assets/product-engineering.jpg",
-        mobile: "/assets/mob-product-engineering.jpg",
+        desktop: '/assets/product-engineering.jpg',
+        mobile: '/assets/mob-product-engineering.jpg',
       },
-      color: "dot-blue",
+      color: 'dot-blue',
     },
     pointers: [
       {
-        heading: "Cutting-Edge Design",
+        heading: 'Cutting-Edge Design',
         description:
-          "We at Procedure believe that we are not just creating products, but shaping the future. We use human-centered design to connect with your audience on a deeper level and make designs that will challenge status quo.",
-        color: "dot-brown",
+          'We at Procedure believe that we are not just creating products, but shaping the future. We use human-centered design to connect with your audience on a deeper level and make designs that will challenge status quo.',
+        color: 'dot-brown',
       },
       {
-        heading: "Agile Development",
+        heading: 'Agile Development',
         description:
-          "We integrate agile development methodologies, enabling us to deliver products at warp speed. Our teams work in close collaboration with our clients, embracing a culture of iteration and feedback to achieve optimal results.",
-        color: "dot-wine",
+          'We integrate agile development methodologies, enabling us to deliver products at warp speed. Our teams work in close collaboration with our clients, embracing a culture of iteration and feedback to achieve optimal results.',
+        color: 'dot-wine',
       },
       {
-        heading: "Next-Gen Technologies",
+        heading: 'Next-Gen Technologies',
         description:
-          "We’re not just keeping up with the latest tech trends, we’re setting new ones. We integrate advanced technologies such as AI, IoT, and blockchain to create products that are ahead of the curve and also stand the test of time.",
-        color: "dot-iceblue",
+          'We’re not just keeping up with the latest tech trends, we’re setting new ones. We integrate advanced technologies such as AI, IoT, and blockchain to create products that are ahead of the curve and also stand the test of time.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Quality Assurance",
+        heading: 'Quality Assurance',
         description:
-          "Our QA teams deploy advanced testing methodologies—including automated testing and DevOps testing, to ensure your product is of the highest quality. Enjoy a peace of mind knowing your product is ready for takeoff.",
-        color: "dot-green",
+          'Our QA teams deploy advanced testing methodologies—including automated testing and DevOps testing, to ensure your product is of the highest quality. Enjoy a peace of mind knowing your product is ready for takeoff.',
+        color: 'dot-green',
       },
       {
-        heading: "End-to-End Support",
+        heading: 'End-to-End Support',
         description:
-          "Our product engineering services don’t end with product delivery. We provide maintenance and support services that keep your products running at optimal levels. From takeoff to orbit, you’ll have everything you need to succeed.",
-        color: "dot-ochre",
+          'Our product engineering services don’t end with product delivery. We provide maintenance and support services that keep your products running at optimal levels. From takeoff to orbit, you’ll have everything you need to succeed.',
+        color: 'dot-ochre',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "managed-services": {
+  'managed-services': {
     heroSection: {
-      heading: "Managed Services",
+      heading: 'Managed Services',
       description:
-        "We are the maestros conducting the symphony of your technology ecosystem. We bring intelligence, proactive support and future-proof expertise to help you thrive in an ever changing world.",
+        'We are the maestros conducting the symphony of your technology ecosystem. We bring intelligence, proactive support and future-proof expertise to help you thrive in an ever changing world.',
       images: {
-        desktop: "/assets/managed-services.jpg",
-        mobile: "/assets/mob-managed-services.jpg",
+        desktop: '/assets/managed-services.jpg',
+        mobile: '/assets/mob-managed-services.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "Proactive Optimization",
+        heading: 'Proactive Optimization',
         description:
-          "At Procedure, we don’t just manage your services, we optimize them for a future of peak performance. Our team anticipates potential issues and takes proactive measures to ensure that your systems run smoothly and effortlessly.",
-        color: "dot-brown",
+          'At Procedure, we don’t just manage your services, we optimize them for a future of peak performance. Our team anticipates potential issues and takes proactive measures to ensure that your systems run smoothly and effortlessly.',
+        color: 'dot-brown',
       },
       {
-        heading: "Seamless Integration",
+        heading: 'Seamless Integration',
         description:
-          "We integrate our managed services into your existing infrastructure, creating a harmonious blend of innovation and functionality. We work with your team, ensuring a smooth transition and minimizing disruption to your operations.",
-        color: "dot-wine",
+          'We integrate our managed services into your existing infrastructure, creating a harmonious blend of innovation and functionality. We work with your team, ensuring a smooth transition and minimizing disruption to your operations.',
+        color: 'dot-wine',
       },
       {
-        heading: "Intelligent Automation",
+        heading: 'Intelligent Automation',
         description:
-          "We harness the power of artificial intelligence and machine learning to automate repetitive tasks, freeing up valuable time and resources for your team. Embrace a future where machines collaborate with humans to achieve productivity.",
-        color: "dot-iceblue",
+          'We harness the power of artificial intelligence and machine learning to automate repetitive tasks, freeing up valuable time and resources for your team. Embrace a future where machines collaborate with humans to achieve productivity.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Future-Proof Expertise",
+        heading: 'Future-Proof Expertise',
         description:
-          "We are always on the lookout for new technologies, trends, and best practices. Our team of experts blends their wealth of knowledge with creative thinking to provide your business with future-proof success.",
-        color: "dot-green",
+          'We are always on the lookout for new technologies, trends, and best practices. Our team of experts blends their wealth of knowledge with creative thinking to provide your business with future-proof success.',
+        color: 'dot-green',
       },
       {
-        heading: "Cost Optimization",
+        heading: 'Cost Optimization',
         description:
-          "We proactively identify and resolve potential issues before they become costly problems and offer customized managed services tailored to meet your specific requirements, ensuring maximum ROI.",
-        color: "dot-ochre",
+          'We proactively identify and resolve potential issues before they become costly problems and offer customized managed services tailored to meet your specific requirements, ensuring maximum ROI.',
+        color: 'dot-ochre',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "mobile-solutions": {
+  'mobile-solutions': {
     heroSection: {
-      heading: "Mobile Solutions",
+      heading: 'Mobile Solutions',
       description:
-        "Experience the future of mobile technology with us, where cutting-edge design collides with seamless functionality. Let us embark on a journey of innovation to take your brand to new heights.",
+        'Experience the future of mobile technology with us, where cutting-edge design collides with seamless functionality. Let us embark on a journey of innovation to take your brand to new heights.',
       images: {
-        desktop: "/assets/mobile-solutions.jpg",
-        mobile: "/assets/mob-mobile-solutions.jpg",
+        desktop: '/assets/mobile-solutions.jpg',
+        mobile: '/assets/mob-mobile-solutions.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "Futuristic Innovation",
+        heading: 'Futuristic Innovation',
         description:
-          "We build mobile services by crafting experiences that will transport your customers to a future of endless possibilities. With the latest technologies like augmented reality and machine learning, we push the boundaries of what’s possible.",
-        color: "dot-iceblue",
+          'We build mobile services by crafting experiences that will transport your customers to a future of endless possibilities. With the latest technologies like augmented reality and machine learning, we push the boundaries of what’s possible.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Seamless User Experience",
+        heading: 'Seamless User Experience',
         description:
-          "We design mobile services and interfaces with the user in mind to ensure a seamless and immersive experience for your customers. From navigation to interactions, embrace a future where user experience reigns supreme.",
-        color: "dot-ochre",
+          'We design mobile services and interfaces with the user in mind to ensure a seamless and immersive experience for your customers. From navigation to interactions, embrace a future where user experience reigns supreme.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Agile Development",
+        heading: 'Agile Development',
         description:
-          "We’re fast and agile. Expect not only prompt delivery but also the flexibility to adapt and evolve your mobile services as your business grows. Stay ahead of the mobile revolution with Procedure’s agile approach.",
-        color: "dot-wine",
+          'We’re fast and agile. Expect not only prompt delivery but also the flexibility to adapt and evolve your mobile services as your business grows. Stay ahead of the mobile revolution with Procedure’s agile approach.',
+        color: 'dot-wine',
       },
       {
-        heading: "Collaborative Partnership",
+        heading: 'Collaborative Partnership',
         description:
-          "We put our clients first, paying close attention to detail and ensuring efficient mobile service development. By collaborating with you, we help ensure that your business stays ahead of the mobile revolution.",
-        color: "dot-blue",
+          'We put our clients first, paying close attention to detail and ensuring efficient mobile service development. By collaborating with you, we help ensure that your business stays ahead of the mobile revolution.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "swat-interventions": {
+  'swat-interventions': {
     heroSection: {
-      heading: "SWAT Interventions",
+      heading: 'SWAT Interventions',
       description:
-        "With our SWAT interventions, challenges are met head-on and swiftly conquered. Our forward-thinking approach powers rapid resolution, enhanced efficiency and future-proof preparedness.",
+        'With our SWAT interventions, challenges are met head-on and swiftly conquered. Our forward-thinking approach powers rapid resolution, enhanced efficiency and future-proof preparedness.',
       images: {
-        desktop: "/assets/swat-interventions.jpg",
-        mobile: "/assets/mob-swat-interventions.jpg",
+        desktop: '/assets/swat-interventions.jpg',
+        mobile: '/assets/mob-swat-interventions.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Rapid Resolution",
+        heading: 'Rapid Resolution',
         description:
-          "With Procedure’s SWAT team of experts, you can expect a future where every problem is tackled with lightning speed. Say goodbye to long hours of downtime as we assess and resolve issues with swift efficiency before they escalate.",
-        color: "dot-iceblue",
+          'With Procedure’s SWAT team of experts, you can expect a future where every problem is tackled with lightning speed. Say goodbye to long hours of downtime as we assess and resolve issues with swift efficiency before they escalate.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Enhanced Efficiency",
+        heading: 'Enhanced Efficiency',
         description:
-          "Our SWAT interventions are designed to optimize your operations and maximize efficiency. We analyze your processes, identify bottlenecks, and implement strategic solutions that streamline workflows.",
-        color: "dot-ochre",
+          'Our SWAT interventions are designed to optimize your operations and maximize efficiency. We analyze your processes, identify bottlenecks, and implement strategic solutions that streamline workflows.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Future-Proof Preparedness",
+        heading: 'Future-Proof Preparedness',
         description:
-          "Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.",
-        color: "dot-wine",
+          'Amplifying Digital Ventures with Cloud Innovations, Cloud Migration and Management to transform their infrastructure, applications, and data to cloud platforms such as AWS, Microsoft Azure, and Google Cloud.',
+        color: 'dot-wine',
       },
       {
-        heading: "Unmatched Expertise",
+        heading: 'Unmatched Expertise',
         description:
-          "Armed with deep technical knowledge and a knack for creative problem-solving, our experts bring unmatched expertise to the table. With our SWAT interventions, you gain access to an elite team who are always one step ahead.",
-        color: "dot-blue",
+          'Armed with deep technical knowledge and a knack for creative problem-solving, our experts bring unmatched expertise to the table. With our SWAT interventions, you gain access to an elite team who are always one step ahead.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
   security: {
     heroSection: {
-      heading: "Security",
+      heading: 'Security',
       description:
-        "At Procedure, we’re not just offering security services - we’re unlocking a secure future for your business. Let’s create a future where security is not a concern but an asset.",
+        'At Procedure, we’re not just offering security services - we’re unlocking a secure future for your business. Let’s create a future where security is not a concern but an asset.',
       images: {
-        desktop: "/assets/security.jpg",
-        mobile: "/assets/mob-security.jpg",
+        desktop: '/assets/security.jpg',
+        mobile: '/assets/mob-security.jpg',
       },
-      color: "dot-blue",
+      color: 'dot-blue',
     },
     pointers: [
       {
-        heading: "Future-Proof Defense",
+        heading: 'Future-Proof Defense',
         description:
-          "At Procedure, we’re preparing your business for the challenges of tomorrow. Our security services utilize cutting-edge technologies, like AI and blockchain, to create a defense that stays one step ahead of cyber threats.",
-        color: "dot-brown",
+          'At Procedure, we’re preparing your business for the challenges of tomorrow. Our security services utilize cutting-edge technologies, like AI and blockchain, to create a defense that stays one step ahead of cyber threats.',
+        color: 'dot-brown',
       },
       {
-        heading: "Expert Support & Monitoring",
+        heading: 'Expert Support & Monitoring',
         description:
-          "We experts monitor your systems 24/7, identifying and responding to potential security breaches before they happen. We provide real-time alerts and swift response, ensuring that your business remains protected at all times.",
-        color: "dot-wine",
+          'We experts monitor your systems 24/7, identifying and responding to potential security breaches before they happen. We provide real-time alerts and swift response, ensuring that your business remains protected at all times.',
+        color: 'dot-wine',
       },
       {
-        heading: "Customizable Solutions",
+        heading: 'Customizable Solutions',
         description:
-          "We craft customized security solutions to fit your specific needs. We conduct an in-depth analysis of your current security landscape and design a robust defense plan that’s perfectly tailored to thwart potential attacks.",
-        color: "dot-iceblue",
+          'We craft customized security solutions to fit your specific needs. We conduct an in-depth analysis of your current security landscape and design a robust defense plan that’s perfectly tailored to thwart potential attacks.',
+        color: 'dot-iceblue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "performance-governance": {
+  'performance-governance': {
     heroSection: {
-      heading: "Performance Governance",
+      heading: 'Performance Governance',
       description:
-        "Procedure’s performance governance services empower you to achieve peak performance, future-proof your systems, and make data-driven optimizations to unlock new possibilities.",
+        'Procedure’s performance governance services empower you to achieve peak performance, future-proof your systems, and make data-driven optimizations to unlock new possibilities.',
       images: {
-        desktop: "/assets/performance-governance.jpg",
-        mobile: "/assets/mob-performance-governance.jpg",
+        desktop: '/assets/performance-governance.jpg',
+        mobile: '/assets/mob-performance-governance.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Optimal Performance",
+        heading: 'Optimal Performance',
         description:
-          "Our innovative approach and forward-thinking strategies allow for greater efficiency, productivity, and scalability and ensure your systems operate seamlessly in an ever-evolving digital landscape.",
-        color: "dot-iceblue",
+          'Our innovative approach and forward-thinking strategies allow for greater efficiency, productivity, and scalability and ensure your systems operate seamlessly in an ever-evolving digital landscape.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Data-driven Optimization",
+        heading: 'Data-driven Optimization',
         description:
-          "Our approach to performance governance is grounded in the power of data. We analyze and leverage comprehensive insights to optimize your systems, identifying bottlenecks and fine-tuning performance for maximum efficiency.",
-        color: "dot-ochre",
+          'Our approach to performance governance is grounded in the power of data. We analyze and leverage comprehensive insights to optimize your systems, identifying bottlenecks and fine-tuning performance for maximum efficiency.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Proactive Monitoring",
+        heading: 'Proactive Monitoring',
         description:
-          "We keep your systems running smoothly by identifying potential problems and taking immediate action to minimize disruptions. Our advanced monitoring tools ensure that your systems are running at their peak performance levels.",
-        color: "dot-wine",
+          'We keep your systems running smoothly by identifying potential problems and taking immediate action to minimize disruptions. Our advanced monitoring tools ensure that your systems are running at their peak performance levels.',
+        color: 'dot-wine',
       },
       {
-        heading: "Expert Guidance",
+        heading: 'Expert Guidance',
         description:
-          "Our experts bring a unique skill set to every project, and with their in-depth knowledge of the intricacies involved in performance optimization, they guide you through making informed decisions for your business.",
-        color: "dot-green",
+          'Our experts bring a unique skill set to every project, and with their in-depth knowledge of the intricacies involved in performance optimization, they guide you through making informed decisions for your business.',
+        color: 'dot-green',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-  "quality-testing": {
+  'quality-testing': {
     heroSection: {
-      heading: "Quality & Testing",
+      heading: 'Quality & Testing',
       description:
-        "At Procedure, quality control is not an afterthought - it’s an active pursuit. Liberate your business from the confines of mediocre software to create a future of excellence and customer satisfaction.",
+        'At Procedure, quality control is not an afterthought - it’s an active pursuit. Liberate your business from the confines of mediocre software to create a future of excellence and customer satisfaction.',
       images: {
-        desktop: "/assets/quality-and-testing.jpg",
-        mobile: "/assets/mob-quality-testing.jpg",
+        desktop: '/assets/quality-and-testing.jpg',
+        mobile: '/assets/mob-quality-testing.jpg',
       },
-      color: "dot-brown",
+      color: 'dot-brown',
     },
     pointers: [
       {
-        heading: "Intelligent Testing",
+        heading: 'Intelligent Testing',
         description:
-          "We harness the power of advanced algorithms and data analysis techniques to detect even the most subtle defects. Our tools ensure comprehensive software testing to deliver future-proof software.",
-        color: "dot-iceblue",
+          'We harness the power of advanced algorithms and data analysis techniques to detect even the most subtle defects. Our tools ensure comprehensive software testing to deliver future-proof software.',
+        color: 'dot-iceblue',
       },
       {
-        heading: "Agile Testing",
+        heading: 'Agile Testing',
         description:
-          "Our continuous integration (CI) and continuous deployment (CD) capabilities allow us to accelerate the testing process without sacrificing quality—eliminating risk from both technical debt as well as business debt.",
-        color: "dot-ochre",
+          'Our continuous integration (CI) and continuous deployment (CD) capabilities allow us to accelerate the testing process without sacrificing quality—eliminating risk from both technical debt as well as business debt.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Proactive Quality Control",
+        heading: 'Proactive Quality Control',
         description:
-          "We conduct meticulous assessments and implement robust quality control measures to ensure that your software adheres to the highest standards. Our approach helps us achieve maximum functionality, performance and usability.",
-        color: "dot-wine",
+          'We conduct meticulous assessments and implement robust quality control measures to ensure that your software adheres to the highest standards. Our approach helps us achieve maximum functionality, performance and usability.',
+        color: 'dot-wine',
       },
       {
-        heading: "User-centric Software",
+        heading: 'User-centric Software',
         description:
-          "Procedure’s quality and testing capabilities are all about delivering exceptional user experiences. Our team focuses on usability, performance, and functionality, ensuring that your software delights users with its flawless operation.",
-        color: "dot-blue",
+          'Procedure’s quality and testing capabilities are all about delivering exceptional user experiences. Our team focuses on usability, performance, and functionality, ensuring that your software delights users with its flawless operation.',
+        color: 'dot-blue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
-};
+}
 
 export const industriesData = [
   {
-    title: "Banking",
+    title: 'Banking',
     description:
-      "We can help your bank take its services—and brand experience—to the next level. We deliver products that address cybersecurity concerns and increase efficiency.",
-    href: "/industries/banking/",
-    color: "dot-green",
+      'We can help your bank take its services—and brand experience—to the next level. We deliver products that address cybersecurity concerns and increase efficiency.',
+    href: '/industries/banking/',
+    color: 'dot-green',
   },
   {
-    title: "FoodTech",
+    title: 'FoodTech',
     description:
-      "With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them and transform learning experiences.",
-    href: "/industries/foodtech/",
-    color: "dot-ochre",
+      'With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them and transform learning experiences.',
+    href: '/industries/foodtech/',
+    color: 'dot-ochre',
   },
   {
-    title: "EdTech",
+    title: 'EdTech',
     description:
-      "With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them and transform learning experiences.",
-    href: "/industries/edtech/",
-    color: "dot-iceblue",
+      'With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them and transform learning experiences.',
+    href: '/industries/edtech/',
+    color: 'dot-iceblue',
   },
   {
-    title: "InsurTech",
+    title: 'InsurTech',
     description:
-      "We offer InsurTech companies solutions that automate claims processing, provide advanced analytics and AI tools, improve the customer experience, and enhance security.",
-    href: "/industries/insurtech/",
-    color: "dot-red",
+      'We offer InsurTech companies solutions that automate claims processing, provide advanced analytics and AI tools, improve the customer experience, and enhance security.',
+    href: '/industries/insurtech/',
+    color: 'dot-red',
   },
   {
-    title: "FinTech",
+    title: 'FinTech',
     description:
-      "With our expertise and forward-thinking approach, your business can leverage technology and embrace innovation to reshape the future of finance and gain a competitive edge.",
-    href: "/industries/fintech/",
-    color: "dot-wine",
+      'With our expertise and forward-thinking approach, your business can leverage technology and embrace innovation to reshape the future of finance and gain a competitive edge.',
+    href: '/industries/fintech/',
+    color: 'dot-wine',
   },
-];
+]
 
 export const industriesPagesData: { [key: string]: IndustriesPagesDataType } = {
   banking: {
     heroSection: {
-      heading: "Banking",
+      heading: 'Banking',
       description:
-        "We can help your bank take its services—and brand experience—to the next level. We deliver products that address cybersecurity concerns and increase efficiency.",
+        'We can help your bank take its services—and brand experience—to the next level. We deliver products that address cybersecurity concerns and increase efficiency.',
       images: {
-        desktop: "/assets/banking.jpg",
-        mobile: "/assets/mob-banking.jpg",
+        desktop: '/assets/banking.jpg',
+        mobile: '/assets/mob-banking.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "Enhanced Efficiency",
+        heading: 'Enhanced Efficiency',
         description:
-          "Experience an advanced level of operational efficiency and productivity with our solutions and tools that streamline banking operations, so you can focus on growing your business in a faster and smarter way.",
-        color: "dot-red",
+          'Experience an advanced level of operational efficiency and productivity with our solutions and tools that streamline banking operations, so you can focus on growing your business in a faster and smarter way.',
+        color: 'dot-red',
       },
       {
-        heading: "Robust Cybersecurity",
+        heading: 'Robust Cybersecurity',
         description:
-          "Bank with the confidence that our multi-layered cybersecurity measures provide, protecting you against potential threats and ensuring the safety of your customers’ valuable data.",
-        color: "dot-wine",
+          'Bank with the confidence that our multi-layered cybersecurity measures provide, protecting you against potential threats and ensuring the safety of your customers’ valuable data.',
+        color: 'dot-wine',
       },
       {
-        heading: "Seamless Customer Experience",
+        heading: 'Seamless Customer Experience',
         description:
-          "Delight your customers with a seamless and personalized banking experience, through our solutions that make it easier for your customers to interact with your brand, resulting in customer loyalty.",
-        color: "dot-ochre",
+          'Delight your customers with a seamless and personalized banking experience, through our solutions that make it easier for your customers to interact with your brand, resulting in customer loyalty.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Digital Transformation",
+        heading: 'Digital Transformation',
         description:
-          "We enable you to modernize your business and stay ahead of the competition. By leveraging emerging technologies like AI, ML, and blockchain, you can take advantage of new opportunities and unlock new revenue streams.",
-        color: "dot-iceblue",
+          'We enable you to modernize your business and stay ahead of the competition. By leveraging emerging technologies like AI, ML, and blockchain, you can take advantage of new opportunities and unlock new revenue streams.',
+        color: 'dot-iceblue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-wine",
-        subHeadingColor: "dot-iceblue",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-wine',
+        subHeadingColor: 'dot-iceblue',
+        backgroundColor: '#B93939',
       },
     },
   },
   edtech: {
     heroSection: {
-      heading: "EdTech",
+      heading: 'EdTech',
       description:
-        "With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them.",
+        'With a comprehensive array of services, we support your teachers and empower students with tools that will engage and challenge them.',
       images: {
-        desktop: "/assets/edtech.jpg",
-        mobile: "/assets/mob-edtech.jpg",
+        desktop: '/assets/edtech.jpg',
+        mobile: '/assets/mob-edtech.jpg',
       },
-      color: "dot-red",
+      color: 'dot-red',
     },
     pointers: [
       {
-        heading: "Future-Ready Applications",
+        heading: 'Future-Ready Applications',
         description:
-          "Our technology and protocols ensure that data stays encrypted, authentication is rigorous, cyber threats are addressed—and you can build trust with customers while complying with industry regulations.",
-        color: "dot-red",
+          'Our technology and protocols ensure that data stays encrypted, authentication is rigorous, cyber threats are addressed—and you can build trust with customers while complying with industry regulations.',
+        color: 'dot-red',
       },
       {
-        heading: "Learner-Centric Design",
+        heading: 'Learner-Centric Design',
         description:
-          "Our software, services, and consulting solutions enable you to achieve significant time and cost savings while improving productivity and delivering seamless user experiences to your customers.",
-        color: "dot-wine",
+          'Our software, services, and consulting solutions enable you to achieve significant time and cost savings while improving productivity and delivering seamless user experiences to your customers.',
+        color: 'dot-wine',
       },
       {
-        heading: "Gamified Learning Experiences",
+        heading: 'Gamified Learning Experiences',
         description:
-          "We provide scalable solutions that can easily adapt to changing business needs. Our flexible architecture allows you to grow your business without compromising performance or security.",
-        color: "dot-ochre",
+          'We provide scalable solutions that can easily adapt to changing business needs. Our flexible architecture allows you to grow your business without compromising performance or security.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Ongoing Support & Maintenance",
+        heading: 'Ongoing Support & Maintenance',
         description:
-          "We Our analytics capabilities enable you to gain valuable insights from vast amounts of data. Our advanced tools can pinpoint trends, detect anomalies, and predict customer behavior—allowing you to make informed decisions that drive growth.",
-        color: "dot-iceblue",
+          'We Our analytics capabilities enable you to gain valuable insights from vast amounts of data. Our advanced tools can pinpoint trends, detect anomalies, and predict customer behavior—allowing you to make informed decisions that drive growth.',
+        color: 'dot-iceblue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-chore",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-chore',
+        backgroundColor: '#B93939',
       },
     },
   },
   fintech: {
     heroSection: {
-      heading: "FinTech",
+      heading: 'FinTech',
       description:
-        "With our expertise and forward-thinking approach, your business can leverage technology and embrace innovation to reshape the future of finance.",
+        'With our expertise and forward-thinking approach, your business can leverage technology and embrace innovation to reshape the future of finance.',
       images: {
-        desktop: "/assets/fintech.jpg",
-        mobile: "/assets/mob-fintech.jpg",
+        desktop: '/assets/fintech.jpg',
+        mobile: '/assets/mob-fintech.jpg',
       },
-      color: "dot-red",
+      color: 'dot-red',
     },
     pointers: [
       {
-        heading: "Enhanced Security",
+        heading: 'Enhanced Security',
         description:
-          "Our technology and protocols ensure that data stays encrypted, authentication is rigorous, cyber threats are addressed—and you can build trust with customers while complying with industry regulations.",
-        color: "dot-red",
+          'Our technology and protocols ensure that data stays encrypted, authentication is rigorous, cyber threats are addressed—and you can build trust with customers while complying with industry regulations.',
+        color: 'dot-red',
       },
       {
-        heading: "Streamlined Processes",
+        heading: 'Streamlined Processes',
         description:
-          "Our UX/UI team creates design that make learning delightful and engaging. By considering students’ needs and preferences, we ensure that our clients’ applications are easy to navigate and visually stimulating.",
-        color: "dot-wine",
+          'Our UX/UI team creates design that make learning delightful and engaging. By considering students’ needs and preferences, we ensure that our clients’ applications are easy to navigate and visually stimulating.',
+        color: 'dot-wine',
       },
       {
-        heading: "Scalable Infrastructure",
+        heading: 'Scalable Infrastructure',
         description:
-          "Our software, services, and consulting solutions enable you to achieve significant time and cost savings while improving productivity and delivering seamless user experiences to your customers.",
-        color: "dot-ochre",
+          'Our software, services, and consulting solutions enable you to achieve significant time and cost savings while improving productivity and delivering seamless user experiences to your customers.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Data Analytics and Insights",
+        heading: 'Data Analytics and Insights',
         description:
-          "We establish long-term relationships with our clients to ensure that the applications perform optimally and meet evolving user needs. Our dedicated team provides long-term support with troubleshooting, updates, and enhancements.",
-        color: "dot-green",
+          'We establish long-term relationships with our clients to ensure that the applications perform optimally and meet evolving user needs. Our dedicated team provides long-term support with troubleshooting, updates, and enhancements.',
+        color: 'dot-green',
       },
       {
-        heading: "Regulatory Compliance",
+        heading: 'Regulatory Compliance',
         description:
-          "We understand that regulations are necessary and have the expertise to help you with compliance. We keep you compliant so that you have the freedom to pursue new opportunities and innovation.",
-        color: "dot-iceblue",
+          'We understand that regulations are necessary and have the expertise to help you with compliance. We keep you compliant so that you have the freedom to pursue new opportunities and innovation.',
+        color: 'dot-iceblue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-chore",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-chore',
+        backgroundColor: '#B93939',
       },
     },
   },
   foodtech: {
     heroSection: {
-      heading: "FoodTech",
+      heading: 'FoodTech',
       description:
-        "With our forward-thinking approach, you can savor the benefits of improved processes, enhanced customization and seamless customer experiences and leave your competitors hungry for more.",
+        'With our forward-thinking approach, you can savor the benefits of improved processes, enhanced customization and seamless customer experiences and leave your competitors hungry for more.',
       images: {
-        desktop: "/assets/foodtech.jpg",
-        mobile: "/assets/mob-foodtech.jpg",
+        desktop: '/assets/foodtech.jpg',
+        mobile: '/assets/mob-foodtech.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "Food Delivery Solutions",
+        heading: 'Food Delivery Solutions',
         description:
-          "Our food delivery solutions and route optimization algorithms optimize the entire process to ensure fast and efficient delivery and provide your customers with a seamless delivery experience.",
-        color: "dot-red",
+          'Our food delivery solutions and route optimization algorithms optimize the entire process to ensure fast and efficient delivery and provide your customers with a seamless delivery experience.',
+        color: 'dot-red',
       },
       {
-        heading: "Smart Menu Management",
+        heading: 'Smart Menu Management',
         description:
-          "Our user-friendly and intuitive tools empower businesses to manage offerings, track inventory, and make real-time updates. By employing our solutions, you can cater to changing consumer preferences and trends.",
-        color: "dot-wine",
+          'Our user-friendly and intuitive tools empower businesses to manage offerings, track inventory, and make real-time updates. By employing our solutions, you can cater to changing consumer preferences and trends.',
+        color: 'dot-wine',
       },
       {
-        heading: "Integrated Ordering & Payment",
+        heading: 'Integrated Ordering & Payment',
         description:
-          "We help you streamline the ordering process and increase order volumes so that you can enhance customer satisfaction and improve overall operational efficiency.",
-        color: "dot-ochre",
+          'We help you streamline the ordering process and increase order volumes so that you can enhance customer satisfaction and improve overall operational efficiency.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Data-Driven Insights",
+        heading: 'Data-Driven Insights',
         description:
-          "We use advanced analytics tools to uncover hidden patterns in customer preferences, ordering patterns, and market trends. Our expertise in data analysis provides valuable insights that can help you grow your business.",
-        color: "dot-iceblue",
+          'We use advanced analytics tools to uncover hidden patterns in customer preferences, ordering patterns, and market trends. Our expertise in data analysis provides valuable insights that can help you grow your business.',
+        color: 'dot-iceblue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-chore",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-chore',
+        backgroundColor: '#B93939',
       },
     },
   },
   insurtech: {
     heroSection: {
-      heading: "InsurTech",
+      heading: 'InsurTech',
       description:
-        "By automating processes, utilizing advanced analytics and AI tools, we enhance customer experience and security. Let’s create and innovate for insurance, from sunsets to moonshots!",
+        'By automating processes, utilizing advanced analytics and AI tools, we enhance customer experience and security. Let’s create and innovate for insurance, from sunsets to moonshots!',
       images: {
-        desktop: "/assets/foodtech.jpg",
-        mobile: "/assets/mob-foodtech.jpg",
+        desktop: '/assets/foodtech.jpg',
+        mobile: '/assets/mob-foodtech.jpg',
       },
-      color: "dot-green",
+      color: 'dot-green',
     },
     pointers: [
       {
-        heading: "Automated Claims Processing",
+        heading: 'Automated Claims Processing',
         description:
-          "Our solutions can automate the claims processing lifecycle, reducing human error and increasing efficiency to improve customer experience, reduce costs, and speed up the claims process.",
-        color: "dot-red",
+          'Our solutions can automate the claims processing lifecycle, reducing human error and increasing efficiency to improve customer experience, reduce costs, and speed up the claims process.',
+        color: 'dot-red',
       },
       {
-        heading: "Advanced Analytics and AI",
+        heading: 'Advanced Analytics and AI',
         description:
-          "Gain competitive advantage with our advanced data analytics and AI solutions that can detect fraudulent claims, track losses and identify trends, improving underwriting accuracy and cost control.",
-        color: "dot-wine",
+          'Gain competitive advantage with our advanced data analytics and AI solutions that can detect fraudulent claims, track losses and identify trends, improving underwriting accuracy and cost control.',
+        color: 'dot-wine',
       },
       {
-        heading: "Seamless Customer Experience",
+        heading: 'Seamless Customer Experience',
         description:
-          "We help improve the entire customer journey, from quoting to claims management. Our solutions facilitate exceptional customer delight, leading to increased customer retention and loyalty.",
-        color: "dot-ochre",
+          'We help improve the entire customer journey, from quoting to claims management. Our solutions facilitate exceptional customer delight, leading to increased customer retention and loyalty.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Enhanced Security",
+        heading: 'Enhanced Security',
         description:
-          "We help our clients build robust security measures that protect against fraud, identity theft, and data breaches. By partnering with us, your company can protect customer trust by staying compliant with industry regulations.",
-        color: "dot-iceblue",
+          'We help our clients build robust security measures that protect against fraud, identity theft, and data breaches. By partnering with us, your company can protect customer trust by staying compliant with industry regulations.',
+        color: 'dot-iceblue',
       },
     ],
     consultSection: {
-      heading: "Let’s create",
-      subHeading: "With conviction",
+      heading: 'Let’s create',
+      subHeading: 'With conviction',
       styles: {
-        headingColor: "dot-iceblue",
-        subHeadingColor: "dot-chore",
-        backgroundColor: "#B93939",
+        headingColor: 'dot-iceblue',
+        subHeadingColor: 'dot-chore',
+        backgroundColor: '#B93939',
       },
     },
   },
-};
+}
 
 export const lifeProcedureData: { [key: string]: LifeProcedureDataType } = {
   cultureprocedure: {
     heroSection: {
-      heading: "Where Heart",
-      subHeading: "Meets Hustle",
+      heading: 'Where Heart',
+      subHeading: 'Meets Hustle',
       style: {
-        headingColor: "",
-        subHeadingColor: "dot-red",
+        headingColor: '',
+        subHeadingColor: 'dot-red',
       },
     },
     profileOne: {
-      name: "Pooja Dabade",
+      name: 'Pooja Dabade',
       description:
-        "Procedure’s culture encourages everyone to contribute their unique insights and ideas. This leads us to learn from each other and continually improve—creating a dynamic workplace.",
-      imageUrl: "/assets/culture1-bw.jpg",
-      color: "bg-green",
+        'Procedure’s culture encourages everyone to contribute their unique insights and ideas. This leads us to learn from each other and continually improve—creating a dynamic workplace.',
+      imageUrl: '/assets/culture1-bw.jpg',
+      color: 'bg-green',
     },
     profileTwo: {
-      name: "Mohit Kumar",
+      name: 'Mohit Kumar',
       description:
-        "At Procedure, teamwork leads to trust. The challenge of work is part of every job—but the diverse team I worked with here made me think outside my box and find lifelong friends.",
-      imageUrl: "/assets/culture2-bw.jpg",
-      color: "bg-brickred",
+        'At Procedure, teamwork leads to trust. The challenge of work is part of every job—but the diverse team I worked with here made me think outside my box and find lifelong friends.',
+      imageUrl: '/assets/culture2-bw.jpg',
+      color: 'bg-brickred',
     },
     sectionImageOne: {
-      desktop: "/assets/culture-capsule2.jpg",
-      mobile: "/assets/mob-culture-capsule2.jpg",
+      desktop: '/assets/culture-capsule2.jpg',
+      mobile: '/assets/mob-culture-capsule2.jpg',
     },
     sectionImageTwo: {
-      desktop: "/assets/culture-capsule3.jpg",
-      mobile: "/assets/mob-culture-capsule3.jpg",
+      desktop: '/assets/culture-capsule3.jpg',
+      mobile: '/assets/mob-culture-capsule3.jpg',
     },
-    pointersTitle: "Be a Part of Promising",
+    pointersTitle: 'Be a Part of Promising',
     pointers: [
       {
-        heading: "Openness",
+        heading: 'Openness',
         description:
-          "We believe in fostering a culture of openness because creativity flourishes when we’re not hemmed in by tradition and held back by the fear that our ideas may be ridiculed.",
-        color: "dot-wine",
+          'We believe in fostering a culture of openness because creativity flourishes when we’re not hemmed in by tradition and held back by the fear that our ideas may be ridiculed.',
+        color: 'dot-wine',
       },
       {
-        heading: "Innovation",
+        heading: 'Innovation',
         description:
-          "Embracing the ever-evolving world of technology, we strive to be at the forefront of innovation, constantly pushing boundaries and redefining what’s possible.",
-        color: "dot-ochre",
+          'Embracing the ever-evolving world of technology, we strive to be at the forefront of innovation, constantly pushing boundaries and redefining what’s possible.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Pragmatism",
+        heading: 'Pragmatism',
         description:
-          "We approach challenges with a practical mindset, finding smart and efficient solutions that deliver tangible results and focus on driving meaningful change.",
-        color: "dot-brown",
+          'We approach challenges with a practical mindset, finding smart and efficient solutions that deliver tangible results and focus on driving meaningful change.',
+        color: 'dot-brown',
       },
       {
-        heading: "Agility",
+        heading: 'Agility',
         description:
-          "In the fast-paced world of technology, we adapt and move swiftly to ensure that our strategies are flexible and our actions nimble.",
-        color: "dot-green",
+          'In the fast-paced world of technology, we adapt and move swiftly to ensure that our strategies are flexible and our actions nimble.',
+        color: 'dot-green',
       },
       {
-        heading: "Trust",
+        heading: 'Trust',
         description:
-          "Trust is the cornerstone of our relationships, because we know that when we work together, we can achieve remarkable outcomes.",
-        color: "dot-iceblue",
+          'Trust is the cornerstone of our relationships, because we know that when we work together, we can achieve remarkable outcomes.',
+        color: 'dot-iceblue',
       },
     ],
     photoSliders: [
-      "/assets/culture1-v2.webp",
-      "/assets/culture2-v2.webp",
-      "/assets/culture3-v2.webp",
+      '/assets/culture1-v2.webp',
+      '/assets/culture2-v2.webp',
+      '/assets/culture3-v2.webp',
     ],
   },
   teamprocedure: {
     heroSection: {
-      heading: "Upgrade to Pro",
-      subHeading: "Join Us",
+      heading: 'Upgrade to Pro',
+      subHeading: 'Join Us',
       style: {
-        headingColor: "dot-blue",
-        subHeadingColor: "dot-green",
+        headingColor: 'dot-blue',
+        subHeadingColor: 'dot-green',
       },
     },
     profileOne: {
-      name: "Adarsh Udayan",
+      name: 'Adarsh Udayan',
       description:
-        "I enjoy working at Procedure because the team spirit and can-do energy are so infectious. Every project teaches me something new, and it’s amazing how much you can achieve when you’re all working together!",
-      imageUrl: "/assets/team-capsule1.jpg",
-      color: "bg-brickred",
+        'I enjoy working at Procedure because the team spirit and can-do energy are so infectious. Every project teaches me something new, and it’s amazing how much you can achieve when you’re all working together!',
+      imageUrl: '/assets/team-capsule1.jpg',
+      color: 'bg-brickred',
     },
     profileTwo: {
-      name: "Rachel Salunke",
+      name: 'Rachel Salunke',
       description:
-        "The best part about working at Procedure is the teamwork that leads to unique creativity. Solving design challenges with a diverse set of people leads to far better solutions and ideas.",
-      imageUrl: "/assets/team4.jpg",
-      color: "bg-blue",
+        'The best part about working at Procedure is the teamwork that leads to unique creativity. Solving design challenges with a diverse set of people leads to far better solutions and ideas.',
+      imageUrl: '/assets/team4.jpg',
+      color: 'bg-blue',
     },
     sectionImageOne: {
-      desktop: "/assets/team-capsule2.jpg",
-      mobile: "/assets/mob-team-capsule2.jpg",
+      desktop: '/assets/team-capsule2.jpg',
+      mobile: '/assets/mob-team-capsule2.jpg',
     },
     sectionImageTwo: {
-      desktop: "/assets/team-capsule3.jpg",
-      mobile: "/assets/mob-team-capsule3.jpg",
+      desktop: '/assets/team-capsule3.jpg',
+      mobile: '/assets/mob-team-capsule3.jpg',
     },
-    pointersTitle: "Why work with Procedure?",
+    pointersTitle: 'Why work with Procedure?',
     pointers: [
       {
-        heading: "Passion",
+        heading: 'Passion',
         description:
-          "Working in our dynamic and forward-thinking environment needs people who enjoy thinking out of the box and relish the challenge of a fast moving world of tech innovation.",
-        color: "dot-wine",
+          'Working in our dynamic and forward-thinking environment needs people who enjoy thinking out of the box and relish the challenge of a fast moving world of tech innovation.',
+        color: 'dot-wine',
       },
       {
-        heading: "Team Play",
+        heading: 'Team Play',
         description:
-          "Collaboration Power is at the heart of our culture, fostering an atmosphere where diverse ideas merge to pave the way for groundbreaking solutions, bringing out the best in everyone.",
-        color: "dot-ochre",
+          'Collaboration Power is at the heart of our culture, fostering an atmosphere where diverse ideas merge to pave the way for groundbreaking solutions, bringing out the best in everyone.',
+        color: 'dot-ochre',
       },
       {
-        heading: "Curiosity",
+        heading: 'Curiosity',
         description:
-          "Becoming a team of experts is about staying on the cutting-edge of the latest technological advancements and being intellectually curious and always eager to learn.",
-        color: "dot-brown",
+          'Becoming a team of experts is about staying on the cutting-edge of the latest technological advancements and being intellectually curious and always eager to learn.',
+        color: 'dot-brown',
       },
       {
-        heading: "Solution Focus",
+        heading: 'Solution Focus',
         description:
-          "Results-Oriented Mindset: We are problem solvers with an innate ability to devise ingenious solutions to overcome obstacles.",
-        color: "dot-green",
+          'Results-Oriented Mindset: We are problem solvers with an innate ability to devise ingenious solutions to overcome obstacles.',
+        color: 'dot-green',
       },
       {
-        heading: "Fun",
+        heading: 'Fun',
         description:
-          "When team members are having fun, they’re more motivated, creative, and productive, leading to exceptional work culture.",
-        color: "dot-iceblue",
+          'When team members are having fun, they’re more motivated, creative, and productive, leading to exceptional work culture.',
+        color: 'dot-iceblue',
       },
     ],
     photoSliders: [
-      "/assets/work1-v2.webp",
-      "/assets/work2-v2-1.webp",
-      "/assets/work3-v2-1.webp",
+      '/assets/work1-v2.webp',
+      '/assets/work2-v2-1.webp',
+      '/assets/work3-v2-1.webp',
     ],
   },
-};
+}
 
 export const aboutPagePointerData = [
   {
-    heading: "Inspired Engineering",
+    heading: 'Inspired Engineering',
     description:
-      "We encourage creativity and experimentation, and are excited about using technology to solve problems and devise new strategies.",
-    color: "dot-ochre",
+      'We encourage creativity and experimentation, and are excited about using technology to solve problems and devise new strategies.',
+    color: 'dot-ochre',
   },
   {
-    heading: "Power Teamwork",
+    heading: 'Power Teamwork',
     description:
-      "We believe in working together to achieve our goals, where every member plays a crucial role, fostering diverse ideas to converge into groundbreaking solutions and results.",
-    color: "dot-wine",
+      'We believe in working together to achieve our goals, where every member plays a crucial role, fostering diverse ideas to converge into groundbreaking solutions and results.',
+    color: 'dot-wine',
   },
   {
-    heading: "Produce Excellence",
+    heading: 'Produce Excellence',
     description:
-      "We strive for excellence in everything we do, for the highest level of skill and performance. Our curiosity provides the eagerness to break boundaries.",
-    color: "dot-iceblue",
+      'We strive for excellence in everything we do, for the highest level of skill and performance. Our curiosity provides the eagerness to break boundaries.',
+    color: 'dot-iceblue',
   },
-];
+]
 
 export const aboutPageMembersData = [
   {
-    name: "Ulhas Mandrawadkar",
-    position: "Co-Founder and CTO",
-    image1: "/assets/ulhas-bw.jpg",
-    image2: "/assets/ulhas-1.jpg",
-    href: "/about/ulhas-mandrawadkar",
-    color: "bg-blue",
+    name: 'Ulhas Mandrawadkar',
+    position: 'Co-Founder and CTO',
+    image1: '/assets/ulhas-bw.jpg',
+    image2: '/assets/ulhas-1.jpg',
+    href: '/about/ulhas-mandrawadkar',
+    color: 'bg-blue',
   },
   {
-    name: "Renuka Rode",
-    position: "General Manager",
-    image1: "/assets/renuka-bw.jpg",
-    image2: "/assets/renuka-1.jpg",
-    href: "/about/renuka-rode",
-    color: "bg-brickred",
+    name: 'Renuka Rode',
+    position: 'General Manager',
+    image1: '/assets/renuka-bw.jpg',
+    image2: '/assets/renuka-1.jpg',
+    href: '/about/renuka-rode',
+    color: 'bg-brickred',
   },
   {
-    name: "Braj Baheti",
-    position: "Co-Founder and CEO",
-    image1: "/assets/braj-bw.jpg",
-    image2: "/assets/braj-1.jpg",
-    href: "/about/braj-baheti",
-    color: "bg-green",
+    name: 'Braj Baheti',
+    position: 'Co-Founder and CEO',
+    image1: '/assets/braj-bw.jpg',
+    image2: '/assets/braj-1.jpg',
+    href: '/about/braj-baheti',
+    color: 'bg-green',
   },
-];
+]
 
 export const aboutPageData: { [key: string]: AboutPagesDataType } = {
-  "ulhas-mandrawadkar": {
+  'ulhas-mandrawadkar': {
     heroSection: {
-      name: "Ulhas Mandrawadkar",
-      role: "Co-Founder and CTO",
+      name: 'Ulhas Mandrawadkar',
+      role: 'Co-Founder and CTO',
       style: {
-        nameColor: "dot-red",
+        nameColor: 'dot-red',
       },
-      linkedin: "https://www.linkedin.com/in/ulhasm/",
-      twitter: "https://twitter.com/ulhas_sm/",
+      linkedin: 'https://www.linkedin.com/in/ulhasm/',
+      twitter: 'https://twitter.com/ulhas_sm/',
     },
     profileSection: {
       heading:
-        "“Innovation happens when we dare to step outside our comfort zone and explore the unknown.”",
-      hashTags: "#technogeek #podcaster #futurist #pro",
-      imageUrl: "/assets/ulhas-bw-2.jpg",
+        '“Innovation happens when we dare to step outside our comfort zone and explore the unknown.”',
+      hashTags: '#technogeek #podcaster #futurist #pro',
+      imageUrl: '/assets/ulhas-bw-2.jpg',
       subHeading:
-        "With Ulhas at the helm, innovation is propelled into uncharted territories, promising a future brimming with technological marvels that reshape the landscape of Procedure. His vision has been recognized by the international community, leading him to win multiple awards and accolades for his contributions in the field of innovation.",
+        'With Ulhas at the helm, innovation is propelled into uncharted territories, promising a future brimming with technological marvels that reshape the landscape of Procedure. His vision has been recognized by the international community, leading him to win multiple awards and accolades for his contributions in the field of innovation.',
       paragraphs: [
-        "Ulhas began his journey as an iOS developer at Xoriant Solutions, where he honed his skills and creativity. Later, he worked at Chalo, a company acquired by OpenTable, where he architected the iPhone application for mobile payments and collaborated on implementing secret features alongside the Apple marketing team.",
-        "As an early engineer at HyperTrack, he developed location tracking SDKs for iOS and Android, simplifying installation and providing tutorials for fellow engineers.",
-        "A Bachelor of Engineering from Mumbai University, Ulhas is a strong advocate for clean coding practices, customer-centricity, and believes in the power of unit testing and behavior-driven development. He has contributed to open-source projects such as OpenLocate iOS and Android SDKs, Django Push Notifications, and Fastlane – an open-source build tool for iOS and Android.",
-        "Ulhas’s revolutionary work on integrating OpenTable’s payment module with their booking system catalyzed a momentous milestone. His accomplishments graced the illustrious stage of the Apple Pay keynote, commandeered by the visionary duo, Tim Cook and Eddy Cue. Furthermore, his transformative ideas and technical prowess have earned him the esteemed recognition as a co-inventor on a patent detailing the seamless workflow of a payment system intertwined with OpenTable’s prodigious booking product.",
+        'Ulhas began his journey as an iOS developer at Xoriant Solutions, where he honed his skills and creativity. Later, he worked at Chalo, a company acquired by OpenTable, where he architected the iPhone application for mobile payments and collaborated on implementing secret features alongside the Apple marketing team.',
+        'As an early engineer at HyperTrack, he developed location tracking SDKs for iOS and Android, simplifying installation and providing tutorials for fellow engineers.',
+        'A Bachelor of Engineering from Mumbai University, Ulhas is a strong advocate for clean coding practices, customer-centricity, and believes in the power of unit testing and behavior-driven development. He has contributed to open-source projects such as OpenLocate iOS and Android SDKs, Django Push Notifications, and Fastlane – an open-source build tool for iOS and Android.',
+        'Ulhas’s revolutionary work on integrating OpenTable’s payment module with their booking system catalyzed a momentous milestone. His accomplishments graced the illustrious stage of the Apple Pay keynote, commandeered by the visionary duo, Tim Cook and Eddy Cue. Furthermore, his transformative ideas and technical prowess have earned him the esteemed recognition as a co-inventor on a patent detailing the seamless workflow of a payment system intertwined with OpenTable’s prodigious booking product.',
       ],
-      backgroundColor: "bg-blue",
+      backgroundColor: 'bg-blue',
     },
     teamMembersData: [
       {
-        name: "Braj Baheti",
-        position: "Co-Founder and CEO",
-        image1: "/assets/braj-bw.jpg",
-        image2: "/assets/braj-1.jpg",
-        href: "/about/braj-baheti",
-        color: "bg-green",
+        name: 'Braj Baheti',
+        position: 'Co-Founder and CEO',
+        image1: '/assets/braj-bw.jpg',
+        image2: '/assets/braj-1.jpg',
+        href: '/about/braj-baheti',
+        color: 'bg-green',
       },
       {
-        name: "Renuka Rode",
-        position: "General Manager",
-        image1: "/assets/renuka-bw.jpg",
-        image2: "/assets/renuka-1.jpg",
-        href: "/about/renuka-rode",
-        color: "bg-brickred",
+        name: 'Renuka Rode',
+        position: 'General Manager',
+        image1: '/assets/renuka-bw.jpg',
+        image2: '/assets/renuka-1.jpg',
+        href: '/about/renuka-rode',
+        color: 'bg-brickred',
       },
     ],
   },
-  "braj-baheti": {
+  'braj-baheti': {
     heroSection: {
-      name: "Braj Baheti",
-      role: "Co-Founder and CEO",
+      name: 'Braj Baheti',
+      role: 'Co-Founder and CEO',
       style: {
-        nameColor: "dot-blue",
+        nameColor: 'dot-blue',
       },
-      linkedin: "https://www.linkedin.com/in/brajkishorb/",
-      twitter: "https://twitter.com/BrajkishorB/",
+      linkedin: 'https://www.linkedin.com/in/brajkishorb/',
+      twitter: 'https://twitter.com/BrajkishorB/',
     },
     profileSection: {
       heading:
-        "“Blend the art of technology with science of product management to build a masterpiece.”",
-      hashTags: "#innovisionary #alchemist #automationguru #pro",
-      imageUrl: "/assets/braj-bw-2.jpg",
+        '“Blend the art of technology with science of product management to build a masterpiece.”',
+      hashTags: '#innovisionary #alchemist #automationguru #pro',
+      imageUrl: '/assets/braj-bw-2.jpg',
       subHeading:
-        "Braj’s story of inception is nothing short of extraordinary. With an unwavering determination and a mind wired for forward thinking, his journey to co-founding Procedure is a testament to his ingenuity and passion for solving complex problems with technology.",
+        'Braj’s story of inception is nothing short of extraordinary. With an unwavering determination and a mind wired for forward thinking, his journey to co-founding Procedure is a testament to his ingenuity and passion for solving complex problems with technology.',
       paragraphs: [
-        "While he qualified as a Chartered Accountant in November 2011, Braj had begun his professional journey at EY in the risk advisory function. Armed with an acute eye for detail and a thirst for innovative processes, he automated numerous standard audit checks and began to envision how technology could revolutionize the industry.",
-        "Braj left EY to join a Quantitative Trading Desk in Singapore, where he continued to expand his experience in designing state-of-the-art systems for data warehousing and constructing intricate trading strategies. This inspired him to explore code-driven solutions—and the universe of possibilities they opened up.",
-        "Eager to share his passion for automation and process optimization, Braj founded Let Us Excel, breathing life into his vision of automating manual data processing, eradicating the errors that hindered businesses, and empowering employees with Excel proficiency. This pursuit unveiled a profound truth—the need for elegant execution and the missing layer of consulting and product management in the tech industry.",
-        "Determined to fill this void, he embarked on a quest to find a tech co-founder who shared his unwavering commitment to building remarkable, game-changing solutions. Destiny intervened, as Braj crossed paths with Ulhas, a fellow visionary on a parallel voyage. Finding an instant harmony in their shared vision, Procedure was brought to life. As a co-founder, Braj continues to drive Procedure’s audacious ambition to reshape the landscape of cutting-edge solutions and thirst for delivering digital engineering masterpieces.",
+        'While he qualified as a Chartered Accountant in November 2011, Braj had begun his professional journey at EY in the risk advisory function. Armed with an acute eye for detail and a thirst for innovative processes, he automated numerous standard audit checks and began to envision how technology could revolutionize the industry.',
+        'Braj left EY to join a Quantitative Trading Desk in Singapore, where he continued to expand his experience in designing state-of-the-art systems for data warehousing and constructing intricate trading strategies. This inspired him to explore code-driven solutions—and the universe of possibilities they opened up.',
+        'Eager to share his passion for automation and process optimization, Braj founded Let Us Excel, breathing life into his vision of automating manual data processing, eradicating the errors that hindered businesses, and empowering employees with Excel proficiency. This pursuit unveiled a profound truth—the need for elegant execution and the missing layer of consulting and product management in the tech industry.',
+        'Determined to fill this void, he embarked on a quest to find a tech co-founder who shared his unwavering commitment to building remarkable, game-changing solutions. Destiny intervened, as Braj crossed paths with Ulhas, a fellow visionary on a parallel voyage. Finding an instant harmony in their shared vision, Procedure was brought to life. As a co-founder, Braj continues to drive Procedure’s audacious ambition to reshape the landscape of cutting-edge solutions and thirst for delivering digital engineering masterpieces.',
       ],
-      backgroundColor: "bg-green",
+      backgroundColor: 'bg-green',
     },
     teamMembersData: [
       {
-        name: "Renuka Rode",
-        position: "General Manager",
-        image1: "/assets/renuka-bw.jpg",
-        image2: "/assets/renuka-1.jpg",
-        href: "/about/renuka-rode",
-        color: "bg-brickred",
+        name: 'Renuka Rode',
+        position: 'General Manager',
+        image1: '/assets/renuka-bw.jpg',
+        image2: '/assets/renuka-1.jpg',
+        href: '/about/renuka-rode',
+        color: 'bg-brickred',
       },
       {
-        name: "Ulhas Mandrawadkar",
-        position: "Co-Founder and CTO",
-        image1: "/assets/ulhas-bw.jpg",
-        image2: "/assets/ulhas-1.jpg",
-        href: "/about/ulhas-mandrawadkar",
-        color: "bg-blue",
+        name: 'Ulhas Mandrawadkar',
+        position: 'Co-Founder and CTO',
+        image1: '/assets/ulhas-bw.jpg',
+        image2: '/assets/ulhas-1.jpg',
+        href: '/about/ulhas-mandrawadkar',
+        color: 'bg-blue',
       },
     ],
   },
-  "renuka-rode": {
+  'renuka-rode': {
     heroSection: {
-      name: "Renuka Rode",
-      role: "General Manager",
+      name: 'Renuka Rode',
+      role: 'General Manager',
       style: {
-        nameColor: "dot-green",
+        nameColor: 'dot-green',
       },
-      linkedin: "https://www.linkedin.com/in/renuka-rode-6516a8117/",
-      twitter: "https://twitter.com/renukarode/",
+      linkedin: 'https://www.linkedin.com/in/renuka-rode-6516a8117/',
+      twitter: 'https://twitter.com/renukarode/',
     },
     profileSection: {
       heading:
-        "“To produce excellence without boundaries, infuse talent with larger-picture thinking.”",
-      hashTags: "#OPSmaestro #QApro #projectguru #efficiencyninja",
-      imageUrl: "/assets/renuka-bw-2.jpg",
+        '“To produce excellence without boundaries, infuse talent with larger-picture thinking.”',
+      hashTags: '#OPSmaestro #QApro #projectguru #efficiencyninja',
+      imageUrl: '/assets/renuka-bw-2.jpg',
       subHeading:
-        "Renuka’s true strength lies in her ability to infuse innovation into every facet of Procedure’s operations. She champions marketing initiatives as well as talent engagement projects, diving right in to take charge of them all—setting up new systems and managing from scratch anything that demands attention.",
+        'Renuka’s true strength lies in her ability to infuse innovation into every facet of Procedure’s operations. She champions marketing initiatives as well as talent engagement projects, diving right in to take charge of them all—setting up new systems and managing from scratch anything that demands attention.',
       paragraphs: [
-        "As an experienced Scrum Master, Renuka also manages crucial projects and works closely with the team to align them on deliverables and expectations and ensures smooth delivery.",
-        "In her prior role as a consultant at Capgemini, she provided valuable insights and recommendations to esteemed clients, contributing to their digital transformation journeys. Her ability to meticulously navigate complex projects and deliver pragmatic solutions earned her recognition for her exceptional management skills.",
-        "As a Bachelor of Engineering from Mumbai University, she is guided by her visionary mindset for a harmonious blend of cross-functional collaboration to achieve precision. By embracing cutting-edge technologies and cultivating a culture of continuous improvement, Renuka aims to position Procedure as a pioneer in the industry, inspiring others to reimagine what is achievable.",
+        'As an experienced Scrum Master, Renuka also manages crucial projects and works closely with the team to align them on deliverables and expectations and ensures smooth delivery.',
+        'In her prior role as a consultant at Capgemini, she provided valuable insights and recommendations to esteemed clients, contributing to their digital transformation journeys. Her ability to meticulously navigate complex projects and deliver pragmatic solutions earned her recognition for her exceptional management skills.',
+        'As a Bachelor of Engineering from Mumbai University, she is guided by her visionary mindset for a harmonious blend of cross-functional collaboration to achieve precision. By embracing cutting-edge technologies and cultivating a culture of continuous improvement, Renuka aims to position Procedure as a pioneer in the industry, inspiring others to reimagine what is achievable.',
       ],
-      backgroundColor: "bg-brickred",
+      backgroundColor: 'bg-brickred',
     },
     teamMembersData: [
       {
-        name: "Braj Baheti",
-        position: "Co-Founder and CEO",
-        image1: "/assets/braj-bw.jpg",
-        image2: "/assets/braj-1.jpg",
-        href: "/about/braj-baheti",
-        color: "bg-green",
+        name: 'Braj Baheti',
+        position: 'Co-Founder and CEO',
+        image1: '/assets/braj-bw.jpg',
+        image2: '/assets/braj-1.jpg',
+        href: '/about/braj-baheti',
+        color: 'bg-green',
       },
       {
-        name: "Ulhas Mandrawadkar",
-        position: "Co-Founder and CTO",
-        image1: "/assets/ulhas-bw.jpg",
-        image2: "/assets/ulhas-1.jpg",
-        href: "/about/ulhas-mandrawadkar",
-        color: "bg-blue",
+        name: 'Ulhas Mandrawadkar',
+        position: 'Co-Founder and CTO',
+        image1: '/assets/ulhas-bw.jpg',
+        image2: '/assets/ulhas-1.jpg',
+        href: '/about/ulhas-mandrawadkar',
+        color: 'bg-blue',
       },
     ],
   },
-};
+}
 
 export const blogsData = [
   {
-    date: "November 30, 2022",
-    name: "Rizwan Memon",
-    imgSrc: "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
-    title: "Frontend Performance Testing: Best Practices",
+    date: 'November 30, 2022',
+    name: 'Rizwan Memon',
+    imgSrc: '/assets/plum-case-study.webp?fit=700%2C700&ssl=1',
+    title: 'Frontend Performance Testing: Best Practices',
     description:
-      "You have been working hard to deliver all the features on the project, and suddenly…",
-    link: "/frontend-performance-testing-best-practices/",
+      'You have been working hard to deliver all the features on the project, and suddenly…',
+    link: '/frontend-performance-testing-best-practices/',
   },
   {
-    date: "May 26, 2022",
-    name: "Rucheta Gogte",
-    imgSrc: "/assets/resources-blog3.webp",
-    title: "Why Robot Framework",
+    date: 'May 26, 2022',
+    name: 'Rucheta Gogte',
+    imgSrc: '/assets/resources-blog3.webp',
+    title: 'Why Robot Framework',
     description:
-      "If you are trying to identify what are the best automation frameworks out there, we…",
-    link: "/why-robot-framework/",
-    imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+      'If you are trying to identify what are the best automation frameworks out there, we…',
+    link: '/why-robot-framework/',
+    imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
   },
   {
-    date: "January 3, 2022",
-    name: "Sreeraj Rajan",
-    imgSrc: "/assets/resources-blog4.webp",
-    title: "Reducing our Deployment times by 87%",
+    date: 'January 3, 2022',
+    name: 'Sreeraj Rajan',
+    imgSrc: '/assets/resources-blog4.webp',
+    title: 'Reducing our Deployment times by 87%',
     description:
-      "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
-    link: "/reducing-our-deployment-times-by-87/",
-    imgClassName: "rounded-r-none rounded-tr-full rounded-tl-full",
+      'You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…',
+    link: '/reducing-our-deployment-times-by-87/',
+    imgClassName: 'rounded-r-none rounded-tr-full rounded-tl-full',
   },
   {
-    date: "June 10, 2021",
-    name: "Sreeraj Rajan",
-    imgSrc: "/assets/resources-blog2.webp",
-    title: "Connecting Django to RDS via pgbouncer using IAM auth",
+    date: 'June 10, 2021',
+    name: 'Sreeraj Rajan',
+    imgSrc: '/assets/resources-blog2.webp',
+    title: 'Connecting Django to RDS via pgbouncer using IAM auth',
     description:
       "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
-    link: "/connecting-django-to-rds-via-pgbouncer-using-iam-auth/",
-    imgClassName: "rounded-r-none rounded-bl-full rounded-tl-full",
+    link: '/connecting-django-to-rds-via-pgbouncer-using-iam-auth/',
+    imgClassName: 'rounded-r-none rounded-bl-full rounded-tl-full',
   },
-];
+]
 
 export const blogsPageData: { [key: string]: BlogPageDataType } = {
-  "frontend-performance-testing-best-practices": {
+  'frontend-performance-testing-best-practices': {
     heroSection: {
-      heading: "Frontend Performance Testing: Best Practices",
+      heading: 'Frontend Performance Testing: Best Practices',
       images: {
-        desktop: "/assets/blog1-banner.webp",
-        mobile: "/assets/mob-blog1-banner.webp",
+        desktop: '/assets/blog1-banner.webp',
+        mobile: '/assets/mob-blog1-banner.webp',
       },
-      date: "November 30, 2022",
-      name: "Rizwan Memon",
+      date: 'November 30, 2022',
+      name: 'Rizwan Memon',
     },
     subHeadings: [
-      "You have been working hard to deliver all the features on the project, and suddenly one fine day the company’s Slack goes off with messages like “Our bundle is around 17MB”or “Our website is lacking speed”. You are scratching your head as to why you even got here in the first place. What did you miss?",
-      "This blog will walk you through some best practices for Frontend Performance and Testing. It will walk you through metrics you can calculate on your CI/CD pipelines to avoid those surprise attacks related to performance issues and React best practices for an optimized bundle.",
+      'You have been working hard to deliver all the features on the project, and suddenly one fine day the company’s Slack goes off with messages like “Our bundle is around 17MB”or “Our website is lacking speed”. You are scratching your head as to why you even got here in the first place. What did you miss?',
+      'This blog will walk you through some best practices for Frontend Performance and Testing. It will walk you through metrics you can calculate on your CI/CD pipelines to avoid those surprise attacks related to performance issues and React best practices for an optimized bundle.',
     ],
     latestPosts: [
       {
-        date: "May 26, 2022",
-        name: "Rucheta Gogte",
-        imgSrc: "/assets/resources-blog3.webp",
-        title: "Why Robot Framework",
+        date: 'May 26, 2022',
+        name: 'Rucheta Gogte',
+        imgSrc: '/assets/resources-blog3.webp',
+        title: 'Why Robot Framework',
         description:
-          "If you are trying to identify what are the best automation frameworks out there, we…",
-        link: "/why-robot-framework/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+          'If you are trying to identify what are the best automation frameworks out there, we…',
+        link: '/why-robot-framework/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
       },
       {
-        date: "January 3, 2022",
-        name: "Sreeraj Rajan",
-        imgSrc: "/assets/resources-blog4.webp",
-        title: "Reducing our Deployment times by 87%",
+        date: 'January 3, 2022',
+        name: 'Sreeraj Rajan',
+        imgSrc: '/assets/resources-blog4.webp',
+        title: 'Reducing our Deployment times by 87%',
         description:
-          "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
-        link: "/reducing-our-deployment-times-by-87/",
-        imgClassName: "rounded-r-none rounded-tr-full rounded-tl-full",
+          'You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…',
+        link: '/reducing-our-deployment-times-by-87/',
+        imgClassName: 'rounded-r-none rounded-tr-full rounded-tl-full',
       },
       {
-        date: "June 10, 2021",
-        name: "Sreeraj Rajan",
-        imgSrc: "/assets/resources-blog2.webp",
-        title: "Connecting Django to RDS via pgbouncer using IAM auth",
+        date: 'June 10, 2021',
+        name: 'Sreeraj Rajan',
+        imgSrc: '/assets/resources-blog2.webp',
+        title: 'Connecting Django to RDS via pgbouncer using IAM auth',
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
-        link: "/connecting-django-to-rds-via-pgbouncer-using-iam-auth/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-tl-full",
+        link: '/connecting-django-to-rds-via-pgbouncer-using-iam-auth/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-tl-full',
       },
     ],
     tags: [
       {
-        name: "Pipelines",
-        link: "/tag/pipelines/",
-        id: "pipelines",
+        name: 'Pipelines',
+        link: '/tag/pipelines/',
+        id: 'pipelines',
       },
       {
-        name: "react",
-        link: "/tag/react/",
-        id: "react",
+        name: 'react',
+        link: '/tag/react/',
+        id: 'react',
       },
       {
-        name: "Slack",
-        link: "/tag/slack/",
-        id: "slack",
+        name: 'Slack',
+        link: '/tag/slack/',
+        id: 'slack',
       },
       {
-        name: "Frontend",
-        link: "/tag/frontend/",
-        id: "frontend",
+        name: 'Frontend',
+        link: '/tag/frontend/',
+        id: 'frontend',
       },
       {
-        name: "CI/CD",
-        link: "/tag/ci-cd/",
-        id: "ci-cd",
+        name: 'CI/CD',
+        link: '/tag/ci-cd/',
+        id: 'ci-cd',
       },
     ],
     author: {
-      imgSrc: "/assets/rizwan.jpg",
-      name: "Rizwan Memon",
-      teamName: "Tech@Procedure",
+      imgSrc: '/assets/rizwan.jpg',
+      name: 'Rizwan Memon',
+      teamName: 'Tech@Procedure',
     },
     content: `
       <h3>Performance Testing and Metrics</h3>
@@ -2298,88 +2298,88 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       </ul>
     `,
   },
-  "why-robot-framework": {
+  'why-robot-framework': {
     heroSection: {
-      heading: "Why Robot Framework",
+      heading: 'Why Robot Framework',
       images: {
-        desktop: "/assets/blog3-banner.webp",
-        mobile: "/assets/mob-blog3-banner.webp",
+        desktop: '/assets/blog3-banner.webp',
+        mobile: '/assets/mob-blog3-banner.webp',
       },
-      date: "May 26, 2022",
-      name: "Rucheta Gogte",
+      date: 'May 26, 2022',
+      name: 'Rucheta Gogte',
     },
     subHeadings: [
-      "If you are trying to identify what are the best automation frameworks out there, we recommend you get to know the Robot framework once.",
-      "This blog will cover the features of the Robot framework, its features, and how it can be useful for your project.",
+      'If you are trying to identify what are the best automation frameworks out there, we recommend you get to know the Robot framework once.',
+      'This blog will cover the features of the Robot framework, its features, and how it can be useful for your project.',
     ],
     latestPosts: [
       {
-        date: "November 30, 2022",
-        name: "Rizwan Memon",
-        imgSrc: "/assets/resources-blog3.webp",
-        title: "Frontend Performance Testing: Best Practices",
+        date: 'November 30, 2022',
+        name: 'Rizwan Memon',
+        imgSrc: '/assets/resources-blog3.webp',
+        title: 'Frontend Performance Testing: Best Practices',
         description:
-          "You have been working hard to deliver all the features on the project, and suddenly…",
-        link: "/frontend-performance-testing-best-practices/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+          'You have been working hard to deliver all the features on the project, and suddenly…',
+        link: '/frontend-performance-testing-best-practices/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
       },
       {
-        date: "January 3, 2022",
-        name: "Sreeraj Rajan",
-        imgSrc: "/assets/resources-blog4.webp",
-        title: "Reducing our Deployment times by 87%",
+        date: 'January 3, 2022',
+        name: 'Sreeraj Rajan',
+        imgSrc: '/assets/resources-blog4.webp',
+        title: 'Reducing our Deployment times by 87%',
         description:
-          "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
-        link: "/reducing-our-deployment-times-by-87/",
-        imgClassName: "rounded-r-none rounded-tr-full rounded-tl-full",
+          'You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…',
+        link: '/reducing-our-deployment-times-by-87/',
+        imgClassName: 'rounded-r-none rounded-tr-full rounded-tl-full',
       },
       {
-        date: "June 10, 2021",
-        name: "Sreeraj Rajan",
-        imgSrc: "/assets/resources-blog2.webp",
-        title: "Connecting Django to RDS via pgbouncer using IAM auth",
+        date: 'June 10, 2021',
+        name: 'Sreeraj Rajan',
+        imgSrc: '/assets/resources-blog2.webp',
+        title: 'Connecting Django to RDS via pgbouncer using IAM auth',
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
-        link: "/connecting-django-to-rds-via-pgbouncer-using-iam-auth/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-tl-full",
+        link: '/connecting-django-to-rds-via-pgbouncer-using-iam-auth/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-tl-full',
       },
     ],
     tags: [
       {
-        name: "Tech",
-        link: "/tag/tech/",
-        id: "tech",
+        name: 'Tech',
+        link: '/tag/tech/',
+        id: 'tech',
       },
       {
-        name: "Developer",
-        link: "/tag/developer/",
-        id: "developer",
+        name: 'Developer',
+        link: '/tag/developer/',
+        id: 'developer',
       },
       {
-        name: "IT",
-        link: "/tag/it/",
-        id: "it",
+        name: 'IT',
+        link: '/tag/it/',
+        id: 'it',
       },
       {
-        name: "Robot",
-        link: "/tag/robot/",
-        id: "robot",
+        name: 'Robot',
+        link: '/tag/robot/',
+        id: 'robot',
       },
       {
-        name: "Framework",
-        link: "/tag/framework/",
-        id: "framework",
+        name: 'Framework',
+        link: '/tag/framework/',
+        id: 'framework',
       },
       {
-        name: "Automation",
-        link: "/tag/automation/",
-        id: "automation",
+        name: 'Automation',
+        link: '/tag/automation/',
+        id: 'automation',
       },
     ],
     author: {
-      imgSrc: "/assets/rucheta.jpg",
-      name: "Rucheta Gogte",
-      teamName: "Tech@Procedure",
+      imgSrc: '/assets/rucheta.jpg',
+      name: 'Rucheta Gogte',
+      teamName: 'Tech@Procedure',
     },
     content: `
       <h3>Introduction</h3>
@@ -2567,83 +2567,83 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       </ul>
     `,
   },
-  "reducing-our-deployment-times-by-87": {
+  'reducing-our-deployment-times-by-87': {
     heroSection: {
-      heading: "Reducing our Deployment times by 87%",
+      heading: 'Reducing our Deployment times by 87%',
       images: {
-        desktop: "/assets/blog4-banner.webp",
-        mobile: "/assets/mob-blog4-banner.webp",
+        desktop: '/assets/blog4-banner.webp',
+        mobile: '/assets/mob-blog4-banner.webp',
       },
-      date: "January 3, 2022",
-      name: "Sreeraj Rajan",
+      date: 'January 3, 2022',
+      name: 'Sreeraj Rajan',
     },
     subHeadings: [
-      "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with confidence.",
-      "In this blog you will learn how to optimize your coding process for EMR systems in the healthcare industry by using Kubernetes, cutting out time-consuming steps like building and uploading Docker images.",
+      'You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with confidence.',
+      'In this blog you will learn how to optimize your coding process for EMR systems in the healthcare industry by using Kubernetes, cutting out time-consuming steps like building and uploading Docker images.',
     ],
     latestPosts: [
       {
-        date: "November 30, 2022",
-        name: "Rizwan Memon",
-        imgSrc: "/assets/resources-blog3.webp",
-        title: "Frontend Performance Testing: Best Practices",
+        date: 'November 30, 2022',
+        name: 'Rizwan Memon',
+        imgSrc: '/assets/resources-blog3.webp',
+        title: 'Frontend Performance Testing: Best Practices',
         description:
-          "You have been working hard to deliver all the features on the project, and suddenly…",
-        link: "/frontend-performance-testing-best-practices/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+          'You have been working hard to deliver all the features on the project, and suddenly…',
+        link: '/frontend-performance-testing-best-practices/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
       },
       {
-        date: "May 26, 2022",
-        name: "Rucheta Gogte",
-        imgSrc: "/assets/resources-blog3.webp",
-        title: "Why Robot Framework",
+        date: 'May 26, 2022',
+        name: 'Rucheta Gogte',
+        imgSrc: '/assets/resources-blog3.webp',
+        title: 'Why Robot Framework',
         description:
-          "If you are trying to identify what are the best automation frameworks out there, we…",
-        link: "/why-robot-framework/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+          'If you are trying to identify what are the best automation frameworks out there, we…',
+        link: '/why-robot-framework/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
       },
       {
-        date: "June 10, 2021",
-        name: "Sreeraj Rajan",
-        imgSrc: "/assets/resources-blog2.webp",
-        title: "Connecting Django to RDS via pgbouncer using IAM auth",
+        date: 'June 10, 2021',
+        name: 'Sreeraj Rajan',
+        imgSrc: '/assets/resources-blog2.webp',
+        title: 'Connecting Django to RDS via pgbouncer using IAM auth',
         description:
           "To connect Django to RDS via using IAM, you'll need an OIDC provider and a…",
-        link: "/connecting-django-to-rds-via-pgbouncer-using-iam-auth/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-tl-full",
+        link: '/connecting-django-to-rds-via-pgbouncer-using-iam-auth/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-tl-full',
       },
     ],
     tags: [
       {
-        name: "Devops",
-        link: "/tag/devops/",
-        id: "devops",
+        name: 'Devops',
+        link: '/tag/devops/',
+        id: 'devops',
       },
       {
-        name: "Django",
-        link: "/tag/django/",
-        id: "django",
+        name: 'Django',
+        link: '/tag/django/',
+        id: 'django',
       },
       {
-        name: "K8S",
-        link: "/tag/k8s/",
-        id: "k8s",
+        name: 'K8S',
+        link: '/tag/k8s/',
+        id: 'k8s',
       },
       {
-        name: "Kubernetes",
-        link: "/tag/kubernetes/",
-        id: "kubernetes",
+        name: 'Kubernetes',
+        link: '/tag/kubernetes/',
+        id: 'kubernetes',
       },
       {
-        name: "AWS",
-        link: "/tag/aws/",
-        id: "aws",
+        name: 'AWS',
+        link: '/tag/aws/',
+        id: 'aws',
       },
     ],
     author: {
-      imgSrc: "/assets/sreeraj.jpg",
-      name: "Sreeraj Rajan",
-      teamName: "Tech@Procedure",
+      imgSrc: '/assets/sreeraj.jpg',
+      name: 'Sreeraj Rajan',
+      teamName: 'Tech@Procedure',
     },
     content: `
       <p class="no-bottom-margin">
@@ -2809,88 +2809,88 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       </ul>
     `,
   },
-  "connecting-django-to-rds-via-pgbouncer-using-iam-auth": {
+  'connecting-django-to-rds-via-pgbouncer-using-iam-auth': {
     heroSection: {
-      heading: "Connecting Django to RDS via pgbouncer using IAM auth",
+      heading: 'Connecting Django to RDS via pgbouncer using IAM auth',
       images: {
-        desktop: "/assets/blog2-banner.webp",
-        mobile: "/assets/mob-blog2-banner.webp",
+        desktop: '/assets/blog2-banner.webp',
+        mobile: '/assets/mob-blog2-banner.webp',
       },
-      date: "June 10, 2021",
-      name: "Sreeraj Rajan",
+      date: 'June 10, 2021',
+      name: 'Sreeraj Rajan',
     },
     subHeadings: [
-      "To connect Django to RDS via using IAM, you’ll need an OIDC provider and a script that uses the provider to create an IAM role.",
-      "In this blog post, we walk through how to use pgbouncer and Django’s connection pooling features with RDS.",
+      'To connect Django to RDS via using IAM, you’ll need an OIDC provider and a script that uses the provider to create an IAM role.',
+      'In this blog post, we walk through how to use pgbouncer and Django’s connection pooling features with RDS.',
     ],
     latestPosts: [
       {
-        date: "November 30, 2022",
-        name: "Rizwan Memon",
-        imgSrc: "/assets/resources-blog3.webp",
-        title: "Frontend Performance Testing: Best Practices",
+        date: 'November 30, 2022',
+        name: 'Rizwan Memon',
+        imgSrc: '/assets/resources-blog3.webp',
+        title: 'Frontend Performance Testing: Best Practices',
         description:
-          "You have been working hard to deliver all the features on the project, and suddenly…",
-        link: "/frontend-performance-testing-best-practices/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+          'You have been working hard to deliver all the features on the project, and suddenly…',
+        link: '/frontend-performance-testing-best-practices/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
       },
       {
-        date: "May 26, 2022",
-        name: "Rucheta Gogte",
-        imgSrc: "/assets/resources-blog3.webp",
-        title: "Why Robot Framework",
+        date: 'May 26, 2022',
+        name: 'Rucheta Gogte',
+        imgSrc: '/assets/resources-blog3.webp',
+        title: 'Why Robot Framework',
         description:
-          "If you are trying to identify what are the best automation frameworks out there, we…",
-        link: "/why-robot-framework/",
-        imgClassName: "rounded-r-none rounded-bl-full rounded-br-full",
+          'If you are trying to identify what are the best automation frameworks out there, we…',
+        link: '/why-robot-framework/',
+        imgClassName: 'rounded-r-none rounded-bl-full rounded-br-full',
       },
       {
-        date: "January 3, 2022",
-        name: "Sreeraj Rajan",
-        imgSrc: "/assets/resources-blog4.webp",
-        title: "Reducing our Deployment times by 87%",
+        date: 'January 3, 2022',
+        name: 'Sreeraj Rajan',
+        imgSrc: '/assets/resources-blog4.webp',
+        title: 'Reducing our Deployment times by 87%',
         description:
-          "You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…",
-        link: "/reducing-our-deployment-times-by-87/",
-        imgClassName: "rounded-r-none rounded-tr-full rounded-tl-full",
+          'You can streamline your deployment process, decreasing deploy times significantly and enabling faster rollbacks with…',
+        link: '/reducing-our-deployment-times-by-87/',
+        imgClassName: 'rounded-r-none rounded-tr-full rounded-tl-full',
       },
     ],
     tags: [
       {
-        id: "tech",
-        name: "Tech",
-        link: "/tag/tech/",
+        id: 'tech',
+        name: 'Tech',
+        link: '/tag/tech/',
       },
       {
-        id: "devops",
-        name: "Devops",
-        link: "/tag/devops/",
+        id: 'devops',
+        name: 'Devops',
+        link: '/tag/devops/',
       },
       {
-        name: "Django",
-        link: "/tag/django/",
-        id: "django",
+        name: 'Django',
+        link: '/tag/django/',
+        id: 'django',
       },
       {
-        name: "Kubernetes",
-        link: "/tag/kubernetes/",
-        id: "kubernetes",
+        name: 'Kubernetes',
+        link: '/tag/kubernetes/',
+        id: 'kubernetes',
       },
       {
-        name: "AWS",
-        link: "/tag/aws/",
-        id: "aws",
+        name: 'AWS',
+        link: '/tag/aws/',
+        id: 'aws',
       },
       {
-        name: "Pgbouncer",
-        link: "/tag/pgbouncer/",
-        id: "pgbouncer",
+        name: 'Pgbouncer',
+        link: '/tag/pgbouncer/',
+        id: 'pgbouncer',
       },
     ],
     author: {
-      imgSrc: "/assets/sreeraj.jpg",
-      name: "Sreeraj Rajan",
-      teamName: "Tech@Procedure",
+      imgSrc: '/assets/sreeraj.jpg',
+      name: 'Sreeraj Rajan',
+      teamName: 'Tech@Procedure',
     },
     content: `
       <h3>Setting up the Infra</h3>
@@ -3112,214 +3112,214 @@ export const blogsPageData: { [key: string]: BlogPageDataType } = {
       </ul>
     `,
   },
-};
+}
 
 export const caseStudiesData: { [key: string]: CaseStudiesDataType } = {
-  "streamlining-crisis-communication-for-enhanced-coordination-effective-response":
+  'streamlining-crisis-communication-for-enhanced-coordination-effective-response':
     {
-      id: "streamlining-crisis-communication-for-enhanced-coordination-effective-response",
-      date: "August 24, 2023",
-      name: "Critical Communication",
+      id: 'streamlining-crisis-communication-for-enhanced-coordination-effective-response',
+      date: 'August 24, 2023',
+      name: 'Critical Communication',
       description:
-        "Streamlining Crisis Communication for Enhanced Coordination & Effective Response",
-      href: "/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
-      bgImage: "/assets/home-snooker-plum.webp",
-      imgSrc: "/assets/plum-case-study.webp?fit=700%2C700&ssl=1",
+        'Streamlining Crisis Communication for Enhanced Coordination & Effective Response',
+      href: '/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/',
+      bgImage: '/assets/home-snooker-plum.webp',
+      imgSrc: '/assets/plum-case-study.webp?fit=700%2C700&ssl=1',
       services: [
-        { id: "ux-ui", name: "UI & UX", link: "/tag/ux-ui/" },
+        { id: 'ux-ui', name: 'UI & UX', link: '/tag/ux-ui/' },
         {
-          id: "process-consulting",
-          name: "Process Consulting",
-          link: "/tag/process-consulting/",
+          id: 'process-consulting',
+          name: 'Process Consulting',
+          link: '/tag/process-consulting/',
         },
-        { id: "innovation", name: "Innovation", link: "/tag/innovation/" },
+        { id: 'innovation', name: 'Innovation', link: '/tag/innovation/' },
       ],
       heroSection: {
-        desktop: "/assets/plum-case-study-banner.webp",
-        mobile: "/assets/mob-plum-casestudy-detail-banner.webp",
+        desktop: '/assets/plum-case-study-banner.webp',
+        mobile: '/assets/mob-plum-casestudy-detail-banner.webp',
       },
       content: {
         overview: [
-          "Need help with complex vendor payments, high transaction volumes, and the limitations of credit card use? Discover how we transformed the FinTech landscape with a groundbreaking platform tailor-made for a prominent FinTech client.",
-          "Delve into our innovative use of technology for streamlining bulk payments, swift and reliable delivery, and developing two distinct application versions tailored to unique user requirements.",
+          'Need help with complex vendor payments, high transaction volumes, and the limitations of credit card use? Discover how we transformed the FinTech landscape with a groundbreaking platform tailor-made for a prominent FinTech client.',
+          'Delve into our innovative use of technology for streamlining bulk payments, swift and reliable delivery, and developing two distinct application versions tailored to unique user requirements.',
         ],
         challenge: [
-          "In this dynamic and varied business world, many companies face the intricate task of managing regular vendor payments. Maintaining accurate records, handling numerous transactions, and remembering vendor account details is a considerable challenge.",
-          "Additionally, dealing with multiple vendors, necessitates different payment modes, typically recorded in databases or CSV/Excel formats, making the manual management process strenuous and prone to errors.",
-          "An innovative and comprehensive solution was needed to address these challenges effectively.",
+          'In this dynamic and varied business world, many companies face the intricate task of managing regular vendor payments. Maintaining accurate records, handling numerous transactions, and remembering vendor account details is a considerable challenge.',
+          'Additionally, dealing with multiple vendors, necessitates different payment modes, typically recorded in databases or CSV/Excel formats, making the manual management process strenuous and prone to errors.',
+          'An innovative and comprehensive solution was needed to address these challenges effectively.',
         ],
         approach: [
-          "We embarked on a collaborative journey with our FinTech Client, informed by thorough market research. In-depth discussions helped us understand the broad plan, including envisioned features for future iterations and the characteristics of the typical user persona.",
-          "Integrating all these insights into our planning, we came up with the MVP. Our development approach focused on user-centric design, agility, security, and scalability, ensuring a reliable and adaptable FinTech solution.",
+          'We embarked on a collaborative journey with our FinTech Client, informed by thorough market research. In-depth discussions helped us understand the broad plan, including envisioned features for future iterations and the characteristics of the typical user persona.',
+          'Integrating all these insights into our planning, we came up with the MVP. Our development approach focused on user-centric design, agility, security, and scalability, ensuring a reliable and adaptable FinTech solution.',
         ],
         solution: [
           {
-            heading: "Efficient Batch Payments",
+            heading: 'Efficient Batch Payments',
             description:
-              "Users can initiate multiple transactions simultaneously, saving time and effort.",
-            color: "dot-wine",
+              'Users can initiate multiple transactions simultaneously, saving time and effort.',
+            color: 'dot-wine',
           },
           {
-            heading: "Convenient Batch Creation",
+            heading: 'Convenient Batch Creation',
             description:
-              "Catering to businesses of all sizes with manual input or CSV file uploads.",
-            color: "dot-ochre",
+              'Catering to businesses of all sizes with manual input or CSV file uploads.',
+            color: 'dot-ochre',
           },
           {
-            heading: "Accurate Pre-Payment Review",
+            heading: 'Accurate Pre-Payment Review',
             description:
-              "A dedicated step checks payment details thoroughly before authorization.",
-            color: "dot-iceblue",
+              'A dedicated step checks payment details thoroughly before authorization.',
+            color: 'dot-iceblue',
           },
           {
-            heading: "Comprehensive Batch Information",
-            description: "Detailed batch insights enhance user awareness.",
-            color: "dot-red",
+            heading: 'Comprehensive Batch Information',
+            description: 'Detailed batch insights enhance user awareness.',
+            color: 'dot-red',
           },
           {
-            heading: "Simplifying the Payment Process",
+            heading: 'Simplifying the Payment Process',
             description:
-              "Users can make a single payment for the entire batch, streamlining operations.",
-            color: "dot-green",
+              'Users can make a single payment for the entire batch, streamlining operations.',
+            color: 'dot-green',
           },
           {
-            heading: "Flexible Beneficiary Code Integration",
+            heading: 'Flexible Beneficiary Code Integration',
             description:
-              "Payment details can be added using unique beneficiary codes, offering flexibility.",
-            color: "dot-blue",
+              'Payment details can be added using unique beneficiary codes, offering flexibility.',
+            color: 'dot-blue',
           },
           {
-            heading: "Dual Entry Modes Providing",
+            heading: 'Dual Entry Modes Providing',
             description:
-              "user the choice & flexibility to create manual entries or CSV uploads",
-            color: "dot-iceblue",
+              'user the choice & flexibility to create manual entries or CSV uploads',
+            color: 'dot-iceblue',
           },
           {
-            heading: "Credit Card to Bank Payments",
+            heading: 'Credit Card to Bank Payments',
             description:
-              "Facilitating credit card payments, even for vendors without the required infrastructure, expanding the payment options and optimizing working capital.",
-            color: "dot-red",
+              'Facilitating credit card payments, even for vendors without the required infrastructure, expanding the payment options and optimizing working capital.',
+            color: 'dot-red',
           },
         ],
         impactAndResult: [
-          "Our solution profoundly impacted the business landscape, reshaping how companies manage vendor payments. By addressing the intricate challenges of bulk payments, we’ve significantly reduced the burden of high transaction volumes, manual errors, and the limitations of credit card usage.",
-          "This transformative solution has empowered businesses to streamline operations, enhance financial flexibility, and expand payment options. The platform has set new industry standards, revolutionizing vendor payment management.",
+          'Our solution profoundly impacted the business landscape, reshaping how companies manage vendor payments. By addressing the intricate challenges of bulk payments, we’ve significantly reduced the burden of high transaction volumes, manual errors, and the limitations of credit card usage.',
+          'This transformative solution has empowered businesses to streamline operations, enhance financial flexibility, and expand payment options. The platform has set new industry standards, revolutionizing vendor payment management.',
         ],
       },
       socialLinks: [
         {
-          href: "https://www.linkedin.com/shareArticle?mini=true&url=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/&title=Streamlining Crisis Communication for Enhanced Coordination & Effective Response",
-          src: "/assets/linkedin.svg",
-          alt: "LinkedIn",
+          href: 'https://www.linkedin.com/shareArticle?mini=true&url=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/&title=Streamlining Crisis Communication for Enhanced Coordination & Effective Response',
+          src: '/assets/linkedin.svg',
+          alt: 'LinkedIn',
         },
         {
-          href: "https://twitter.com/intent/tweet?text=Streamlining Crisis Communication for Enhanced Coordination & Effective Response&url=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/&via=wpvkp",
-          src: "/assets/twitter.svg",
-          alt: "Twitter",
+          href: 'https://twitter.com/intent/tweet?text=Streamlining Crisis Communication for Enhanced Coordination & Effective Response&url=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/&via=wpvkp',
+          src: '/assets/twitter.svg',
+          alt: 'Twitter',
         },
         {
-          href: "https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/",
-          src: "/assets/fb.svg",
-          alt: "Facebook",
+          href: 'https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/case_study/streamlining-crisis-communication-for-enhanced-coordination-effective-response/',
+          src: '/assets/fb.svg',
+          alt: 'Facebook',
         },
       ],
     },
-  "a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses": {
-    id: "a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses",
-    date: "August 24, 2023",
-    name: "FinTech",
+  'a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses': {
+    id: 'a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses',
+    date: 'August 24, 2023',
+    name: 'FinTech',
     description:
-      "A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses",
-    href: "/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
-    bgImage: "/assets/home-case-study-espn.webp",
-    imgSrc: "/assets/espn-case-study.webp?fit=700%2C700&ssl=1",
+      'A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses',
+    href: '/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/',
+    bgImage: '/assets/home-case-study-espn.webp',
+    imgSrc: '/assets/espn-case-study.webp?fit=700%2C700&ssl=1',
     services: [
-      { id: "ux-ui", name: "UI & UX", link: "/tag/ux-ui/" },
+      { id: 'ux-ui', name: 'UI & UX', link: '/tag/ux-ui/' },
       {
-        id: "process-consulting",
-        name: "Process Consulting",
-        link: "/tag/process-consulting/",
+        id: 'process-consulting',
+        name: 'Process Consulting',
+        link: '/tag/process-consulting/',
       },
-      { id: "innovation", name: "Innovation", link: "/tag/innovation/" },
+      { id: 'innovation', name: 'Innovation', link: '/tag/innovation/' },
       {
-        id: "product-engineering",
-        name: "Product Engineering",
-        link: "/tag/product-engineering/",
-      },
-      {
-        id: "quality-testing",
-        name: "Quality Testing",
-        link: "/tag/quality-testing/",
+        id: 'product-engineering',
+        name: 'Product Engineering',
+        link: '/tag/product-engineering/',
       },
       {
-        id: "performance-governance",
-        name: "Performance Governance",
-        link: "/tag/performance-governance/",
+        id: 'quality-testing',
+        name: 'Quality Testing',
+        link: '/tag/quality-testing/',
       },
-      { id: "agile", name: "Agile", link: "/tag/agile/" },
+      {
+        id: 'performance-governance',
+        name: 'Performance Governance',
+        link: '/tag/performance-governance/',
+      },
+      { id: 'agile', name: 'Agile', link: '/tag/agile/' },
     ],
     heroSection: {
-      desktop: "/assets/espn-case-study-banner.webp",
-      mobile: "/assets/mob-espn-casestudy-detail-banner-1.webp",
+      desktop: '/assets/espn-case-study-banner.webp',
+      mobile: '/assets/mob-espn-casestudy-detail-banner-1.webp',
     },
     content: {
       overview: [
-        "During chaotic events like neighbourhood fires, efficient team coordination is essential. To address this, Procedure collaborated with a client to create tailored Communication Systems, ensuring a streamlined and impactful response to potential disasters.",
+        'During chaotic events like neighbourhood fires, efficient team coordination is essential. To address this, Procedure collaborated with a client to create tailored Communication Systems, ensuring a streamlined and impactful response to potential disasters.',
       ],
       challenge: [
-        "When disaster strikes, seconds count. A small outburst can become an inferno, consuming homes and entire towns. Ineffective communication is the catalyst for chaos, a precursor of delayed responses, and a multiplier of destruction. Our challenge was monumental: to simplify communication when every second matters.",
+        'When disaster strikes, seconds count. A small outburst can become an inferno, consuming homes and entire towns. Ineffective communication is the catalyst for chaos, a precursor of delayed responses, and a multiplier of destruction. Our challenge was monumental: to simplify communication when every second matters.',
       ],
       approach: [
         "Our client, a leader in mission-critical communication services, entrusted us with designing two essential platforms - a Control Room Web App and a Field Agent Mobile App. The web application's robust tools enable critical incident management—while the mobile app optimizes communication and collaboration for field agents.",
-        "Throughout the design process, we fleshed out low-fidelity wireframes to deliver production-ready designs that met client requirements.",
-        "We successfully created two software platforms that help control room operators and field agents perform their jobs more efficiently.",
+        'Throughout the design process, we fleshed out low-fidelity wireframes to deliver production-ready designs that met client requirements.',
+        'We successfully created two software platforms that help control room operators and field agents perform their jobs more efficiently.',
       ],
       solution: [
         {
-          heading: "Group and 1:1 Conversations",
+          heading: 'Group and 1:1 Conversations',
           description:
-            "Facilitates rapid, coordinated responses by empowering users with various communication methods and high-priority SOS alerts",
-          color: "dot-blue",
+            'Facilitates rapid, coordinated responses by empowering users with various communication methods and high-priority SOS alerts',
+          color: 'dot-blue',
         },
         {
-          heading: "Diverse Call Types",
+          heading: 'Diverse Call Types',
           description:
-            "Optimises the resource allocation and response time by prioritising audio and video calls, thus ensuring prompt attention to the most urgent situations",
-          color: "dot-ochre",
+            'Optimises the resource allocation and response time by prioritising audio and video calls, thus ensuring prompt attention to the most urgent situations',
+          color: 'dot-ochre',
         },
         {
-          heading: "Real-time Location Tracking",
+          heading: 'Real-time Location Tracking',
           description:
-            "Offering real-time location tracking, precise resource allocation, situational awareness, location sharing and patrol path definition",
-          color: "dot-wine",
+            'Offering real-time location tracking, precise resource allocation, situational awareness, location sharing and patrol path definition',
+          color: 'dot-wine',
         },
         {
-          heading: "Ambient Viewing",
+          heading: 'Ambient Viewing',
           description:
-            "Enhances decision making and response coordination in mission critical situations by providing real time video feeds from field agents",
-          color: "dot-blue",
+            'Enhances decision making and response coordination in mission critical situations by providing real time video feeds from field agents',
+          color: 'dot-blue',
         },
       ],
       impactAndResult: [
-        "Through the solutions - the Control Room Web App and the Field Agent Mobile App - we ushered in a significant transformation in crisis management and emergency response. Imagine improved coordination, heightened situational awareness, quicker response times, and effortless information sharing. This isn’t merely a case study; it represents the commitment to resilience in the face of adversity. Delve further into this narrative and explore how we brought order to chaos in collaboration with our client.",
+        'Through the solutions - the Control Room Web App and the Field Agent Mobile App - we ushered in a significant transformation in crisis management and emergency response. Imagine improved coordination, heightened situational awareness, quicker response times, and effortless information sharing. This isn’t merely a case study; it represents the commitment to resilience in the face of adversity. Delve further into this narrative and explore how we brought order to chaos in collaboration with our client.',
       ],
     },
     socialLinks: [
       {
-        href: "https://www.linkedin.com/shareArticle?mini=true&url=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/&title=A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses",
-        src: "/assets/linkedin.svg",
-        alt: "LinkedIn",
+        href: 'https://www.linkedin.com/shareArticle?mini=true&url=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/&title=A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses',
+        src: '/assets/linkedin.svg',
+        alt: 'LinkedIn',
       },
       {
-        href: "https://twitter.com/intent/tweet?text=A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses&url=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/&via=wpvkp",
-        src: "/assets/twitter.svg",
-        alt: "Twitter",
+        href: 'https://twitter.com/intent/tweet?text=A FinTech Platform for Simplifying Bulk Payments and Reshaping Businesses&url=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/&via=wpvkp',
+        src: '/assets/twitter.svg',
+        alt: 'Twitter',
       },
       {
-        href: "https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/",
-        src: "/assets/fb.svg",
-        alt: "Facebook",
+        href: 'https://www.facebook.com/sharer/sharer.php?u=https://procedure.tech/case_study/a-fintech-platform-for-simplifying-bulk-payments-and-reshaping-businesses/',
+        src: '/assets/fb.svg',
+        alt: 'Facebook',
       },
     ],
   },
-};
+}

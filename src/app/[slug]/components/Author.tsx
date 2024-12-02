@@ -1,11 +1,11 @@
-import { AuthorDataType } from "@/data/types";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import { AuthorDataType } from '@/data/types'
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
 
 type AuthorProps = {
-  authorData: AuthorDataType;
-};
+  authorData: AuthorDataType
+}
 
 const Author = ({ authorData }: AuthorProps) => {
   return (
@@ -24,7 +24,7 @@ const Author = ({ authorData }: AuthorProps) => {
         </div>
       </Link>
     </div>
-  );
-};
+  )
+}
 
-export default Author;
+export default Author

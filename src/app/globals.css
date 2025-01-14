@@ -83,8 +83,7 @@ body {
 }
 
 .container-padding {
-  position: relative;
-  padding: 0 7vw;
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .animation-easein-slow {
@@ -202,7 +201,13 @@ body {
 }
 
 .primary-button {
-  @apply text-sm text-black rounded-full shadow-[0.1rem_0.2rem_0.5rem_rgba(0,0,0,0.15)] px-6 py-2.5 border-none animation-easein-slow shift-to-right;
+  @apply inline-flex items-center px-6 py-3 rounded-lg font-medium 
+  bg-blue-600 text-white hover:bg-blue-700 transition-colors;
+}
+
+.secondary-button {
+  @apply inline-flex items-center px-6 py-3 rounded-lg font-medium 
+  border-2 border-gray-900 text-gray-900 hover:bg-gray-50 transition-colors;
 }
 
 @media (max-width: 991px) {

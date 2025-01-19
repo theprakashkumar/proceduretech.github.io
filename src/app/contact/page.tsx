@@ -115,7 +115,7 @@ const Contact = () => {
         </div>
       </section>
       <section className="mb-28 relative">
-        <div className="pl-[7vw]">
+        <div className="ml-auto w-fit">
           <Image
             className="hidden rounded-r-full -scale-x-100 lg:block"
             height={579}
@@ -130,7 +130,7 @@ const Contact = () => {
             src="/assets/mob-contact-v3.jpg"
             alt=""
           />
-          <div className="">
+          <div>
             <div className="absolute w-3/5 sm:w-full max-w-md top-1/2 right-[7vw] -translate-y-1/2">
               <h4 className="text-white font-normal text-lg ml-5 lg:ml-0 sm:text-2xl mb-7 max-w-sm">
                 Meet our prodigies & get an

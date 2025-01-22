@@ -18,7 +18,7 @@ const PageBackgroundImage = ({
         <Image
           width={1920}
           height={1476}
-          className="max-w-full align-middle overflow-clip"
+          className="w-full align-middle overflow-clip"
           src={desktopImage}
           alt={alt}
         />
